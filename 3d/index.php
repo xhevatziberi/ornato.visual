@@ -1,5 +1,5 @@
 <?php
-$file_out = "1.jpg";
+$file_out = "scene-9_on-09.jpg";
 
 if (file_exists($file_out)) {
   // echo 'http://127.0.0.1/php_7x/vizualize/3d/' . $file_out;

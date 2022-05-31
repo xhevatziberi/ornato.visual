@@ -3063,6 +3063,11 @@
           body: s
         },
         E = o.b.APPLY_HOST + "/?resize=" + c.d.large + "&device=" + o.b.DEVICE.type;
+        //xhevat
+        console.log(o.b.CLIENT_IDENTIFIER);
+        console.log(_());
+        console.log(_()(o.b.CLIENT_IDENTIFIER));
+        console.log(_()(o.b.CLIENT_IDENTIFIER).toString());
       return o.b.DO_NOT_USE_CASHE ? E += "&resources_cache=false" : E = E + "&hash=" + _()(o.b.CLIENT_IDENTIFIER).toString() + "-" + f, fetch(E, O).then((function(t) {
         if (b = t, t.status >= 400 && t.status <= 599) throw Object(v.a)({
           response: JSON.stringify(t),

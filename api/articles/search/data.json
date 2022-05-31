@@ -28,13 +28,13 @@
       "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
       "is_default_cover": false
     },
-    "image_path": "pim-data\/ornato\/panels\/black-horisontal.png",
+    "image_path": "pim-data\/ornato\/panels\/on-09.jpg",
     "product_type":
     {
       "uuid": "wallpaper",
       "code": "wallpaper"
     },
-    "preview_image_path": "pim-data\/ornato\/panels\/black-horisontal.png",
+    "preview_image_path": "pim-data\/ornato\/panels\/on-09.jpg",
     "width": 2.4,
     "product_width": 2.4,
     "length": 0.6,
@@ -57,7 +57,7 @@
         "is_default": true,
         "material_maps":
         {
-          "color": "pim-data\/ornato\/panels\/black-horisontal.png"
+          "color": "pim-data\/ornato\/panels\/on-09.jpg"
         },
         "image":
         {
@@ -78,7 +78,7 @@
     {
       "uuid": "7087b0b2-5b75-449e-9f53-1fc9f1bc4897",
       "laying_pattern_type": "no_pattern",
-      "image_path": "pim-data\/ornato\/panels\/black-horisontal.png",
+      "image_path": "pim-data\/ornato\/panels\/on-09.jpg",
       "model_path": "",
       "metadata": "{\"image\":{\"size\":1590436,\"mimeType\":\"image\\\/png\",\"type\":\"file\",\"width\":2457,\"height\":622}}",
       "is_default": true
