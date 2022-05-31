@@ -1,0 +1,1 @@
+.w-desktop-layout{width:100%;height:100%;display:flex}.w-desktop-layout__left{width:calc(100% - var(--layout-right-width));position:relative}.w-desktop-layout__right{width:var(--layout-right-width)}

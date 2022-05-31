@@ -1,0 +1,1781 @@
+{
+  "data": [
+  {
+    "uuid": "517a777e-ea23-4290-9428-27b0f4e3372f",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-black-ash-horisontal",
+    "sku": "akupanel-black-ash-horisontal",
+    "name": "Akupanel | Black Ash",
+    "description": "",
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/black-horisontal.png",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/black-horisontal.png",
+    "width": 2.4,
+    "product_width": 2.4,
+    "length": 0.6,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=black-ash"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=black-ash",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/black-horisontal.png"
+        },
+        "image":
+        {
+          "size": 1590436,
+          "mimeType": "image\/png",
+          "type": "file",
+          "width": 2457,
+          "height": 622
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "7087b0b2-5b75-449e-9f53-1fc9f1bc4897",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/black-horisontal.png",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":1590436,\"mimeType\":\"image\\\/png\",\"type\":\"file\",\"width\":2457,\"height\":622}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "8f55e79e-3492-47b6-8389-c125b902898d",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-black-ash",
+    "sku": "akupanel-black-ash",
+    "name": "Akupanel | Black Ash",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/black-full.png",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/black-full.png",
+    "width": 0.6,
+    "product_width": 0.6,
+    "length": 2.4,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=black-ash"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=black-ash",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/black-full.png"
+        },
+        "image":
+        {
+          "size": 4552979,
+          "mimeType": "image\/png",
+          "type": "file",
+          "width": 1024,
+          "height": 4043
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "9bbb019c-7032-4a9e-88ad-1ec057ce4aab",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/black-full.png",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":4552979,\"mimeType\":\"image\\\/png\",\"type\":\"file\",\"width\":1024,\"height\":4043}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "382c18c6-fb83-46b6-b4f9-5145383b9f43",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-blue-horisontal",
+    "sku": "akupanel-blue-horisontal",
+    "name": "Akupanel | Blue Oxide",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/blue-oxide-horisontal.png",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/blue-oxide-horisontal.png",
+    "width": 2.4,
+    "product_width": 2.4,
+    "length": 0.6,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=blue-oxide"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=blue-oxide",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/blue-oxide-horisontal.png"
+        },
+        "image":
+        {
+          "size": 2846041,
+          "mimeType": "image\/png",
+          "type": "file",
+          "width": 2457,
+          "height": 624
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "287d0bd4-f1d5-46fd-97d4-ef879ef2103d",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/blue-oxide-horisontal.png",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":2846041,\"mimeType\":\"image\\\/png\",\"type\":\"file\",\"width\":2457,\"height\":624}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "a822e355-586e-4944-be1f-3093bb759e6f",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-blue",
+    "sku": "akupanel-blue",
+    "name": "Akupanel | Blue Oxide",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/blue-oxide-full.png",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/blue-oxide-full.png",
+    "width": 0.6,
+    "product_width": 0.6,
+    "length": 2.4,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=blue-oxide"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=blue-oxide",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/blue-oxide-full.png"
+        },
+        "image":
+        {
+          "size": 7846952,
+          "mimeType": "image\/png",
+          "type": "file",
+          "width": 1024,
+          "height": 4030
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "b0c4b011-6b1b-4b3b-9c26-ee6c57158b15",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/blue-oxide-full.png",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":7846952,\"mimeType\":\"image\\\/png\",\"type\":\"file\",\"width\":1024,\"height\":4030}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "c79c0def-303a-4b7b-9f3d-352217d76227",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-charcoal",
+    "sku": "akupanel-charcoal",
+    "name": "Akupanel | Charcoal",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/charcoal-full.jpg",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/charcoal-full.jpg",
+    "width": 0.6,
+    "product_width": 0.6,
+    "length": 2.4,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=charcoal"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=charcoal",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/charcoal-full.jpg"
+        },
+        "image":
+        {
+          "size": 964798,
+          "mimeType": "image\/jpeg",
+          "type": "file",
+          "width": 1024,
+          "height": 4047
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "5c81545c-3d6b-4c72-b784-4e0a42bf3339",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/charcoal-full.jpg",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":964798,\"mimeType\":\"image\\\/jpeg\",\"type\":\"file\",\"width\":1024,\"height\":4047}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "e66b188c-41a5-403a-871b-0d55fb997c40",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-charcoal-horisontal",
+    "sku": "akupanel-charcoal-horisontal",
+    "name": "Akupanel | Charcoal",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/charcoal-horisontal.jpg",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/charcoal-horisontal.jpg",
+    "width": 2.4,
+    "product_width": 2.4,
+    "length": 0.6,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=charcoal"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=charcoal",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/charcoal-horisontal.jpg"
+        },
+        "image":
+        {
+          "size": 387955,
+          "mimeType": "image\/jpeg",
+          "type": "file",
+          "width": 2457,
+          "height": 622
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "4409ff96-43b6-41b3-ba98-e351fd499046",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/charcoal-horisontal.jpg",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":387955,\"mimeType\":\"image\\\/jpeg\",\"type\":\"file\",\"width\":2457,\"height\":622}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "369349ed-6bf0-4921-9d83-840a8b366e5a",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-classic-oak-black-felt-horisontal",
+    "sku": "akupanel-classic-oak-black-felt-horisontal",
+    "name": "Akupanel | Classic Oak (Black Felt)",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/classic-oak-black-felt-horisontal.jpg",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/classic-oak-black-felt-horisontal.jpg",
+    "width": 2.4,
+    "product_width": 2.4,
+    "length": 0.6,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=classic-oak-black-felt"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=classic-oak-black-felt",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/classic-oak-black-felt-horisontal.jpg"
+        },
+        "image":
+        {
+          "size": 540016,
+          "mimeType": "image\/jpeg",
+          "type": "file",
+          "width": 2457,
+          "height": 622
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "59148f18-a56a-4f06-9450-148ed0b38737",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/classic-oak-black-felt-horisontal.jpg",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":540016,\"mimeType\":\"image\\\/jpeg\",\"type\":\"file\",\"width\":2457,\"height\":622}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "b3f3527e-373d-45fa-bcfb-e06a9e3b350b",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-classic-oak-black-felt",
+    "sku": "akupanel-classic-oak-black-felt",
+    "name": "Akupanel | Classic Oak (Black Felt)",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/classic-oak-black-felt-full.jpg",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/classic-oak-black-felt-full.jpg",
+    "width": 0.6,
+    "product_width": 0.6,
+    "length": 2.4,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=classic-oak-black-felt"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=classic-oak-black-felt",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/classic-oak-black-felt-full.jpg"
+        },
+        "image":
+        {
+          "size": 1427101,
+          "mimeType": "image\/jpeg",
+          "type": "file",
+          "width": 1024,
+          "height": 4047
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "4853a843-5c7d-414f-9d55-9c243d2a4173",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/classic-oak-black-felt-full.jpg",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":1427101,\"mimeType\":\"image\\\/jpeg\",\"type\":\"file\",\"width\":1024,\"height\":4047}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "197d6b54-533d-4380-9fc2-6ea62ff39a6a",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-classic-oak-grey-felt",
+    "sku": "akupanel-classic-oak-grey-felt",
+    "name": "Akupanel | Classic Oak (Grey Felt)",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/classic-oak-grey-felt-full.jpg",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/classic-oak-grey-felt-full.jpg",
+    "width": 0.6,
+    "product_width": 0.6,
+    "length": 2.4,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=classic-oak-grey-felt"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=classic-oak-grey-felt",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/classic-oak-grey-felt-full.jpg"
+        },
+        "image":
+        {
+          "size": 1429798,
+          "mimeType": "image\/jpeg",
+          "type": "file",
+          "width": 1024,
+          "height": 4047
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "dbf167e7-c2b7-4735-8a87-a750b85e452e",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/classic-oak-grey-felt-full.jpg",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":1429798,\"mimeType\":\"image\\\/jpeg\",\"type\":\"file\",\"width\":1024,\"height\":4047}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "da7233f4-a00e-4e69-ab0f-bbec407a01f4",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-classic-oak-grey-felt-horisontal",
+    "sku": "akupanel-classic-oak-grey-felt-horisontal",
+    "name": "Akupanel | Classic Oak (Grey Felt)",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/classic-oak-grey-felt-horisontal.jpg",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/classic-oak-grey-felt-horisontal.jpg",
+    "width": 2.4,
+    "product_width": 2.4,
+    "length": 0.6,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=classic-oak-grey-felt"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=classic-oak-grey-felt",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/classic-oak-grey-felt-horisontal.jpg"
+        },
+        "image":
+        {
+          "size": 529061,
+          "mimeType": "image\/jpeg",
+          "type": "file",
+          "width": 2457,
+          "height": 622
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "e57f06a0-cb0a-4e24-be90-eb8d2b6545b3",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/classic-oak-grey-felt-horisontal.jpg",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":529061,\"mimeType\":\"image\\\/jpeg\",\"type\":\"file\",\"width\":2457,\"height\":622}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "c374511c-3649-4bd7-8f87-c308f1455b7f",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-cobber",
+    "sku": "akupanel-cobber",
+    "name": "Akupanel | Cobber Oxide",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/cobber-oxide-full.jpg",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/cobber-oxide-full.jpg",
+    "width": 0.6,
+    "product_width": 0.6,
+    "length": 2.4,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=copper-oxide"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=copper-oxide",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/cobber-oxide-full.jpg"
+        },
+        "image":
+        {
+          "size": 1485956,
+          "mimeType": "image\/jpeg",
+          "type": "file",
+          "width": 1024,
+          "height": 4024
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "44165fe0-2208-4202-ba9a-41be7296a7a3",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/cobber-oxide-full.jpg",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":1485956,\"mimeType\":\"image\\\/jpeg\",\"type\":\"file\",\"width\":1024,\"height\":4024}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "c51cf0f0-6403-4da2-ad36-c5775456bf5f",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-cobber-horisontal",
+    "sku": "akupanel-cobber-horisontal",
+    "name": "Akupanel | Cobber Oxide",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/cobber-oxide-horisontal.jpg",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/cobber-oxide-horisontal.jpg",
+    "width": 2.4,
+    "product_width": 2.4,
+    "length": 0.6,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=copper-oxide"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=copper-oxide",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/cobber-oxide-horisontal.jpg"
+        },
+        "image":
+        {
+          "size": 582444,
+          "mimeType": "image\/jpeg",
+          "type": "file",
+          "width": 2457,
+          "height": 626
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "f6f83062-8a82-430b-8539-67c00c1141c5",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/cobber-oxide-horisontal.jpg",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":582444,\"mimeType\":\"image\\\/jpeg\",\"type\":\"file\",\"width\":2457,\"height\":626}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "50590a44-84b1-4e97-a3f3-720cbc2f0d67",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-grey-oxide",
+    "sku": "akupanel-grey-oxide",
+    "name": "Akupanel | Grey Oxide",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/grey-oxide-full.jpg",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/grey-oxide-full.jpg",
+    "width": 0.6,
+    "product_width": 0.6,
+    "length": 2.4,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=grey-oxide"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=grey-oxide",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/grey-oxide-full.jpg"
+        },
+        "image":
+        {
+          "size": 1520436,
+          "mimeType": "image\/jpeg",
+          "type": "file",
+          "width": 1024,
+          "height": 4047
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "b21f42e2-b23c-46b8-8bfe-da1bf85e317d",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/grey-oxide-full.jpg",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":1520436,\"mimeType\":\"image\\\/jpeg\",\"type\":\"file\",\"width\":1024,\"height\":4047}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "b8467470-2ebb-4c02-9106-41c28d3625c6",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-grey-oxide-horisontal",
+    "sku": "akupanel-grey-oxide-horisontal",
+    "name": "Akupanel | Grey Oxide",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/grey-oxide-horisontal.jpg",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/grey-oxide-horisontal.jpg",
+    "width": 2.4,
+    "product_width": 2.4,
+    "length": 0.6,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=grey-oxide"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=grey-oxide",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/grey-oxide-horisontal.jpg"
+        },
+        "image":
+        {
+          "size": 599266,
+          "mimeType": "image\/jpeg",
+          "type": "file",
+          "width": 2457,
+          "height": 622
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "ee147607-2f48-41da-bdc1-fe94a4042e04",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/grey-oxide-horisontal.jpg",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":599266,\"mimeType\":\"image\\\/jpeg\",\"type\":\"file\",\"width\":2457,\"height\":622}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "4252f6f9-5541-46d1-8ed9-317a15eba858",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-rustic-brown-oak-horisontal",
+    "sku": "akupanel-rustic-brown-oak-horisontal",
+    "name": "Akupanel | Rustic Brown Oak",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/brown-horisontal.jpg",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/brown-horisontal.jpg",
+    "width": 2.4,
+    "product_width": 2.4,
+    "length": 0.6,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=rustic-antique-oak"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=rustic-antique-oak",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/brown-horisontal.jpg"
+        },
+        "image":
+        {
+          "size": 632807,
+          "mimeType": "image\/jpeg",
+          "type": "file",
+          "width": 2457,
+          "height": 626
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "cd067fee-2c5d-49be-81b0-4cdbbf87522e",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/brown-horisontal.jpg",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":632807,\"mimeType\":\"image\\\/jpeg\",\"type\":\"file\",\"width\":2457,\"height\":626}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "e12f1c01-41e6-47dc-bb99-67fa9d114f89",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-rustic-brown-oak",
+    "sku": "akupanel-rustic-brown-oak",
+    "name": "Akupanel | Rustic Brown Oak",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/brown-full.jpg",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/brown-full.jpg",
+    "width": 0.6,
+    "product_width": 0.6,
+    "length": 2.4,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=rustic-antique-oak"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=rustic-antique-oak",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/brown-full.jpg"
+        },
+        "image":
+        {
+          "size": 1522265,
+          "mimeType": "image\/jpeg",
+          "type": "file",
+          "width": 1024,
+          "height": 4021
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "5ed35039-3575-45cf-94fb-bd3d84af9516",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/brown-full.jpg",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":1522265,\"mimeType\":\"image\\\/jpeg\",\"type\":\"file\",\"width\":1024,\"height\":4021}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "181de8db-6186-4827-b733-4bea065d4163",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-rustic-grey-oak-horisontal",
+    "sku": "akupanel-rustic-grey-oak-horisontal",
+    "name": "Akupanel | Rustic Grey Oak",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/90992\/grey-horisontal.jpg",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/90992\/grey-horisontal.jpg",
+    "width": 2.4,
+    "product_width": 2.4,
+    "length": 0.6,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=rustic-grey-oak"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=rustic-grey-oak",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/90992\/grey-horisontal.jpg"
+        },
+        "image":
+        {
+          "size": 520726,
+          "mimeType": "image\/jpeg",
+          "type": "file",
+          "width": 2457,
+          "height": 622
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "f503e27f-4520-4f65-8e3e-c55e08ab2991",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/90992\/grey-horisontal.jpg",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":520726,\"mimeType\":\"image\\\/jpeg\",\"type\":\"file\",\"width\":2457,\"height\":622}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "76d9b5a8-cf26-4402-8f3a-86475cea3d6a",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-rustic-grey-oak",
+    "sku": "akupanel-rustic-grey-oak",
+    "name": "Akupanel | Rustic Grey Oak",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/grey-full.jpg",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/grey-full.jpg",
+    "width": 0.6,
+    "product_width": 0.6,
+    "length": 2.4,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=rustic-grey-oak"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=rustic-grey-oak",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/grey-full.jpg"
+        },
+        "image":
+        {
+          "size": 1325148,
+          "mimeType": "image\/jpeg",
+          "type": "file",
+          "width": 1024,
+          "height": 4047
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "7742ee9b-d0c8-4a8f-b476-ff2da497ca12",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/grey-full.jpg",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":1325148,\"mimeType\":\"image\\\/jpeg\",\"type\":\"file\",\"width\":1024,\"height\":4047}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "00b9652d-1714-4a5c-b25f-769e7d2a1004",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-natural",
+    "sku": "akupanel-natural",
+    "name": "Akupanel | Rustic Natural Oak",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/natural-full.jpg",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/natural-full.jpg",
+    "width": 0.6,
+    "product_width": 0.6,
+    "length": 2.4,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=rustic-natural-oak"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=rustic-natural-oak",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/natural-full.jpg"
+        },
+        "image":
+        {
+          "size": 1297954,
+          "mimeType": "image\/jpeg",
+          "type": "file",
+          "width": 1024,
+          "height": 4047
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "2ace4dcd-e770-4598-95c3-4422899235db",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/natural-full.jpg",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":1297954,\"mimeType\":\"image\\\/jpeg\",\"type\":\"file\",\"width\":1024,\"height\":4047}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  },
+  {
+    "uuid": "5bb0ebd6-49ce-43a2-9036-813246d3d6d5",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-natural-horisontal",
+    "sku": "akupanel-natural-horisontal",
+    "name": "Akupanel | Rustic Natural Oak",
+    "description": null,
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/natural-horisontal.jpg",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/natural-horisontal.jpg",
+    "width": 2.4,
+    "product_width": 2.4,
+    "length": 0.6,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=rustic-natural-oak"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=rustic-natural-oak",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/natural-horisontal.jpg"
+        },
+        "image":
+        {
+          "size": 486737,
+          "mimeType": "image\/jpeg",
+          "type": "file",
+          "width": 2457,
+          "height": 622
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "0d7762b2-5055-47da-a21b-413c9c70e0e3",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/natural-horisontal.jpg",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":486737,\"mimeType\":\"image\\\/jpeg\",\"type\":\"file\",\"width\":2457,\"height\":622}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  }],
+  "links":
+  {
+    "first": "http:\/\/pim-client.wizart.ai\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=1",
+    "last": "http:\/\/pim-client.wizart.ai\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=2",
+    "prev": null,
+    "next": "http:\/\/pim-client.wizart.ai\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=2"
+  },
+  "meta":
+  {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 2,
+    "links": [
+    {
+      "url": null,
+      "label": "pagination.previous",
+      "active": false
+    },
+    {
+      "url": "http:\/\/pim-client.wizart.ai\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=1",
+      "label": "1",
+      "active": true
+    },
+    {
+      "url": "http:\/\/pim-client.wizart.ai\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=2",
+      "label": "2",
+      "active": false
+    },
+    {
+      "url": "http:\/\/pim-client.wizart.ai\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=2",
+      "label": "pagination.next",
+      "active": false
+    }],
+    "path": "http:\/\/pim-client.wizart.ai\/api\/brands\/decorative_panels\/collections\/or-xx\/articles",
+    "per_page": 20,
+    "to": 20,
+    "total": 28
+  }
+}

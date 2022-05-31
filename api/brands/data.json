@@ -1,0 +1,43 @@
+{
+  "data": [
+  {
+    "uuid": "decorative_panels",
+    "name": "Decorative Panel",
+    "country_uuid": "macedonia",
+    "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+    "is_default_cover": false
+  }],
+  "links":
+  {
+    "first": "http:\/\/pim-client.wizart.ai\/api\/brands?page=1",
+    "last": "http:\/\/pim-client.wizart.ai\/api\/brands?page=1",
+    "prev": null,
+    "next": null
+  },
+  "meta":
+  {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 1,
+    "links": [
+    {
+      "url": null,
+      "label": "pagination.previous",
+      "active": false
+    },
+    {
+      "url": "http:\/\/pim-client.wizart.ai\/api\/brands?page=1",
+      "label": "1",
+      "active": true
+    },
+    {
+      "url": null,
+      "label": "pagination.next",
+      "active": false
+    }],
+    "path": "http:\/\/pim-client.wizart.ai\/api\/brands",
+    "per_page": 20,
+    "to": 1,
+    "total": 1
+  }
+}

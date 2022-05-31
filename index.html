@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+  <title>Home Visualizer</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no viewport-fit=cover">
+
+  <link rel="stylesheet" href="css/main.gzip.css" />
+
+  <!-- Begin Header Scripts -->
+  <!-- End Header Scripts -->
+
+  <style type="text/css">
+    #wizart-web-loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .loader,
+    .loader:after {
+      border-radius: 50%;
+      width: 10em;
+      height: 10em;
+    }
+
+    .loader {
+      font-size: 5px;
+      text-indent: -9999em;
+      border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+      border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+      border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+      border-left: 1.1em solid #ffffff;
+      -webkit-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      transform: translateZ(0);
+      -webkit-animation: load8 1.1s infinite linear;
+      animation: load8 1.1s infinite linear;
+    }
+
+    @-webkit-keyframes load8 {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes load8 {
+      0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Begin Body Scripts -->
+  <!-- End Body Scripts -->
+
+  <div id="wizart-root"></div>
+
+  <div id="wizart-web-loader">
+    <div class="loader">Loading...</div>
+  </div>
+
+  <script defer type="application/javascript" src="js/main.fullscreen-card.min.gzip.js"></script>
+  <script defer type="application/javascript" src="js/material-ui.fullscreen-card.min.gzip.js"></script>
+  <script defer type="application/javascript" src="js/react-libraries.fullscreen-card.min.gzip.js"></script>
+  <script defer type="application/javascript" src="js/vendors.fullscreen-card.min.gzip.js"></script>
+
+  <script !src="">
+    window.onload = function() {
+      let initialObject = {
+        token: 'QKLRIVHU1dBjeNZ9PiFTyU75JxmF6EjGI1jmZLGXupfvcf5T9sry0nXOPad0',
+        client_identifier: 'ornato',
+        backButtonAction: function() {
+          window.parent.postMessage('close_overlay', '*');
+        },
+        logo_path: 'images/FoldLogoSort.png',
+        small_logo_path: 'images/FoldLogoSort.png',
+        menu_items: '',
+        do_not_show_info_about_app: '',
+        twitter_mention: '',
+        original_url: '',
+        facebook_app_id: '',
+        single_collection_name: '',
+        back_button_background: '',
+        back_button_icon_color: '',
+        shopping_cart_button_background: '',
+        shopping_cart_button_icon_color: '',
+        shopping_cart_button_name: '',
+        shopping_cart_link: '',
+        enabled_shopping_cart: '',
+        is_shown_shopping_cart_prices: '',
+        context: '',
+        currency_by_context: '',
+        user_id: '',
+        enable_two_way_shopping_cart: '',
+        privacy_policy_link: 'https://www.wizart.ai/legal',
+        cookie_policy_link: 'https://www.wizart.ai/cookie-policy',
+        is_enabled_privacy_policy_link: '1',
+        enable_two_way_favorites: '0',
+        custom_shopping_cart_link: '',
+        gallery_view_title: '',
+        main_color: '#000000',
+        font_family: '',
+        floors_enabled: '',
+        walls_enabled: '1',
+        catalog_structure: '',
+
+
+
+
+        mana: '',
+
+
+
+
+        use_3D: '1',
+
+
+
+
+        is_full_size_image: '',
+
+        client_status: 'active',
+
+        client_state: 'active',
+
+
+
+        is_enabled_filters: '',
+
+
+        disable_ea: '1',
+
+        is_recommender_products: '',
+
+        token_type: 'web',
+
+        is_use_cookies: '',
+
+      };
+      window.wizart.init(initialObject);
+      if (document.getElementById('wizart-web-loader')) {
+        document.getElementById('wizart-web-loader').style.display = 'none';
+      }
+    }
+  </script>
+
+  <!-- Begin Footer Scripts -->
+  <!-- End Footer Scripts -->
+</body>
+
+</html>

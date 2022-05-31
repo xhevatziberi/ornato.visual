@@ -1,0 +1,255 @@
+{
+  "data": [
+  {
+    "uuid": "319cf265-68c6-46a4-b782-4a06e98d39e6",
+    "title": "Wizart_009",
+    "walls": [
+    {
+      "x": 49.923062324523926,
+      "y": 31.23320638784071,
+      "wall_id": 0
+    }],
+    "floor":
+    {
+      "x": 50.54465293884277,
+      "y": 94.34548274014509
+    },
+    "image_path": "interiors\/reserved\/images\/e363e4cf-79e5-43d7-be66-a693ef0e790a.jpg",
+    "room_type_title": "Living room",
+    "room_type_id": 5,
+    "width": 2560,
+    "height": 1706,
+    "created_at": "01.01.2019"
+  },
+  {
+    "uuid": "0ccc39c1-6379-4070-934d-f7459ce15247",
+    "title": "Wizart_012",
+    "walls": [
+    {
+      "x": 3.227309286594391,
+      "y": 17.485853152705523,
+      "wall_id": 0
+    },
+    {
+      "x": 10.291963815689089,
+      "y": 26.8,
+      "wall_id": 1
+    },
+    {
+      "x": 56.21320724487305,
+      "y": 26.83436761567629,
+      "wall_id": 2
+    }],
+    "floor":
+    {
+      "x": 47.6,
+      "y": 78.31635559010478
+    },
+    "image_path": "interiors\/reserved\/images\/d95b3508-17ee-4789-abe1-a8f53eb2a5a6.jpg",
+    "room_type_title": "Living room",
+    "room_type_id": 5,
+    "width": 2560,
+    "height": 1706,
+    "created_at": "01.01.2019"
+  },
+  {
+    "uuid": "1103ea18-8a07-4f59-a1d3-86d08b406755",
+    "title": "Wizart_017",
+    "walls": [
+    {
+      "x": 54.1,
+      "y": 20.1,
+      "wall_id": 1
+    },
+    {
+      "x": 91.2,
+      "y": 23.4,
+      "wall_id": 2
+    }],
+    "floor":
+    {
+      "x": 50,
+      "y": 94.5
+    },
+    "image_path": "interiors\/reserved\/images\/91f87bd9-7f9b-45f1-84ba-49c3fac23770.jpg",
+    "room_type_title": "Bedroom",
+    "room_type_id": 6,
+    "width": 2560,
+    "height": 1706,
+    "created_at": "30.03.2021"
+  },
+  {
+    "uuid": "184164cb-2a4d-49b7-a716-50685b3cd70d",
+    "title": "Wizart_015",
+    "walls": [
+    {
+      "x": 50,
+      "y": 18.4,
+      "wall_id": 0
+    }],
+    "floor":
+    {
+      "x": 51.16467475891113,
+      "y": 91.47895553606756
+    },
+    "image_path": "interiors\/reserved\/images\/1d8ba617-949a-4f46-88c8-afc39f14a0b5.jpg",
+    "room_type_title": "Bedroom",
+    "room_type_id": 6,
+    "width": 2560,
+    "height": 1706,
+    "created_at": "01.01.2019"
+  },
+  {
+    "uuid": "c907359f-ef54-4da5-bab9-4f9006938760",
+    "title": "Wizart_019",
+    "walls": [
+    {
+      "x": 50,
+      "y": 34,
+      "wall_id": 0
+    }],
+    "floor":
+    {
+      "x": 58,
+      "y": 92
+    },
+    "image_path": "interiors\/reserved\/images\/367a6d50-2ded-47eb-a8e7-cc5c3dccb6b0.jpg",
+    "room_type_title": "Children's room",
+    "room_type_id": 4,
+    "width": 2560,
+    "height": 1706,
+    "created_at": "30.03.2021"
+  },
+  {
+    "uuid": "63a885b3-5417-4920-85f2-d02d81e40a1e",
+    "title": "Wizart_020",
+    "walls": [
+    {
+      "x": 43,
+      "y": 36,
+      "wall_id": 0
+    },
+    {
+      "x": 83.5,
+      "y": 39,
+      "wall_id": 1
+    },
+    {
+      "x": 94.7,
+      "y": 36,
+      "wall_id": 2
+    }],
+    "floor":
+    {
+      "x": 43,
+      "y": 88.5
+    },
+    "image_path": "interiors\/reserved\/images\/9f6f7fb1-e26c-42fe-a78e-82813fad5be2.jpg",
+    "room_type_title": "Children's room",
+    "room_type_id": 4,
+    "width": 2560,
+    "height": 1440,
+    "created_at": "30.03.2021"
+  },
+  {
+    "uuid": "a347a7cc-29cc-4d14-8798-b3972c7870be",
+    "title": "Wizart_021",
+    "walls": [
+    {
+      "x": 50,
+      "y": 38,
+      "wall_id": 0
+    }],
+    "floor":
+    {
+      "x": 50,
+      "y": 94.8
+    },
+    "image_path": "interiors\/reserved\/images\/3eef6f6b-acfb-4d83-9214-601ecc69440b.jpg",
+    "room_type_title": "Kitchen",
+    "room_type_id": 3,
+    "width": 2560,
+    "height": 1706,
+    "created_at": "30.03.2021"
+  },
+  {
+    "uuid": "fe9bfc03-6fe5-403d-a6a1-5feb5c71c10c",
+    "title": "Wizart_018",
+    "walls": [
+    {
+      "x": 59,
+      "y": 23.7,
+      "wall_id": 1
+    }],
+    "floor":
+    {
+      "x": 59,
+      "y": 89
+    },
+    "image_path": "interiors\/reserved\/images\/ab1dddb9-6af2-4985-85a7-8cb001c7094d.jpg",
+    "room_type_title": "Kitchen",
+    "room_type_id": 3,
+    "width": 2560,
+    "height": 1699,
+    "created_at": "30.03.2021"
+  },
+  {
+    "uuid": "0c7bfc78-99e0-4842-96c3-06c5f5abbd6c",
+    "title": "Wizart_002",
+    "walls": [
+    {
+      "x": 13.8,
+      "y": 47.9,
+      "wall_id": 0
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "wall_id": 1
+    }],
+    "floor":
+    {
+      "x": 50,
+      "y": 90
+    },
+    "image_path": "interiors\/reserved\/images\/1fda83f6-1286-44c2-b785-92331bb57949.jpg",
+    "room_type_title": "Kitchen",
+    "room_type_id": 3,
+    "width": 2560,
+    "height": 1706,
+    "created_at": "01.01.2019"
+  }],
+  "links":
+  {
+    "first": "http:\/\/rni.wizart.ai\/api\/rooms?page=1",
+    "last": "http:\/\/rni.wizart.ai\/api\/rooms?page=1",
+    "prev": null,
+    "next": null
+  },
+  "meta":
+  {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 1,
+    "links": [
+    {
+      "url": null,
+      "label": "pagination.previous",
+      "active": false
+    },
+    {
+      "url": "http:\/\/rni.wizart.ai\/api\/rooms?page=1",
+      "label": "1",
+      "active": true
+    },
+    {
+      "url": null,
+      "label": "pagination.next",
+      "active": false
+    }],
+    "path": "http:\/\/rni.wizart.ai\/api\/rooms",
+    "per_page": 15,
+    "to": 9,
+    "total": 9
+  }
+}

@@ -1,0 +1,17 @@
+<svg viewBox="0 0 40 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M37.053 29.421v.094m0-.094v-10.42m0 10.42a6.634 6.634 0 01-6.632 6.632s0 0 0 0H27m-15 0H9.579v0a6.632 6.632 0 01-6.632-6.632v-10.42M12 36.052V19.026L20 19m-8 17.053h15M20 1.948H9.579a6.632 6.632 0 00-6.632 6.631V19M20 1.948h12.18a4.872 4.872 0 014.873 4.872V19M20 1.948V19M2.947 19H20m17.053 0H27m-7 0h7m0 0v17.053" stroke="currentColor" stroke-width="2"/>
+  <path d="M34.447 21.626a1.5 1.5 0 00-1.5 1.5v9.447a1.5 1.5 0 103 0v-9.447a1.5 1.5 0 00-1.5-1.5z" fill="currentColor"/>
+  <rect width="7.71" height="3" rx="1.5" transform="scale(1 -1) rotate(45 50.051 23.28)" fill="currentColor"/>
+  <path d="M37.768 28.573l-4.392-4.391a1.5 1.5 0 112.122-2.121l1.665 1.665.337 2.774.268 2.073zm-18.321-6.947a1.5 1.5 0 00-1.5 1.5v9.447a1.5 1.5 0 103 0v-9.447a1.5 1.5 0 00-1.5-1.5z" fill="currentColor"/>
+  <rect width="7.71" height="3" rx="1.5" transform="scale(1 -1) rotate(45 42.551 5.173)" fill="currentColor"/>
+  <rect x="22.768" y="28.573" width="7.71" height="3" rx="1.5" transform="rotate(-135 22.768 28.573)" fill="currentColor"/>
+  <path d="M28.447 4.626a1.5 1.5 0 00-1.5 1.5v9.447a1.5 1.5 0 103 0V6.126a1.5 1.5 0 00-1.5-1.5z" fill="currentColor"/>
+  <rect width="7.71" height="3" rx="1.5" transform="scale(1 -1) rotate(45 26.53 24.537)" fill="currentColor"/>
+  <rect x="31.768" y="11.573" width="7.71" height="3" rx="1.5" transform="rotate(-135 31.768 11.573)" fill="currentColor"/>
+  <path d="M11.447 4.626a1.5 1.5 0 00-1.5 1.5v9.447a1.5 1.5 0 103 0V6.126a1.5 1.5 0 00-1.5-1.5z" fill="currentColor"/>
+  <rect width="7.71" height="3" rx="1.5" transform="scale(1 -1) rotate(45 18.03 4.016)" fill="currentColor"/>
+  <rect x="14.768" y="11.573" width="7.71" height="3" rx="1.5" transform="rotate(-135 14.768 11.573)" fill="currentColor"/>
+  <path d="M4.447 21.626a1.5 1.5 0 00-1.5 1.5v9.447a1.5 1.5 0 103 0v-9.447a1.5 1.5 0 00-1.5-1.5z" fill="currentColor"/>
+  <path d="M3 26.695l2.513-2.513a1.5 1.5 0 00-2.122-2.121L3 22.452v4.243z" fill="currentColor"/>
+  <rect x="7.768" y="28.573" width="7.71" height="3" rx="1.5" transform="rotate(-135 7.768 28.573)" fill="currentColor"/>
+</svg>

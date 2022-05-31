@@ -1,0 +1,123 @@
+{
+  "data": [
+  {
+    "uuid": "517a777e-ea23-4290-9428-27b0f4e3372f",
+    "application_type": ["wall"],
+    "type": "wall",
+    "vendor_code": "akupanel-black-ash-horisontal",
+    "sku": "akupanel-black-ash-horisontal",
+    "name": "Akupanel | Black Ash",
+    "description": "",
+    "is_visible": true,
+    "collection_uuid": "or-xx",
+    "brand_uuid": "decorative_panels",
+    "collection":
+    {
+      "uuid": "or-xx",
+      "name": "240x60cm",
+      "brand_uuid": "decorative_panels",
+      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "is_default_cover": false,
+      "order": 13727
+    },
+    "brand":
+    {
+      "uuid": "decorative_panels",
+      "name": "Akupanel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "is_default_cover": false
+    },
+    "image_path": "pim-data\/ornato\/panels\/black-horisontal.png",
+    "product_type":
+    {
+      "uuid": "wallpaper",
+      "code": "wallpaper"
+    },
+    "preview_image_path": "pim-data\/ornato\/panels\/black-horisontal.png",
+    "width": 2.4,
+    "product_width": 2.4,
+    "length": 0.6,
+    "reverse_180": false,
+    "mural": false,
+    "rapport_shift": null,
+    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=black-ash"],
+    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=black-ash",
+    "regular_price": null,
+    "promotional_price": null,
+    "currency": null,
+    "transparency": null,
+    "scene_data":
+    {
+      "data": [
+      {
+        "type": "laying-pattern",
+        "code": "no_pattern",
+        "model": "",
+        "is_default": true,
+        "material_maps":
+        {
+          "color": "pim-data\/ornato\/panels\/black-horisontal.png"
+        },
+        "image":
+        {
+          "size": 1590436,
+          "mimeType": "image\/png",
+          "type": "file",
+          "width": 2457,
+          "height": 622
+        },
+        "pattern_length": null,
+        "pattern_width": null
+      }]
+    },
+    "context": null,
+    "currency_by_context": null,
+    "availability": "in_stock",
+    "laying_patterns": [
+    {
+      "uuid": "7087b0b2-5b75-449e-9f53-1fc9f1bc4897",
+      "laying_pattern_type": "no_pattern",
+      "image_path": "pim-data\/ornato\/panels\/black-horisontal.png",
+      "model_path": "",
+      "metadata": "{\"image\":{\"size\":1590436,\"mimeType\":\"image\\\/png\",\"type\":\"file\",\"width\":2457,\"height\":622}}",
+      "is_default": true
+    }],
+    "default_laying_pattern": "no_pattern",
+    "product_length": null,
+    "pattern": null
+  }],
+  "links":
+  {
+    "first": "http:\/\/pim-client.wizart.ai\/api\/articles\/search?page=1",
+    "last": "http:\/\/pim-client.wizart.ai\/api\/articles\/search?page=1",
+    "prev": null,
+    "next": null
+  },
+  "meta":
+  {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 1,
+    "links": [
+    {
+      "url": null,
+      "label": "pagination.previous",
+      "active": false
+    },
+    {
+      "url": "http:\/\/pim-client.wizart.ai\/api\/articles\/search?page=1",
+      "label": "1",
+      "active": true
+    },
+    {
+      "url": null,
+      "label": "pagination.next",
+      "active": false
+    }],
+    "path": "http:\/\/pim-client.wizart.ai\/api\/articles\/search",
+    "per_page": 20,
+    "to": 1,
+    "total": 1
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "ROOM_LIST":
+  {
+    "TITLE": "Select a room to redecorate",
+    "TITLE_ROW1": "Select a room",
+    "TITLE_ROW2": "to redecorate",
+    "UPLOAD_PHOTO": "<span class='room-gallery__load-title--active'>Upload<\/span> photo of your interior",
+    "UPLOAD_PHOTO_MAIN": "Upload your room",
+    "BACK_BUTTON": "Back to website",
+    "DELETE_ROOM_TITLE": "Are you sure that you want to delete the photo?",
+    "ROOM_NOT_AVAILABLE": "Not available for the selected product"
+  },
+  "FOOTER_PANEL":
+  {
+    "ROOMS": "Rooms",
+    "CATALOG": "Catalog",
+    "APPLIED": "Applied",
+    "SHOPPING_CART": "Cart",
+    "MENU": "Menu"
+  },
+  "ARTICLE_LIST":
+  {
+    "FILTER_TITLE": "Filter",
+    "FAVORITES_TITLE": "Favorites",
+    "NO_RESULTS_MESSAGE": "No results",
+    "NO_ARTICLES_MESSAGE": "No articles",
+    "PRODUCT_TYPE": "Products",
+    "BRANDS": "Brands",
+    "BRANDS_TITLE": "Brands",
+    "COLLECTIONS": "Collections",
+    "PRODUCTS": "Products",
+    "TITLE": "Catalog",
+    "NAVIGATION_SEARCH": "Search",
+    "RESULT": "Results:",
+    "BUY": "BUY",
+    "SEARCH_RESULTS": "Search results",
+    "MY_PRODUCT": "My Product",
+    "SIMILAR_PRODUCTS": "Similar<br>products"
+  },
+  "PRODUCT_TYPE":
+  {
+    "WALLPAPER": "Wallpaper",
+    "WALL_MURAL": "Wall Murals",
+    "MURAL": "Wall Murals",
+    "WALL_BORDER": "Wall Borders",
+    "WALL_DECALS": "Wall Decals",
+    "PAINT": "Paints",
+    "PLASTER": "Plaster",
+    "WALL_PANELS": "Wall panels",
+    "TILE": "Tile",
+    "CARPET_ROLL": "Carpet flooring",
+    "CARPET_TILE": "Carpet flooring",
+    "ENGINEERED_WOOD_FLOORING": "Engineered wood flooring",
+    "HARDWOOD_FLOORING": "Hardwood flooring",
+    "LAMINATE": "Laminate",
+    "LINOLEUM": "Linoleum",
+    "VINYL_FLOORING": "Vinyl Flooring",
+    "RUG": "Rugs"
+  },
+  "FILTER_PANEL":
+  {
+    "NAME":
+    {
+      "PLACEHOLDER": "Search an article"
+    },
+    "FILTERS": "Filters",
+    "SEARCH_BAR_VALIDATION_MESSAGE": "Type at least 3 characters",
+    "SEARCH_MANA": "Search by photo",
+    "PRODUCT_TYPE": "Products",
+    "COLOR": "Color",
+    "PATTERN": "Pattern",
+    "STYLE": "Style",
+    "INTERIOR": "Interior",
+    "APPLY": "Show results:",
+    "CLEAR": "Clear filters"
+  },
+  "ARTICLE_INFO_PANEL":
+  {
+    "ATTRIBUTES":
+    {
+      "TYPE": "Type",
+      "WIDTH": "Width",
+      "LENGTH": "Length",
+      "COUNTRY": "Country",
+      "MAIN_COLOR": "Main color",
+      "TEXTURE": "Texture",
+      "BASIC": "Base",
+      "COATING": "Coating",
+      "PRODUCT_ID": "Product ID"
+    },
+    "MORE_BUTTON_TITLE": "View Product Page",
+    "DESCRIPTION": "Description"
+  },
+  "ERROR_MESSAGES":
+  {
+    "SERVER_ERROR":
+    {
+      "TITLE": "Oops! Something went wrong.",
+      "MESSAGE": "Please, try again."
+    },
+    "NOT_AVAILABLE_TITLE": "App is currently unavailable",
+    "NOT_AVAILABLE_MESSAGE": "Please contact website owner for more details.",
+    "BAD_UPLOAD_PARAMETERS":
+    {
+      "TITLE": "Oops!",
+      "MESSAGE": "It seems that the image contains a very small area for visualization. Please try to use another photo.",
+      "DARK_IMAGE_TITLE": "The image is too dark. Please retry.",
+      "BLURRY_IMAGE_TITLE": "The image is too blurry. Please retry.",
+      "NOT_INTERIOR_IMAGE_TITLE": "The interior wasn't recognized. Please retry.",
+      "NOISY_IMAGE_TITLE": "The image is too noisy. Please retry.",
+      "NO_SURFACE_IMAGE_TITLE": "Surfaces not recognized. Please use another photo."
+    },
+    "LARGE_FILE_TITLE": "File is too large to open (Max 10 Mb)",
+    "EXTENSION_ERROR":
+    {
+      "TITLE": "Upload error",
+      "MESSAGE": "Uploaded file has invalid extension. Only the following extensions are allowed: jpg, jpeg, png, webp."
+    }
+  },
+  "COMMON":
+  {
+    "YES": "Yes",
+    "NO": "No",
+    "OK": "Ok",
+    "DISMISS": "Dismiss",
+    "SEND": "Send",
+    "DELETE": "Delete",
+    "CANCEL": "Cancel",
+    "RETRY": "RETRY",
+    "USE_ANYWAY": "USE ANYWAY"
+  },
+  "DOWNLOAD":
+  {
+    "TITLE": "Download",
+    "ORIGINAL_TITLE": "Original",
+    "RESULT_TITLE": "Result",
+    "RESULT_WITH_INFORMATION": "Result with information",
+    "DOWNLOAD_HINT": "Tap and hold to download"
+  },
+  "PRIVACY_POLICY_TITLE": "Privacy Policy & Terms of Use",
+  "TOOLTIPS":
+  {
+    "CATALOG_BUTTON": "Catalog",
+    "ARTICLE_CATALOG_TAB": "Catalog",
+    "VIEW_ORIGINAL": "View original",
+    "MY_ROOM": "My room",
+    "INTERIORS_BACK_BUTTON": "Change interior",
+    "CATALOG_HOME_BUTTON": "Catalog",
+    "CATALOG_BACK_BUTTON": "Back",
+    "CLOSE": "Close",
+    "DELETE_ROOM": "Delete",
+    "CLEAR_WALL": "Clear surface",
+    "ARTICLE_INFO": "Go to product page",
+    "DOWNLOAD": "Download",
+    "FEEDBACK": "Rate the result",
+    "RATE_BAD": "Bad",
+    "RATE_NORMAL": "Normal",
+    "RATE_GREAT": "Great!",
+    "FAVORITES": "Add to favorites",
+    "REMOVE_FROM_FAVORITES": "Remove from favorites",
+    "ROTATE_FLOORING": "Rotate Flooring",
+    "CHANGE_LAYOUT": "Change layout",
+    "OPEN_SHOPPING_CART": "Open shopping cart",
+    "ADD_TO_SHOPPING_CART": "Add to shopping cart",
+    "REMOVE_FROM_SHOPPING_CART": "Remove from shopping cart",
+    "GO_TO_SHOP": "Open in Store",
+    "BACK_TO_WEBSITE": "Back to website",
+    "IMPORTANT_INFO": "Important info",
+    "FILTER": "Filter",
+    "MY_PRODUCT": "My Product"
+  },
+  "MORE":
+  {
+    "TITLE": "Menu",
+    "ABOUT_APP": "About App"
+  },
+  "FEEDBACK":
+  {
+    "TITLE": "Rate the result",
+    "TEXT_AREA_PLACEHOLDER": "Please, leave your comment about the result. It will help us to improve the quality of our algorithms",
+    "RESPONSE":
+    {
+      "TITLE": "Thanks!",
+      "MESSAGE": "Result was successfully sent"
+    },
+    "BUTTON_SEND": "Send"
+  },
+  "FAVORITES":
+  {
+    "ADD": "Add to favorites",
+    "TITLE": "Favorites",
+    "WALL": "Wall covering",
+    "FLOOR": "Flooring"
+  },
+  "CONTACT_FORM":
+  {
+    "TITLE": "Ready to take your e-com to the next level with Wizart?",
+    "FORM_TITLE": "Leave your contact details in the form below and we will contact you shortly.",
+    "PLACEHOLDER_NAME": "Your Name",
+    "PLACEHOLDER_EMAIL": "Your Email",
+    "SUCCESS_RESPONSE_TEXT": "Your contact details were successfully sent!",
+    "MENU_ITEM": "Contact Wizart!",
+    "EMAIL_VALIDATION_ERROR": "Invalid email address"
+  },
+  "ONBOARDING":
+  {
+    "TAKE_PHOTO": "Take a photo of your interior or choose one from the gallery",
+    "CHOOSE_PRODUCT": "Choose product from the catalog",
+    "SELECT_SURFACES": "You can select surfaces one by one",
+    "RATE_RESULT": "Rate the result",
+    "START_TUTORIAL": "Start the tutorial",
+    "TITLE": "Fast and easy room renovation",
+    "SUBTITLE": "Choose from hundreds of products and see them in your room!",
+    "GET_STARTED": "GET STARTED"
+  },
+  "SHOPPING_CART":
+  {
+    "TITLE": "Shopping cart",
+    "EMPTY": "Empty",
+    "ITEM":
+    {
+      "PR": "per unit",
+      "QUANTITY": "qty",
+      "AVAILABILITY": "Out of stock"
+    },
+    "IN_TOTAL": "Subtotal",
+    "CART_TOTALS": "Total",
+    "GO_TO_SHOP": "Proceed to checkout",
+    "WALLPAPER": "Roll",
+    "WALL_MURAL": "Unit",
+    "WALL_BORDER": "Roll",
+    "WALL_DECALS": "Set",
+    "PAINT": "Unit",
+    "PLASTER": "Unit",
+    "WALL_PANELS": "Box",
+    "TILE": "Box",
+    "CARPET_ROLL": "m2",
+    "CARPET_TILE": "Box",
+    "ENGINEERED_WOOD_FLOORING": "Box",
+    "HARDWOOD_FLOORING": "Box",
+    "LAMINATE": "Box",
+    "LINOLEUM": "m2",
+    "VINYL_FLOORING": "Box",
+    "RUG": "Unit"
+  },
+  "COOKIE_POLICY":
+  {
+    "LEARN_MORE": "Learn More\u2026",
+    "BUTTON_TEXT": "GOT IT",
+    "CONTENT": "We use cookies to offer you a better browsing experience, analyze site traffic and personalize content. By using this site you consent to our use of <a href=\"cookies\">Cookies<\/a> and our <a href=\"privacy_policy\">Privacy Policy and Terms of Use<\/a>.",
+    "AGREE": "I agree",
+    "DISAGREE": "I disagree"
+  },
+  "UNIT":
+  {
+    "UNIT": "m",
+    "METERS": "m",
+    "INCHES": "in",
+    "FEET": "ft",
+    "CM": "cm"
+  },
+  "PRODUCTS":
+  {
+    "PRODUCTS": "Products"
+  },
+  "SURFACES":
+  {
+    "WALLS": "Walls",
+    "FLOOR": "Floor"
+  },
+  "LAYING_PATTERNS":
+  {
+    "LAYING_PATTERNS_TITLE": "Laying Patterns",
+    "PRODUCT_SETTINGS": "Product settings"
+  },
+  "MENU":
+  {
+    "LANGUAGE": "Language",
+    "START_TUTORIAL": "Start Tutorial"
+  },
+  "MESSAGE":
+  {
+    "UNHIDE_BUTTONS": "Click on the screen to unhide buttons",
+    "MOB_UNHIDE_BUTTONS": "Tap the screen to unhide buttons"
+  }
+}

@@ -1,0 +1,23 @@
+<svg viewBox="0 0 66 66"  fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#Bg__filter0_i)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 33C0 14.775 14.775 0 33 0s33 14.775 33 33-14.775 33-33 33S0 51.225 0 33z" fill="#fff"/>
+  </g>
+  <path d="M33 65.5C15.05 65.5.5 50.95.5 33S15.05.5 33 .5 65.5 15.05 65.5 33 50.95 65.5 33 65.5z" stroke="url(#Bg__paint0_radial)"/>
+  <defs>
+    <radialGradient id="Bg__paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(37.9503 58.57478 -104.27848 67.5615 14.024 5.775)">
+      <stop stop-color="#FFE86C"/>
+      <stop offset=".573" stop-color="#CFBFBC"/>
+      <stop offset="1" stop-color="#B59893"/>
+    </radialGradient>
+    <filter id="Bg__filter0_i" x="0" y="0" width="70.33" height="70.33" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dx="4.33" dy="4.33"/>
+      <feGaussianBlur stdDeviation="15.155"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix values="0 0 0 0 0.9125 0 0 0 0 0.749619 0 0 0 0 0.718594 0 0 0 0.1 0"/>
+      <feBlend in2="shape" result="effect1_innerShadow"/>
+    </filter>
+  </defs>
+</svg>

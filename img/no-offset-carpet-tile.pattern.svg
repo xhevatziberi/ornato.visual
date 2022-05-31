@@ -1,0 +1,15 @@
+<svg viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M36.053 29.421v.094m0-.094a6.632 6.632 0 01-6.632 6.632H19m17.053-6.632v-10.42M19 36.052H8.579a6.632 6.632 0 01-6.632-6.632V19M19 36.052V1.948m0 0H8.579a6.632 6.632 0 00-6.632 6.631V19M19 1.948h12.18a4.872 4.872 0 014.873 4.872V19M1.947 19h34.105" stroke="currentColor" stroke-width="2"/>
+  <path d="M10.447 21.626a1.5 1.5 0 00-1.5 1.5v9.447a1.5 1.5 0 103 0v-9.447a1.5 1.5 0 00-1.5-1.5z" fill="currentColor"/>
+  <rect width="7.71" height="3" rx="1.5" transform="scale(1 -1) rotate(45 38.051 -5.69)" fill="currentColor"/>
+  <rect x="13.768" y="28.573" width="7.71" height="3" rx="1.5" transform="rotate(-135 13.768 28.573)" fill="currentColor"/>
+  <path d="M27.447 21.626a1.5 1.5 0 00-1.5 1.5v9.447a1.5 1.5 0 103 0v-9.447a1.5 1.5 0 00-1.5-1.5z" fill="currentColor"/>
+  <rect width="7.71" height="3" rx="1.5" transform="scale(1 -1) rotate(45 46.551 14.83)" fill="currentColor"/>
+  <rect x="30.768" y="28.573" width="7.71" height="3" rx="1.5" transform="rotate(-135 30.768 28.573)" fill="currentColor"/>
+  <path d="M27.447 4.626a1.5 1.5 0 00-1.5 1.5v9.447a1.5 1.5 0 103 0V6.126a1.5 1.5 0 00-1.5-1.5z" fill="currentColor"/>
+  <rect width="7.71" height="3" rx="1.5" transform="scale(1 -1) rotate(45 26.03 23.33)" fill="currentColor"/>
+  <rect x="30.768" y="11.573" width="7.71" height="3" rx="1.5" transform="rotate(-135 30.768 11.573)" fill="currentColor"/>
+  <path d="M10.447 4.626a1.5 1.5 0 00-1.5 1.5v9.447a1.5 1.5 0 103 0V6.126a1.5 1.5 0 00-1.5-1.5z" fill="currentColor"/>
+  <rect width="7.71" height="3" rx="1.5" transform="scale(1 -1) rotate(45 17.53 2.81)" fill="currentColor"/>
+  <rect x="13.768" y="11.573" width="7.71" height="3" rx="1.5" transform="rotate(-135 13.768 11.573)" fill="currentColor"/>
+</svg>

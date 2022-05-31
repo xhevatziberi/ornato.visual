@@ -1,0 +1,11 @@
+{
+  "data": [
+  {
+    "type": "product-type",
+    "uuid": "wallpaper",
+    "attributes":
+    {
+      "code": "wallpaper"
+    }
+  }]
+}

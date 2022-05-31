@@ -1,0 +1,24 @@
+
+<svg viewBox="0 0 210 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#Ellipse_191__filter0_i)">
+    <circle cx="105" cy="105" r="105" fill="#fff"/>
+  </g>
+  <circle cx="105" cy="105" r="104.5" stroke="url(#Ellipse_191__paint0_radial)"/>
+  <defs>
+    <radialGradient id="Ellipse_191__paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="rotate(57.061 5.413 50.23) scale(222.073 395.346)">
+      <stop stop-color="#FFE86C"/>
+      <stop offset=".573" stop-color="#CFBFBC"/>
+      <stop offset="1" stop-color="#B59893"/>
+    </radialGradient>
+    <filter id="Ellipse_191__filter0_i" x="0" y="0" width="220.601" height="220.601" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dx="10.601" dy="10.601"/>
+      <feGaussianBlur stdDeviation="37.104"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix values="0 0 0 0 0.45 0 0 0 0 0.123975 0 0 0 0 0.061875 0 0 0 0.1 0"/>
+      <feBlend in2="shape" result="effect1_innerShadow"/>
+    </filter>
+  </defs>
+</svg>
