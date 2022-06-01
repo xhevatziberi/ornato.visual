@@ -402,7 +402,7 @@
           CLIENT_STATUS: e.client_status || null,
           CUSTOM_PRODUCT: T,
           FILTERS: "1" === e.is_enabled_filters,
-          CUSTOM_APPLY: "https://rni.wizart.ai/apply",
+          CUSTOM_APPLY: "https://visual.ornato.mk/apply",
           DO_NOT_USE_CASHE: "0" === e.use_cache || !1,
           IS_NEW_DEVICE: o,
           START_WITH_PRODUCT: T ? null : Object(i.c)(e.article_query),
