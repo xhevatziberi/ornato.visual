@@ -716,15 +716,7 @@
           }, p.a.createElement(E.a, {
             size: "l",
             badgeContent: r.length
-          }, p.a.createElement(g.a, {
-            className: "my-room-button__shadow-wrapper",
-            title: "TOOLTIPS.MY_ROOM"
-          }, p.a.createElement("div", {
-            className: _()("my-room-button", {
-              "my-room-button_custom": C.b.MAIN_COLOR
-            }),
-            onClick: f
-          }, p.a.createElement(v.I, null))))), p.a.createElement("div", {
+          } )), p.a.createElement("div", {
             className: _()("w-buttons-tooltip_wrapper", {
               "tooltip-visible": !t
             })

@@ -89,8 +89,8 @@
   }],
   "links":
   {
-    "first": "http:\/\/visual.ornato.mk\/api\/articles\/search?page=1",
-    "last": "http:\/\/visual.ornato.mk\/api\/articles\/search?page=1",
+    "first": "https:\/\/visual.ornato.mk\/api\/articles\/search?page=1",
+    "last": "https:\/\/visual.ornato.mk\/api\/articles\/search?page=1",
     "prev": null,
     "next": null
   },
@@ -106,7 +106,7 @@
       "active": false
     },
     {
-      "url": "http:\/\/visual.ornato.mk\/api\/articles\/search?page=1",
+      "url": "https:\/\/visual.ornato.mk\/api\/articles\/search?page=1",
       "label": "1",
       "active": true
     },
@@ -115,7 +115,7 @@
       "label": "pagination.next",
       "active": false
     }],
-    "path": "http:\/\/visual.ornato.mk\/api\/articles\/search",
+    "path": "https:\/\/visual.ornato.mk\/api\/articles\/search",
     "per_page": 20,
     "to": 1,
     "total": 1

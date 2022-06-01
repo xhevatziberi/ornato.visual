@@ -221,7 +221,7 @@
     return c.d(e, "a", e), e
   }, c.o = function(t, e) {
     return Object.prototype.hasOwnProperty.call(t, e)
-  }, c.p = "http://visual.ornato.mk/", c.oe = function(t) {
+  }, c.p = "https://visual.ornato.mk/", c.oe = function(t) {
     throw console.error(t), t
   };
   var u = window.webpackJsonp = window.webpackJsonp || [],
@@ -339,14 +339,14 @@
           // INTERIORS_HOST: "https://rni.wizart.ai",
           // APPLY_HOST: g ? "https://rni.wizart.ai/apply/3d" : "https://rni.wizart.ai/apply",
           // PIM_HOST: "https://visual.ornato.mk",
-          // STATIC_HOST: "http://visual.ornato.mk/images",
+          // STATIC_HOST: "https://visual.ornato.mk/images",
           // ANALYTICS_HOST: "https://aw.wizart.ai",
 
-          INTERIORS_HOST: "http://visual.ornato.mk/",
-          APPLY_HOST: "http://visual.ornato.mk/3d",
-          PIM_HOST: "http://visual.ornato.mk",
-          STATIC_HOST: "http://visual.ornato.mk/images",
-          ANALYTICS_HOST: "http://visual.ornato.mk",
+          INTERIORS_HOST: "https://visual.ornato.mk/",
+          APPLY_HOST: "https://visual.ornato.mk/3d",
+          PIM_HOST: "https://visual.ornato.mk",
+          STATIC_HOST: "https://visual.ornato.mk/images",
+          ANALYTICS_HOST: "https://visual.ornato.mk",
 
           CLIENT_IDENTIFIER: e.client_identifier,
           TOKEN: e.token,
@@ -1986,161 +1986,161 @@
   var r = n(0),
     i = n.n(r),
     o = n(3),
-    a = "http://visual.ornato.mk/img/back-arrow.svg",
-    c = "http://visual.ornato.mk/img/delete.svg",
-    u = "http://visual.ornato.mk/img/rate.svg",
-    l = "http://visual.ornato.mk/img/about-app.svg",
-    s = "http://visual.ornato.mk/img/bad-photo.fl.svg",
-    d = "http://visual.ornato.mk/img/close.fl.svg",
-    f = "http://visual.ornato.mk/img/small-wizart-logo.fl.svg",
-    p = "http://visual.ornato.mk/img/proccessing.png",
+    a = "https://visual.ornato.mk/img/back-arrow.svg",
+    c = "https://visual.ornato.mk/img/delete.svg",
+    u = "https://visual.ornato.mk/img/rate.svg",
+    l = "https://visual.ornato.mk/img/about-app.svg",
+    s = "https://visual.ornato.mk/img/bad-photo.fl.svg",
+    d = "https://visual.ornato.mk/img/close.fl.svg",
+    f = "https://visual.ornato.mk/img/small-wizart-logo.fl.svg",
+    p = "https://visual.ornato.mk/img/proccessing.png",
     _ = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/language.svg",
+        src: "https://visual.ornato.mk/img/language.svg",
         attributes: e
       })
     },
     v = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/start-tutorial.svg",
+        src: "https://visual.ornato.mk/img/start-tutorial.svg",
         attributes: e
       })
     },
     b = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/plus.svg",
+        src: "https://visual.ornato.mk/img/plus.svg",
         attributes: e
       })
     },
     O = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/disabled-room.svg",
+        src: "https://visual.ornato.mk/img/disabled-room.svg",
         attributes: e
       })
     },
     E = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/minus.svg",
+        src: "https://visual.ornato.mk/img/minus.svg",
         attributes: e
       })
     },
     m = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/filters.svg",
+        src: "https://visual.ornato.mk/img/filters.svg",
         attributes: e
       })
     },
     y = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/wizart.more.svg",
+        src: "https://visual.ornato.mk/img/wizart.more.svg",
         attributes: e
       })
     },
     g = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/input_reset.svg",
+        src: "https://visual.ornato.mk/img/input_reset.svg",
         attributes: e
       })
     },
     T = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/custom-product.svg",
+        src: "https://visual.ornato.mk/img/custom-product.svg",
         attributes: e
       })
     },
     h = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/back-new.svg",
+        src: "https://visual.ornato.mk/img/back-new.svg",
         attributes: e
       })
     },
     S = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/mana.svg",
+        src: "https://visual.ornato.mk/img/mana.svg",
         attributes: e
       })
     },
     A = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/search.svg",
+        src: "https://visual.ornato.mk/img/search.svg",
         attributes: e
       })
     },
     I = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/shopping-cart-icon.svg",
+        src: "https://visual.ornato.mk/img/shopping-cart-icon.svg",
         attributes: e
       })
     },
     C = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/product-link.svg",
+        src: "https://visual.ornato.mk/img/product-link.svg",
         attributes: e
       })
     },
     R = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/favorite-wrapper.svg",
+        src: "https://visual.ornato.mk/img/favorite-wrapper.svg",
         attributes: e
       })
     },
     j = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/link.svg",
+        src: "https://visual.ornato.mk/img/link.svg",
         attributes: e
       })
     },
     L = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/settings.svg",
+        src: "https://visual.ornato.mk/img/settings.svg",
         attributes: e
       })
     },
     w = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/like.svg"
+        src: "https://visual.ornato.mk/img/like.svg"
       })
     },
     P = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/pinterest.svg"
+        src: "https://visual.ornato.mk/img/pinterest.svg"
       })
     },
     N = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/twitter.svg"
+        src: "https://visual.ornato.mk/img/twitter.svg"
       })
     },
     k = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/share.svg"
+        src: "https://visual.ornato.mk/img/share.svg"
       })
     },
     F = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/facebook.svg"
+        src: "https://visual.ornato.mk/img/facebook.svg"
       })
     },
     D = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/arrow.svg"
+        src: "https://visual.ornato.mk/img/arrow.svg"
       })
     },
     M = function(t) {
@@ -2152,7 +2152,7 @@
     },
     U = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/photo.svg"
+        src: "https://visual.ornato.mk/img/photo.svg"
       })
     },
     V = function() {
@@ -2162,36 +2162,36 @@
     },
     x = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/more.svg"
+        src: "https://visual.ornato.mk/img/more.svg"
       })
     },
     H = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/shopping-cart.svg",
+        src: "https://visual.ornato.mk/img/shopping-cart.svg",
         attributes: e
       })
     },
     B = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/shopping-cart-delete.svg",
+        src: "https://visual.ornato.mk/img/shopping-cart-delete.svg",
         attributes: e
       })
     },
     G = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/download.svg"
+        src: "https://visual.ornato.mk/img/download.svg"
       })
     },
     W = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/my-room.svg"
+        src: "https://visual.ornato.mk/img/my-room.svg"
       })
     },
     z = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/reset-overlay.svg"
+        src: "https://visual.ornato.mk/img/reset-overlay.svg"
       })
     },
     K = function() {
@@ -2202,38 +2202,38 @@
     Y = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/wizart-logo.svg",
+        src: "https://visual.ornato.mk/img/wizart-logo.svg",
         attributes: e
       })
     },
     q = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/close.svg"
+        src: "https://visual.ornato.mk/img/close.svg"
       })
     },
     Q = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/add-to-shopping-cart.svg"
+        src: "https://visual.ornato.mk/img/add-to-shopping-cart.svg"
       })
     },
     J = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/envelope.svg"
+        src: "https://visual.ornato.mk/img/envelope.svg"
       })
     },
     Z = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/contact_name.svg"
+        src: "https://visual.ornato.mk/img/contact_name.svg"
       })
     },
     $ = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/catalog-button.svg"
+        src: "https://visual.ornato.mk/img/catalog-button.svg"
       })
     },
     X = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/catalog-inner.svg"
+        src: "https://visual.ornato.mk/img/catalog-inner.svg"
       })
     },
     tt = function() {
@@ -2243,17 +2243,17 @@
     },
     et = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/privacy.svg"
+        src: "https://visual.ornato.mk/img/privacy.svg"
       })
     },
     nt = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/disclaimer.svg"
+        src: "https://visual.ornato.mk/img/disclaimer.svg"
       })
     },
     rt = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/more-mobile.svg"
+        src: "https://visual.ornato.mk/img/more-mobile.svg"
       })
     },
     it = function() {
@@ -2263,76 +2263,76 @@
     },
     ot = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/rotate-floor-icon.svg"
+        src: "https://visual.ornato.mk/img/rotate-floor-icon.svg"
       })
     },
     at = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/show-original.svg"
+        src: "https://visual.ornato.mk/img/show-original.svg"
       })
     },
     ct = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/face_positive.svg"
+        src: "https://visual.ornato.mk/img/face_positive.svg"
       })
     },
     ut = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/face_sad.svg"
+        src: "https://visual.ornato.mk/img/face_sad.svg"
       })
     },
     lt = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/face_neutral.svg"
+        src: "https://visual.ornato.mk/img/face_neutral.svg"
       })
     },
     st = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/comment.svg"
+        src: "https://visual.ornato.mk/img/comment.svg"
       })
     },
     dt = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/roller-wall.svg",
+        src: "https://visual.ornato.mk/img/roller-wall.svg",
         attributes: e
       })
     },
     ft = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/roller-floor.svg",
+        src: "https://visual.ornato.mk/img/roller-floor.svg",
         attributes: e
       })
     },
     pt = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/camera-small.svg"
+        src: "https://visual.ornato.mk/img/camera-small.svg"
       })
     },
     _t = function() {
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/uploadButtonL.svg"
+        src: "https://visual.ornato.mk/img/uploadButtonL.svg"
       })
     },
     vt = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/disabled.svg",
+        src: "https://visual.ornato.mk/img/disabled.svg",
         attributes: e
       })
     },
     bt = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/heart.svg",
+        src: "https://visual.ornato.mk/img/heart.svg",
         attributes: e
       })
     },
     Ot = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "http://visual.ornato.mk/img/back.svg",
+        src: "https://visual.ornato.mk/img/back.svg",
         attributes: e
       })
     }
@@ -8263,7 +8263,6 @@
     a = n.n(o),
     c = n(240),
     u = n(216),
-    l = n(248),
     s = function() {
       return (s = Object.assign || function(t) {
         for (var e, n = 1, r = arguments.length; n < r; n++)
@@ -8299,18 +8298,7 @@
         overlap: o,
         size: u
       }).root;
-    return i.a.createElement(l.a, s({
-      classes: {
-        root: _,
-        badge: a()("w-badge", {
-          "w-badge--l": "l" === u
-        })
-      },
-      badgeContent: n,
-      max: 99,
-      overlap: o,
-      showZero: !1
-    }, p), e)
+    return null
   }
 }, , function(t, e, n) {
   "use strict";
@@ -8375,57 +8363,57 @@
     d = n(3),
     f = function() {
       return o.a.createElement(d.h, {
-        src: "http://visual.ornato.mk/img/brick-bond-pattern.svg"
+        src: "https://visual.ornato.mk/img/brick-bond-pattern.svg"
       })
     },
     p = function() {
       return o.a.createElement(d.h, {
-        src: "http://visual.ornato.mk/img/offset-1-3.svg"
+        src: "https://visual.ornato.mk/img/offset-1-3.svg"
       })
     },
     _ = function() {
       return o.a.createElement(d.h, {
-        src: "http://visual.ornato.mk/img/no-offset-pattern.svg"
+        src: "https://visual.ornato.mk/img/no-offset-pattern.svg"
       })
     },
     v = function() {
       return o.a.createElement(d.h, {
-        src: "http://visual.ornato.mk/img/no-offset-carpet-tile.pattern.svg"
+        src: "https://visual.ornato.mk/img/no-offset-carpet-tile.pattern.svg"
       })
     },
     b = function() {
       return o.a.createElement(d.h, {
-        src: "http://visual.ornato.mk/img/offset-1-2-horizontal-carpet-tile.pattern.svg"
+        src: "https://visual.ornato.mk/img/offset-1-2-horizontal-carpet-tile.pattern.svg"
       })
     },
     O = function() {
       return o.a.createElement(d.h, {
-        src: "http://visual.ornato.mk/img/offset-1-2-carpet-tile.patern.svg"
+        src: "https://visual.ornato.mk/img/offset-1-2-carpet-tile.patern.svg"
       })
     },
     E = function() {
       return o.a.createElement(d.h, {
-        src: "http://visual.ornato.mk/img/chevron.pattern.svg"
+        src: "https://visual.ornato.mk/img/chevron.pattern.svg"
       })
     },
     m = function() {
       return o.a.createElement(d.h, {
-        src: "http://visual.ornato.mk/img/herringbone.pattern.svg"
+        src: "https://visual.ornato.mk/img/herringbone.pattern.svg"
       })
     },
     y = function() {
       return o.a.createElement(d.h, {
-        src: "http://visual.ornato.mk/img/double_herringbone.pattern.svg"
+        src: "https://visual.ornato.mk/img/double_herringbone.pattern.svg"
       })
     },
     g = function() {
       return o.a.createElement(d.h, {
-        src: "http://visual.ornato.mk/img/basket_weave.pattern.svg"
+        src: "https://visual.ornato.mk/img/basket_weave.pattern.svg"
       })
     },
     T = function() {
       return o.a.createElement(d.h, {
-        src: "http://visual.ornato.mk/img/random_offset.pattern.svg"
+        src: "https://visual.ornato.mk/img/random_offset.pattern.svg"
       })
     };
   ! function(t) {
