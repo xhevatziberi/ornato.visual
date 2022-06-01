@@ -338,13 +338,13 @@
         return l(a(a({}, u), {
           // INTERIORS_HOST: "https://rni.wizart.ai",
           // APPLY_HOST: g ? "https://rni.wizart.ai/apply/3d" : "https://rni.wizart.ai/apply",
-          // PIM_HOST: "https://pim-client.wizart.ai",
+          // PIM_HOST: "https://visual.ornato.mk",
           // STATIC_HOST: "http://visual.ornato.mk/images",
           // ANALYTICS_HOST: "https://aw.wizart.ai",
 
           INTERIORS_HOST: "http://visual.ornato.mk/",
           APPLY_HOST: "http://visual.ornato.mk/3d",
-          PIM_HOST: "http://visual.ornato.mk/",
+          PIM_HOST: "http://visual.ornato.mk",
           STATIC_HOST: "http://visual.ornato.mk/images",
           ANALYTICS_HOST: "http://visual.ornato.mk",
 
@@ -3063,11 +3063,11 @@
           body: s
         },
         E = o.b.APPLY_HOST + "/?resize=" + c.d.large + "&device=" + o.b.DEVICE.type;
-        //xhevat
+        /*//xhevat
         console.log(o.b.CLIENT_IDENTIFIER);
         console.log(_());
         console.log(_()(o.b.CLIENT_IDENTIFIER));
-        console.log(_()(o.b.CLIENT_IDENTIFIER).toString());
+        console.log(_()(o.b.CLIENT_IDENTIFIER).toString());*/
       return o.b.DO_NOT_USE_CASHE ? E += "&resources_cache=false" : E = E + "&hash=" + _()(o.b.CLIENT_IDENTIFIER).toString() + "-" + f, fetch(E, O).then((function(t) {
         if (b = t, t.status >= 400 && t.status <= 599) throw Object(v.a)({
           response: JSON.stringify(t),

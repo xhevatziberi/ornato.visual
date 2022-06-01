@@ -1,15 +1,17 @@
 <?php
-$file_out = "scene-9_on-09.jpg";
+// header('Content-Type: application/json; charset=utf-8');
+// $file_out = "scene-9_on-09.jpg";
+
+$json = json_decode(file_get_contents("php://input"), true);
+$file_out = $json['room_data']['room']['id'];
+$file_out .= '-';
+$file_out .= $json['room_data']['room']['walls'][0]['wallpaper']['uuid'];
+$file_out .= '.jpg';
+// echo json_encode( $file_out );
+// return;
+
 
 if (file_exists($file_out)) {
-  // echo 'http://127.0.0.1/php_7x/vizualize/3d/' . $file_out;
-  // return;
-
-   // $image_info = getimagesize($file_out);
-   // header('Content-Type: ' . $image_info['mime']);
-   // header('Content-Length: ' . filesize($file_out));
-   // readfile($file_out);
-
    $path = $file_out;
    $type = pathinfo($path, PATHINFO_EXTENSION);
    $data = file_get_contents($path);
@@ -18,7 +20,9 @@ if (file_exists($file_out)) {
    echo $base64;
 }
 else {
-  // echo 'http://127.0.0.1/php_7x/vizualize/3d/404.jpg';
-  // return;
-    header($_SERVER["SERVER_PROTOCOL"] . " 404 Not Found");
+
+  $path = "404.jpg";
+  $data = file_get_contents($path);
+  $base64 = base64_encode($data);
+  echo $base64;
 }

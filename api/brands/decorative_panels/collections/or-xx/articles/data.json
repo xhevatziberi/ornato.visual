@@ -1,12 +1,12 @@
 {
   "data": [
   {
-    "uuid": "517a777e-ea23-4290-9428-27b0f4e3372f",
+    "uuid": "product-on-09",
     "application_type": ["wall"],
     "type": "wall",
-    "vendor_code": "akupanel-black-ash-horisontal",
-    "sku": "akupanel-black-ash-horisontal",
-    "name": "Akupanel | Black Ash",
+    "vendor_code": "decorative-panel-on-09",
+    "sku": "decorative-panel-on-09",
+    "name": "Decorative Panel | ON-09",
     "description": "",
     "is_visible": true,
     "collection_uuid": "or-xx",
@@ -16,16 +16,16 @@
       "uuid": "or-xx",
       "name": "240x60cm",
       "brand_uuid": "decorative_panels",
-      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
       "is_default_cover": false,
       "order": 13727
     },
     "brand":
     {
       "uuid": "decorative_panels",
-      "name": "Akupanel",
+      "name": "Decorative Panel",
       "country_uuid": "macedonia",
-      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
       "is_default_cover": false
     },
     "image_path": "pim-data\/ornato\/panels\/on-09.jpg",
@@ -41,8 +41,8 @@
     "reverse_180": false,
     "mural": false,
     "rapport_shift": null,
-    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=black-ash"],
-    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=black-ash",
+    "links_by_context": ["https:\/\/ornato.mk\/product\/on-09\/?rel=visual"],
+    "link": "https:\/\/ornato.mk\/product\/on-09\/?rel=visual",
     "regular_price": null,
     "promotional_price": null,
     "currency": null,
@@ -88,12 +88,12 @@
     "pattern": null
   },
   {
-    "uuid": "8f55e79e-3492-47b6-8389-c125b902898d",
+    "uuid": "product-on-24",
     "application_type": ["wall"],
     "type": "wall",
-    "vendor_code": "akupanel-black-ash",
-    "sku": "akupanel-black-ash",
-    "name": "Akupanel | Black Ash",
+    "vendor_code": "decorative-panel-on-24",
+    "sku": "decorative-panel-on-24",
+    "name": "Decorative Panel | ON-24",
     "description": null,
     "is_visible": true,
     "collection_uuid": "or-xx",
@@ -103,7 +103,7 @@
       "uuid": "or-xx",
       "name": "240x60cm",
       "brand_uuid": "decorative_panels",
-      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
       "is_default_cover": false,
       "order": 13727
     },
@@ -112,7 +112,7 @@
       "uuid": "decorative_panels",
       "name": "Akupanel",
       "country_uuid": "macedonia",
-      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
       "is_default_cover": false
     },
     "image_path": "pim-data\/ornato\/panels\/on-24.jpg",
@@ -128,8 +128,8 @@
     "reverse_180": false,
     "mural": false,
     "rapport_shift": null,
-    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=black-ash"],
-    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=black-ash",
+    "links_by_context": ["https:\/\/ornato.mk\/product\/on-24\/?rel=visual"],
+    "link": "https:\/\/ornato.mk\/product\/on-24\/?rel=visual",
     "regular_price": null,
     "promotional_price": null,
     "currency": null,
@@ -175,12 +175,12 @@
     "pattern": null
   },
   {
-    "uuid": "382c18c6-fb83-46b6-b4f9-5145383b9f43",
+    "uuid": "product-on-40",
     "application_type": ["wall"],
     "type": "wall",
-    "vendor_code": "akupanel-blue-horisontal",
-    "sku": "akupanel-blue-horisontal",
-    "name": "Akupanel | Blue Oxide",
+    "vendor_code": "decorative-panel-on-24",
+    "sku": "decorative-panel-on-24",
+    "name": "Decorative Panel | ON-24",
     "description": null,
     "is_visible": true,
     "collection_uuid": "or-xx",
@@ -190,16 +190,16 @@
       "uuid": "or-xx",
       "name": "240x60cm",
       "brand_uuid": "decorative_panels",
-      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
       "is_default_cover": false,
       "order": 13727
     },
     "brand":
     {
       "uuid": "decorative_panels",
-      "name": "Akupanel",
+      "name": "Decorative Panel",
       "country_uuid": "macedonia",
-      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
       "is_default_cover": false
     },
     "image_path": "pim-data\/ornato\/panels\/on-40.jpg",
@@ -215,8 +215,8 @@
     "reverse_180": false,
     "mural": false,
     "rapport_shift": null,
-    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=blue-oxide"],
-    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=blue-oxide",
+    "links_by_context": ["https:\/\/ornato.mk\/product\/on-40\/?rel=visual"],
+    "link": "https:\/\/ornato.mk\/product\/on-40\/?rel=visual",
     "regular_price": null,
     "promotional_price": null,
     "currency": null,
@@ -262,12 +262,12 @@
     "pattern": null
   },
   {
-    "uuid": "a822e355-586e-4944-be1f-3093bb759e6f",
+    "uuid": "product-on-65",
     "application_type": ["wall"],
     "type": "wall",
-    "vendor_code": "akupanel-blue",
+    "vendor_code": "decorative-panel-on-65",
     "sku": "akupanel-blue",
-    "name": "Akupanel | Blue Oxide",
+    "name": "Decorative Panel | ON-65",
     "description": null,
     "is_visible": true,
     "collection_uuid": "or-xx",
@@ -277,7 +277,7 @@
       "uuid": "or-xx",
       "name": "240x60cm",
       "brand_uuid": "decorative_panels",
-      "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+      "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
       "is_default_cover": false,
       "order": 13727
     },
@@ -286,7 +286,7 @@
       "uuid": "decorative_panels",
       "name": "Akupanel",
       "country_uuid": "macedonia",
-      "image_path": "pim-data\/ornato\/covers\/brands\/1-1Klassisk-Eg-sort-Filt_cover_1643971891.jpg",
+      "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
       "is_default_cover": false
     },
     "image_path": "pim-data\/ornato\/panels\/on-65.jpg",
@@ -302,8 +302,8 @@
     "reverse_180": false,
     "mural": false,
     "rapport_shift": null,
-    "links_by_context": ["https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=blue-oxide"],
-    "link": "https:\/\/woodupp.com\/product\/akupanel\/?attribute_pa_colour=blue-oxide",
+    "links_by_context": ["https:\/\/ornato.mk\/product\/on-65\/?rel=visual"],
+    "link": "https:\/\/ornato.mk\/product\/on-65\/?rel=visual",
     "regular_price": null,
     "promotional_price": null,
     "currency": null,
@@ -350,16 +350,16 @@
   }],
   "links":
   {
-    "first": "http:\/\/pim-client.wizart.ai\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=1",
-    "last": "http:\/\/pim-client.wizart.ai\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=2",
+    "first": "http:\/\/visual.ornato.mk\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=1",
+    "last": "http:\/\/visual.ornato.mk\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=2",
     "prev": null,
-    "next": "http:\/\/pim-client.wizart.ai\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=2"
+    "next": "http:\/\/visual.ornato.mk\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=2"
   },
   "meta":
   {
     "current_page": 1,
     "from": 1,
-    "last_page": 2,
+    "last_page": 1,
     "links": [
     {
       "url": null,
@@ -367,23 +367,23 @@
       "active": false
     },
     {
-      "url": "http:\/\/pim-client.wizart.ai\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=1",
+      "url": "http:\/\/visual.ornato.mk\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=1",
       "label": "1",
       "active": true
     },
     {
-      "url": "http:\/\/pim-client.wizart.ai\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=2",
+      "url": "http:\/\/visual.ornato.mk\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=2",
       "label": "2",
       "active": false
     },
     {
-      "url": "http:\/\/pim-client.wizart.ai\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=2",
+      "url": "http:\/\/visual.ornato.mk\/api\/brands\/decorative_panels\/collections\/or-xx\/articles?page=2",
       "label": "pagination.next",
       "active": false
     }],
-    "path": "http:\/\/pim-client.wizart.ai\/api\/brands\/decorative_panels\/collections\/or-xx\/articles",
+    "path": "http:\/\/visual.ornato.mk\/api\/brands\/decorative_panels\/collections\/or-xx\/articles",
     "per_page": 20,
     "to": 20,
-    "total": 28
+    "total": 4
   }
 }
