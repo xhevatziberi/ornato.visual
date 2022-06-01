@@ -37,6 +37,10 @@
         f = a(84),
         _ = a(20),
         h = function(e) {
+          if (typeof e === "undefined") {
+            console.log('un');
+            return;
+          };
           var t = function() {
             e.onClick && e.onClick()
           };

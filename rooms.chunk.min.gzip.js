@@ -490,25 +490,9 @@
               onHandleDeleteRoom: i,
               onHandleSelectRoom: c
             })
-          })))), r.a.createElement(C, null)))
+          })))) ))
         })),
         S = a(81),
-        C = Object(S.a)((function(e) {
-          var t = e.getLocalizationProperty;
-          return r.a.createElement(r.a.Fragment, null, d.b.IS_ENABLED_PRIVACY_POLICY_LINK && r.a.createElement(O.k, {
-            as: "span",
-            fontName: "new_button_small",
-            className: "room-gallery__container"
-          }, r.a.createElement("a", {
-            className: "room-gallery__policy",
-            target: "_blank",
-            rel: "noopener noreferrer",
-            href: d.b.PRIVACY_POLICY_LINK,
-            onClick: function() {
-              return _.c.fireEvent(_.a.openPrivacyPolicy)
-            }
-          }, t("PRIVACY_POLICY_TITLE"))))
-        })),
         I = a(38),
         k = a(5),
         j = a(142),

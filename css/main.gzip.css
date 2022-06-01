@@ -18,10 +18,10 @@
   border: 0;
   border-radius: 52px;
   background: #fff;
-  color: var(--wizart-title-color);
-  font-family: var(--wizart-font-family);
+  color: var(--ornato-title-color);
+  font-family: var(--ornato-font-family);
   cursor: pointer;
-  box-shadow: 0 25px 38px var(--wizart-secondary-color_005), 0 15px 20px var(--wizart-secondary-color_005);
+  box-shadow: 0 25px 38px var(--ornato-secondary-color_005), 0 15px 20px var(--ornato-secondary-color_005);
   min-height: 24px;
   min-width: 60px;
   padding-left: var(--padding-s);
@@ -32,7 +32,7 @@
 }
 
 .common-button:hover {
-  box-shadow: 0 15px 38px var(--wizart-secondary-color_15), 0 15px 12px var(--wizart-secondary-color_005)
+  box-shadow: 0 15px 38px var(--ornato-secondary-color_15), 0 15px 12px var(--ornato-secondary-color_005)
 }
 
 .common-button--m {
@@ -63,22 +63,22 @@
 
 .common-button--extra {
   color: #fff;
-  background: var(--wizart-brand-color);
-  box-shadow: 0 19px 38px var(--wizart-brand-color_15), 0 15px 12px var(--wizart-brand-color_006)
+  background: var(--ornato-brand-color);
+  box-shadow: 0 19px 38px var(--ornato-brand-color_15), 0 15px 12px var(--ornato-brand-color_006)
 }
 
 .common-button--extra:hover {
-  box-shadow: 0 19px 38px var(--wizart-brand-color_50), 0 15px 12px var(--wizart-brand-color_15)
+  box-shadow: 0 19px 38px var(--ornato-brand-color_50), 0 15px 12px var(--ornato-brand-color_15)
 }
 
 .common-button--disabled {
-  color: var(--wizart-secondary-color_40)
+  color: var(--ornato-secondary-color_40)
 }
 
 .common-button--disabled,
 .common-button--disabled:hover {
   box-shadow: none;
-  background: var(--wizart-secondary-color_10)
+  background: var(--ornato-secondary-color_10)
 }
 
 .common-button--available {
@@ -193,33 +193,33 @@
   --scroll-width: 0px;
   --app-height: 100%;
   --layout-width: 1920;
-  --wizart-font-family: San Francisco, Ubuntu, Arial, sans-serif;
-  --wizart-title-color: #242236;
+  --ornato-font-family: San Francisco, Ubuntu, Arial, sans-serif;
+  --ornato-title-color: #242236;
   --small-text-color: rgba(140, 146, 163, 0.6);
-  --wizart-brand-color: #fa5961;
-  --wizart-brand-color_006: rgba(250, 89, 97, 0.06);
-  --wizart-brand-color_007: hsla(0, 0%, 45.5%, 0.07);
-  --wizart-brand-color_15: rgba(250, 89, 97, 0.15);
-  --wizart-brand-color_30: rgba(250, 89, 97, 0.3);
-  --wizart-brand-color_50: rgba(250, 89, 97, 0.5);
-  --wizart-brand-color_60: rgba(250, 89, 97, 0.6);
-  --wizart-secondary-color: #757575;
-  --wizart-secondary-color_005: hsla(0, 0%, 45.9%, 0.05);
-  --wizart-secondary-color_007: hsla(0, 0%, 45.9%, 0.07);
-  --wizart-secondary-color_0075: hsla(0, 0%, 45.9%, 0.075);
-  --wizart-secondary-color_10: hsla(0, 0%, 45.9%, 0.1);
-  --wizart-secondary-color_12: #eee;
-  --wizart-secondary-color_15: hsla(0, 0%, 45.9%, 0.15);
-  --wizart-secondary-color_16: hsla(0, 0%, 45.9%, 0.16);
-  --wizart-secondary-color_20: hsla(0, 0%, 45.9%, 0.2);
-  --wizart-secondary-color_30: hsla(0, 0%, 45.9%, 0.3);
-  --wizart-secondary-color_40: hsla(0, 0%, 45.9%, 0.4);
-  --wizart-secondary-color_50: hsla(0, 0%, 45.9%, 0.5);
-  --wizart-secondary-color_60: hsla(0, 0%, 45.9%, 0.6);
-  --wizart-secondary-color_65: hsla(0, 0%, 45.9%, 0.65);
-  --wizart-secondary-color_70: hsla(0, 0%, 45.9%, 0.7);
-  --wizart-secondary-color_80: hsla(0, 0%, 45.9%, 0.8);
-  --wizart-secondary-color_90: hsla(0, 0%, 45.9%, 0.9);
+  --ornato-brand-color: #fa5961;
+  --ornato-brand-color_006: rgba(250, 89, 97, 0.06);
+  --ornato-brand-color_007: hsla(0, 0%, 45.5%, 0.07);
+  --ornato-brand-color_15: rgba(250, 89, 97, 0.15);
+  --ornato-brand-color_30: rgba(250, 89, 97, 0.3);
+  --ornato-brand-color_50: rgba(250, 89, 97, 0.5);
+  --ornato-brand-color_60: rgba(250, 89, 97, 0.6);
+  --ornato-secondary-color: #757575;
+  --ornato-secondary-color_005: hsla(0, 0%, 45.9%, 0.05);
+  --ornato-secondary-color_007: hsla(0, 0%, 45.9%, 0.07);
+  --ornato-secondary-color_0075: hsla(0, 0%, 45.9%, 0.075);
+  --ornato-secondary-color_10: hsla(0, 0%, 45.9%, 0.1);
+  --ornato-secondary-color_12: #eee;
+  --ornato-secondary-color_15: hsla(0, 0%, 45.9%, 0.15);
+  --ornato-secondary-color_16: hsla(0, 0%, 45.9%, 0.16);
+  --ornato-secondary-color_20: hsla(0, 0%, 45.9%, 0.2);
+  --ornato-secondary-color_30: hsla(0, 0%, 45.9%, 0.3);
+  --ornato-secondary-color_40: hsla(0, 0%, 45.9%, 0.4);
+  --ornato-secondary-color_50: hsla(0, 0%, 45.9%, 0.5);
+  --ornato-secondary-color_60: hsla(0, 0%, 45.9%, 0.6);
+  --ornato-secondary-color_65: hsla(0, 0%, 45.9%, 0.65);
+  --ornato-secondary-color_70: hsla(0, 0%, 45.9%, 0.7);
+  --ornato-secondary-color_80: hsla(0, 0%, 45.9%, 0.8);
+  --ornato-secondary-color_90: hsla(0, 0%, 45.9%, 0.9);
   --padding-m: 24px;
   --padding-l: 36px;
   --padding-xl: 48px;
@@ -330,7 +330,7 @@
   transition: background-color .3s;
   height: var(--flexible-button-size-m);
   padding: 0 var(--flexible-block-padding);
-  background-color: var(--wizart-brand-color);
+  background-color: var(--ornato-brand-color);
   border-radius: var(--flexible-border-radius-m);
   display: grid;
   align-items: center;
@@ -338,7 +338,7 @@
 }
 
 .button:hover {
-  background-color: var(--wizart-brand-color_60)
+  background-color: var(--ornato-brand-color_60)
 }
 
 .button--available {
@@ -394,7 +394,7 @@
 .control-button__icon {
   width: var(--icon-in-button-size-l);
   height: 100%;
-  color: var(--wizart-title-color);
+  color: var(--ornato-title-color);
   transition: color .3s
 }
 
@@ -403,7 +403,7 @@
 }
 
 .control-button__icon--active {
-  color: var(--wizart-brand-color)
+  color: var(--ornato-brand-color)
 }
 
 .control-button__text {
@@ -419,7 +419,7 @@
 }
 
 .control-button--desktop.control-button:hover .control-button__icon {
-  color: var(--wizart-brand-color)
+  color: var(--ornato-brand-color)
 }
 
 .control-button--desktop.control-button .control-button__icon svg {
@@ -497,7 +497,7 @@ h2.text-field.mobile {
 }
 
 .title-color {
-  color: var(--wizart-title-color)
+  color: var(--ornato-title-color)
 }
 
 .new_body_small.text-field {
@@ -626,11 +626,11 @@ h2.text-field.mobile {
 }
 
 .shopping-cart-button--active {
-  background-color: var(--wizart-brand-color)
+  background-color: var(--ornato-brand-color)
 }
 
 .shopping-cart-button--active:hover {
-  background-color: var(--wizart-brand-color_60)
+  background-color: var(--ornato-brand-color_60)
 }
 
 .shopping-cart-button__title {
@@ -682,7 +682,7 @@ h2.text-field.mobile {
 
 .w-catalog-image__favorite-icon path[name=border] {
   transition: color .3s;
-  color: var(--wizart-title-color)
+  color: var(--ornato-title-color)
 }
 
 .w-catalog-image__favorite--is-active .w-catalog-image__favorite-icon {
@@ -706,7 +706,7 @@ h2.text-field.mobile {
 
 .pattern__inner {
   border-radius: 14px;
-  background-color: var(--wizart-secondary-color_10);
+  background-color: var(--ornato-secondary-color_10);
   transition: background-color .3s, box-shadow .3s;
   cursor: pointer
 }
@@ -715,12 +715,12 @@ h2.text-field.mobile {
   width: 2.25rem;
   height: 2.25rem;
   transition: color .3s;
-  color: var(--wizart-secondary-color)
+  color: var(--ornato-secondary-color)
 }
 
 .pattern__inner--active {
   cursor: auto;
-  background-color: var(--wizart-secondary-color)
+  background-color: var(--ornato-secondary-color)
 }
 
 .pattern__inner--active svg {
@@ -763,7 +763,7 @@ h2.text-field.mobile {
 
 .laying-patterns__rotate {
   border-radius: 50%;
-  border: 1px solid var(--wizart-secondary-color_10)
+  border: 1px solid var(--ornato-secondary-color_10)
 }
 
 .laying-patterns__rotate svg {
@@ -856,7 +856,7 @@ h2.text-field.mobile {
 .favorite-button__dot {
   width: .75rem;
   height: .75rem;
-  background-color: var(--wizart-brand-color);
+  background-color: var(--ornato-brand-color);
   border-radius: 50%;
   top: -1px;
   right: -1px;
@@ -875,7 +875,7 @@ h2.text-field.mobile {
   width: var(--flexible-button-size-m);
   height: var(--flexible-button-size-m);
   border-radius: 50%;
-  border: 1px solid var(--wizart-secondary-color_20);
+  border: 1px solid var(--ornato-secondary-color_20);
   cursor: pointer
 }
 
@@ -906,7 +906,7 @@ h2.text-field.mobile {
   position: relative;
   box-sizing: border-box;
   border-radius: 50%;
-  border: 1px solid var(--wizart-secondary-color_20)
+  border: 1px solid var(--ornato-secondary-color_20)
 }
 
 [data-device=tablet] .favorite-button,
@@ -934,8 +934,8 @@ h2.text-field.mobile {
 .w-input {
   width: 100%;
   height: var(--flexible-button-size-m);
-  color: var(--wizart-title-color);
-  border: 1px solid var(--wizart-secondary-color_20);
+  color: var(--ornato-title-color);
+  border: 1px solid var(--ornato-secondary-color_20);
   font-size: 1rem;
   line-height: 1.375rem;
   font-weight: 400;
@@ -952,7 +952,7 @@ h2.text-field.mobile {
 }
 
 .w-input::placeholder {
-  color: var(--wizart-secondary-color_60)
+  color: var(--ornato-secondary-color_60)
 }
 
 .w-input__actions {
@@ -976,12 +976,12 @@ h2.text-field.mobile {
   height: var(--flexible-button-size-s);
   position: absolute;
   margin-left: var(--flexible-small-padding);
-  color: var(--wizart-secondary-color_60);
+  color: var(--ornato-secondary-color_60);
   transition: color .3s
 }
 
 .w-input__icon--active {
-  color: var(--wizart-title-color)
+  color: var(--ornato-title-color)
 }
 
 .w-input__wrapper {
@@ -1000,12 +1000,12 @@ h2.text-field.mobile {
   cursor: pointer;
   width: var(--flexible-button-icon-size-m);
   height: var(--flexible-button-icon-size-m);
-  color: var(--wizart-secondary-color_60)
+  color: var(--ornato-secondary-color_60)
 }
 
 .w-input__mana {
   cursor: pointer;
-  color: var(--wizart-title-color)
+  color: var(--ornato-title-color)
 }
 
 .w-input__button,
@@ -1047,14 +1047,14 @@ h2.text-field.mobile {
   display: flex;
   justify-content: space-around;
   padding: 17px 20px 13px 23px;
-  border-bottom: .75px solid var(--wizart-secondary-color_40)
+  border-bottom: .75px solid var(--ornato-secondary-color_40)
 }
 
 .w-article-filters__header-title {
   font-size: 25px;
   line-height: 26px;
   letter-spacing: .5px;
-  color: var(--wizart-secondary-color_40)
+  color: var(--ornato-secondary-color_40)
 }
 
 .w-badge {
@@ -1065,8 +1065,8 @@ h2.text-field.mobile {
   min-width: .875rem !important;
   border-radius: .4375rem !important;
   font-weight: 800 !important;
-  font-family: var(--wizart-font-family) !important;
-  background-color: var(--wizart-brand-color) !important;
+  font-family: var(--ornato-font-family) !important;
+  background-color: var(--ornato-brand-color) !important;
   color: #fff !important;
   padding: .125rem !important;
   font-size: .625rem !important;
@@ -1095,8 +1095,8 @@ h2.text-field.mobile {
   min-width: 12px !important;
   border-radius: 6px !important;
   font-weight: 800 !important;
-  font-family: var(--wizart-font-family) !important;
-  background-color: var(--wizart-brand-color) !important;
+  font-family: var(--ornato-font-family) !important;
+  background-color: var(--ornato-brand-color) !important;
   color: #fff !important;
   padding: 1.25px !important;
   font-size: 8px !important;
@@ -1386,7 +1386,7 @@ h2.text-field.mobile {
 .w-feedback-negative,
 .w-feedback-neutral,
 .w-feedback-positive {
-  background: var(--wizart-secondary-color_10)
+  background: var(--ornato-secondary-color_10)
 }
 
 .radio input {
@@ -1413,7 +1413,7 @@ h2.text-field.mobile {
 .message-svg {
   height: 60px;
   width: 60px;
-  color: var(--wizart-secondary-color);
+  color: var(--ornato-secondary-color);
   opacity: .6;
   display: flex;
   align-items: center;
@@ -1435,9 +1435,9 @@ h2.text-field.mobile {
   width: 100%;
   box-sizing: border-box;
   border-bottom: 2px solid;
-  border-color: var(--wizart-secondary-color_30);
+  border-color: var(--ornato-secondary-color_30);
   border-top: 2px solid;
-  border-top-color: var(--wizart-secondary-color_30)
+  border-top-color: var(--ornato-secondary-color_30)
 }
 
 .w-feedback-textarea {
@@ -1512,20 +1512,20 @@ h2.text-field.mobile {
 }
 
 .w-secondary-button svg {
-  color: var(--wizart-secondary-color_80);
+  color: var(--ornato-secondary-color_80);
   transition: color .3s, background-color .3s
 }
 
 .w-secondary-button:hover {
-  background-color: var(--wizart-secondary-color_20)
+  background-color: var(--ornato-secondary-color_20)
 }
 
 .w-secondary-button:hover svg {
-  color: var(--wizart-secondary-color_80)
+  color: var(--ornato-secondary-color_80)
 }
 
 .w-secondary-button:active {
-  background-color: var(--wizart-secondary-color_80)
+  background-color: var(--ornato-secondary-color_80)
 }
 
 .w-secondary-button:active svg {
@@ -1542,11 +1542,11 @@ h2.text-field.mobile {
 
 html {
   font-size: 16px;
-  background-color: var(--wizart-secondary-color_12)
+  background-color: var(--ornato-secondary-color_12)
 }
 
 .bg-container {
-  background-color: var(--wizart-secondary-color_12) !important
+  background-color: var(--ornato-secondary-color_12) !important
 }
 
 body {
@@ -1594,7 +1594,7 @@ ul {
   margin: 0
 }
 
-.wizart-app-container {
+.ornato-app-container {
   width: 100vw;
   height: var(--app-height)
 }
@@ -1625,7 +1625,7 @@ ul {
 }
 
 html * {
-  font-family: var(--wizart-font-family);
+  font-family: var(--ornato-font-family);
   font-style: normal;
   font-weight: 400
 }

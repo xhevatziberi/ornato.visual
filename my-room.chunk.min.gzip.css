@@ -1,1 +1,210 @@
-.my-room__card{border-radius:var(--flexible-border-radius-s);background-color:#fff}.my-room__card-image{width:9.25rem;height:9.25rem;object-fit:cover;border-radius:var(--flexible-border-radius-s)}.my-room__card-image-wrapper{width:9.25rem;height:9.25rem;position:relative}.my-room__card-image--active{cursor:pointer}.my-room__card-image--contained{object-fit:contain}.my-room__card-main-part{display:grid;grid-template-columns:9.25rem auto}.my-room__card-seconadary-part{padding:var(--flexible-block-padding)}.my-room__card-seconadary-part>div{padding-bottom:var(--flexible-item-padding)}.my-room__card-seconadary-part>div:last-child{padding-bottom:0}.my-room__card-main_info{padding:var(--flexible-item-padding);display:grid;grid-template-rows:auto var(--flexible-button-size-m)}.my-room__card-main_data>div,.my-room__card-main_data span{padding-bottom:var(--flexible-small-padding)}.my-room__card-sku{color:var(--wizart-title-color)}.my-room__card-link_icon{margin-left:var(--flexible-item-padding);width:.8125rem;height:.8125rem}.my-room__card-shopping_cart{display:grid;justify-content:end}.my-room__card-description{margin:var(--flexible-block-padding) var(--flexible-block-padding) 0 var(--flexible-block-padding);padding-bottom:var(--flexible-block-padding);border-bottom:1px solid rgba(140,146,163,.1)}.my-room__card-description_title{padding-bottom:var(--flexible-item-padding)}[data-device=mobile] .my-room__card-image,[data-device=mobile] .my-room__card-image-wrapper{width:108px;height:108px}[data-device=mobile] .my-room__card-main-part{grid-template-columns:108px auto}[data-device=mobile] .my-room__card-main_info{grid-template-rows:auto var(--const-button-size-s)}[data-device=mobile] .my-room__card-link_icon{width:10px;height:10px}.w-secondary-button{transition:background-color .3s;cursor:pointer}.w-secondary-button svg{color:var(--wizart-secondary-color_80);transition:color .3s,background-color .3s}.w-secondary-button:hover{background-color:var(--wizart-secondary-color_20)}.w-secondary-button:hover svg{color:var(--wizart-secondary-color_80)}.w-secondary-button:active{background-color:var(--wizart-secondary-color_80)}.w-secondary-button:active svg{color:var(--background_color)}@media (max-width:1440px){[data-device=desktop]{--button-size-l:36px;--icon-in-button-size-l:23.75px;--padding-in-seconadary-items:12px}}.redesigned-modal__header{display:grid;grid-template-columns:calc(100% - var(--flexible-button-size-m)) var(--flexible-button-size-m);padding:var(--flexible-block-padding);align-items:center}.redesigned-modal__title{padding-left:var(--flexible-small-padding)}.redesigned-modal__close{cursor:pointer}.redesigned-modal__close,.redesigned-modal__close svg{width:var(--flexible-button-size-m);height:var(--flexible-button-size-m)}.redesigned-modal{overflow:hidden;height:100%;width:100%;padding:env(safe-area-inset-top,0) env(safe-area-inset-right,0) env(safe-area-inset-bottom,0) env(safe-area-inset-left,0);display:grid;grid-template-rows:max-content auto}.redesigned-modal__container{overflow:auto;background-color:var(--wizart-secondary-color_005)}.redesigned-modal__container--padding{padding:var(--flexible-block-padding)}.redesigned-modal--hidden{overflow:hidden}[data-device=desktop] .redesigned-modal--cut-down{width:var(--layout-right-width)}.my-room__list{display:grid;grid-gap:var(--flexible-block-padding)}.my-room__stub-card{width:100%!important;height:9.25rem!important;border-radius:var(--flexible-border-radius-s)!important;background-color:var(--wizart-secondary-color_10)!important}[data-device=tablet] .my-room__list{grid-template-columns:repeat(3,1fr)}@media (orientation:portrait){[data-device=tablet] .my-room__list{grid-template-columns:repeat(2,1fr)}}@media (orientation:landscape){[data-device=mobile] .my-room__list{grid-template-columns:repeat(2,1fr)}}[data-device=mobile] .my-room__stub-card{height:108px!important}
+.my-room__card {
+  border-radius: var(--flexible-border-radius-s);
+  background-color: #fff
+}
+
+.my-room__card-image {
+  width: 9.25rem;
+  height: 9.25rem;
+  object-fit: cover;
+  border-radius: var(--flexible-border-radius-s)
+}
+
+.my-room__card-image-wrapper {
+  width: 9.25rem;
+  height: 9.25rem;
+  position: relative
+}
+
+.my-room__card-image--active {
+  cursor: pointer
+}
+
+.my-room__card-image--contained {
+  object-fit: contain
+}
+
+.my-room__card-main-part {
+  display: grid;
+  grid-template-columns: 9.25rem auto
+}
+
+.my-room__card-seconadary-part {
+  padding: var(--flexible-block-padding)
+}
+
+.my-room__card-seconadary-part>div {
+  padding-bottom: var(--flexible-item-padding)
+}
+
+.my-room__card-seconadary-part>div:last-child {
+  padding-bottom: 0
+}
+
+.my-room__card-main_info {
+  padding: var(--flexible-item-padding);
+  display: grid;
+  grid-template-rows: auto var(--flexible-button-size-m)
+}
+
+.my-room__card-main_data>div,
+.my-room__card-main_data span {
+  padding-bottom: var(--flexible-small-padding)
+}
+
+.my-room__card-sku {
+  color: var(--ornato-title-color)
+}
+
+.my-room__card-link_icon {
+  margin-left: var(--flexible-item-padding);
+  width: .8125rem;
+  height: .8125rem
+}
+
+.my-room__card-shopping_cart {
+  display: grid;
+  justify-content: end
+}
+
+.my-room__card-description {
+  margin: var(--flexible-block-padding) var(--flexible-block-padding) 0 var(--flexible-block-padding);
+  padding-bottom: var(--flexible-block-padding);
+  border-bottom: 1px solid rgba(140, 146, 163, .1)
+}
+
+.my-room__card-description_title {
+  padding-bottom: var(--flexible-item-padding)
+}
+
+[data-device=mobile] .my-room__card-image,
+[data-device=mobile] .my-room__card-image-wrapper {
+  width: 108px;
+  height: 108px
+}
+
+[data-device=mobile] .my-room__card-main-part {
+  grid-template-columns: 108px auto
+}
+
+[data-device=mobile] .my-room__card-main_info {
+  grid-template-rows: auto var(--const-button-size-s)
+}
+
+[data-device=mobile] .my-room__card-link_icon {
+  width: 10px;
+  height: 10px
+}
+
+.w-secondary-button {
+  transition: background-color .3s;
+  cursor: pointer
+}
+
+.w-secondary-button svg {
+  color: var(--ornato-secondary-color_80);
+  transition: color .3s, background-color .3s
+}
+
+.w-secondary-button:hover {
+  background-color: var(--ornato-secondary-color_20)
+}
+
+.w-secondary-button:hover svg {
+  color: var(--ornato-secondary-color_80)
+}
+
+.w-secondary-button:active {
+  background-color: var(--ornato-secondary-color_80)
+}
+
+.w-secondary-button:active svg {
+  color: var(--background_color)
+}
+
+@media (max-width:1440px) {
+  [data-device=desktop] {
+    --button-size-l: 36px;
+    --icon-in-button-size-l: 23.75px;
+    --padding-in-seconadary-items: 12px
+  }
+}
+
+.redesigned-modal__header {
+  display: grid;
+  grid-template-columns: calc(100% - var(--flexible-button-size-m)) var(--flexible-button-size-m);
+  padding: var(--flexible-block-padding);
+  align-items: center
+}
+
+.redesigned-modal__title {
+  padding-left: var(--flexible-small-padding)
+}
+
+.redesigned-modal__close {
+  cursor: pointer
+}
+
+.redesigned-modal__close,
+.redesigned-modal__close svg {
+  width: var(--flexible-button-size-m);
+  height: var(--flexible-button-size-m)
+}
+
+.redesigned-modal {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  padding: env(safe-area-inset-top, 0) env(safe-area-inset-right, 0) env(safe-area-inset-bottom, 0) env(safe-area-inset-left, 0);
+  display: grid;
+  grid-template-rows: max-content auto
+}
+
+.redesigned-modal__container {
+  overflow: auto;
+  background-color: var(--ornato-secondary-color_005)
+}
+
+.redesigned-modal__container--padding {
+  padding: var(--flexible-block-padding)
+}
+
+.redesigned-modal--hidden {
+  overflow: hidden
+}
+
+[data-device=desktop] .redesigned-modal--cut-down {
+  width: var(--layout-right-width)
+}
+
+.my-room__list {
+  display: grid;
+  grid-gap: var(--flexible-block-padding)
+}
+
+.my-room__stub-card {
+  width: 100% !important;
+  height: 9.25rem !important;
+  border-radius: var(--flexible-border-radius-s) !important;
+  background-color: var(--ornato-secondary-color_10) !important
+}
+
+[data-device=tablet] .my-room__list {
+  grid-template-columns: repeat(3, 1fr)
+}
+
+@media (orientation:portrait) {
+  [data-device=tablet] .my-room__list {
+    grid-template-columns: repeat(2, 1fr)
+  }
+}
+
+@media (orientation:landscape) {
+  [data-device=mobile] .my-room__list {
+    grid-template-columns: repeat(2, 1fr)
+  }
+}
+
+[data-device=mobile] .my-room__stub-card {
+  height: 108px !important
+}

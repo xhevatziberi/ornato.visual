@@ -12,7 +12,7 @@
   <!-- End Header Scripts -->
 
   <style type="text/css">
-    #wizart-web-loader {
+    #ornato-web-loader {
       position: fixed;
       top: 0;
       left: 0;
@@ -74,9 +74,9 @@
   <!-- Begin Body Scripts -->
   <!-- End Body Scripts -->
 
-  <div id="wizart-root"></div>
+  <div id="ornato-root"></div>
 
-  <div id="wizart-web-loader">
+  <div id="ornato-web-loader">
     <div class="loader">Loading...</div>
   </div>
 
@@ -88,7 +88,7 @@
   <script !src="">
     window.onload = function() {
       let initialObject = {
-        token: 'QKLRIVHU1dBjeNZ9PiFTyU75JxmF6EjGI1jmZLGXupfvcf5T9sry0nXOPad0',
+        token: 'xxx',
         client_identifier: 'ornato',
         backButtonAction: function() {
           window.parent.postMessage('close_overlay', '*');
@@ -113,8 +113,6 @@
         currency_by_context: '',
         user_id: '',
         enable_two_way_shopping_cart: '',
-        privacy_policy_link: 'https://www.wizart.ai/legal',
-        cookie_policy_link: 'https://www.wizart.ai/cookie-policy',
         is_enabled_privacy_policy_link: '1',
         enable_two_way_favorites: '0',
         custom_shopping_cart_link: '',
@@ -158,9 +156,9 @@
         is_use_cookies: '',
 
       };
-      window.wizart.init(initialObject);
-      if (document.getElementById('wizart-web-loader')) {
-        document.getElementById('wizart-web-loader').style.display = 'none';
+      window.ornato.init(initialObject);
+      if (document.getElementById('ornato-web-loader')) {
+        document.getElementById('ornato-web-loader').style.display = 'none';
       }
     }
   </script>

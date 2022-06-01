@@ -261,36 +261,36 @@
           , k = n(3)
           , y = function() {
             return c.a.createElement(k.h, {
-                src: "https://d35so7k19vd0fx.cloudfront.net/production/1652866773138/images/cart.svg"
+                src: "https://visual.ornato.mk/img/cart.svg"
             })
         }
           , P = function() {
             return c.a.createElement(k.h, {
-                src: "https://d35so7k19vd0fx.cloudfront.net/production/1652866773138/images/home.svg"
+                src: "https://visual.ornato.mk/img/home.svg"
             })
         }
           , A = function() {
             return c.a.createElement(k.h, {
-                src: "https://d35so7k19vd0fx.cloudfront.net/production/1652866773138/images/menu.svg"
+                src: "https://visual.ornato.mk/img/menu.svg"
             })
         }
           , M = function(e) {
             var t = e.attributes;
             return c.a.createElement(k.h, {
-                src: "https://d35so7k19vd0fx.cloudfront.net/production/1652866773138/images/wallpaper_icon.svg",
+                src: "https://visual.ornato.mk/img/wallpaper_icon.svg",
                 attributes: t
             })
         }
           , S = function(e) {
             var t = e.attributes;
             return c.a.createElement(k.h, {
-                src: "https://d35so7k19vd0fx.cloudfront.net/production/1652866773138/images/catalog-arrow.svg",
+                src: "https://visual.ornato.mk/img/catalog-arrow.svg",
                 attributes: t
             })
         }
           , j = function() {
             return c.a.createElement(k.h, {
-                src: "https://d35so7k19vd0fx.cloudfront.net/production/1652866773138/images/camera.svg"
+                src: "https://visual.ornato.mk/img/camera.svg"
             })
         }
           , I = n(145)

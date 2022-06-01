@@ -261,7 +261,7 @@
         PIM_LOCALE: null,
         ENABLE_TWO_WAY_SHOPPING_CART: null,
         ENABLE_TWO_WAY_FAVORITES: null,
-        IS_WIZART_DEMO: null,
+        IS_ORNATO_DEMO: null,
         MAIN_PAGE_LINK: null,
         MORE_ITEMS: [],
         START_SESSION_TIME: new Date,
@@ -336,11 +336,11 @@
             }
           }(e.custom_apply);
         return l(a(a({}, u), {
-          // INTERIORS_HOST: "https://rni.wizart.ai",
-          // APPLY_HOST: g ? "https://rni.wizart.ai/apply/3d" : "https://rni.wizart.ai/apply",
+          // INTERIORS_HOST: "https://rni.xxx.ai",
+          // APPLY_HOST: g ? "https://rni.xxx.ai/apply/3d" : "https://rni.xxx.ai/apply",
           // PIM_HOST: "https://visual.ornato.mk",
           // STATIC_HOST: "https://visual.ornato.mk/images",
-          // ANALYTICS_HOST: "https://aw.wizart.ai",
+          // ANALYTICS_HOST: "https://aw.xxx.ai",
 
           INTERIORS_HOST: "https://visual.ornato.mk/",
           APPLY_HOST: "https://visual.ornato.mk/3d",
@@ -357,14 +357,12 @@
           LOGO_PATH: e.logo_path || null,
           USER_INDENTIFIER: e.user_id || Object(i.d)(e.token).deviceID,
           MORE_ITEMS: m,
-          ABOUT_APP_LINK: "https://wizart.ai",
           DO_NOT_SHOW_INFO_ABOUT_APP: !!+e.do_not_show_info_about_app || !1,
           TWITTER_MENTION: e.twitter_mention || "",
-          FACEBOOK_APP_ID: e.facebook_app_id || "647396146080915",
-          ORIGINAL_URL: e.original_url || "https://wizart.ai",
+          FACEBOOK_APP_ID: e.facebook_app_id || "xxx",
           DEVICE: n,
           CONTACT_FORM_DELAY_MS: +t.env.CONTACT_FORM_DELAY_MS || 9e4,
-          IS_SHOWN_CONTACT_FORM: "true" === (t.env.IS_SHOWN_CONTACT_FORM || "").toLowerCase() || "1" === e.is_wizart_demo,
+          IS_SHOWN_CONTACT_FORM: "true" === (t.env.IS_SHOWN_CONTACT_FORM || "").toLowerCase() || "1" === e.is_ornato_demo,
           BACK_BUTTON_BACKGROUND: e.back_button_background || "",
           BACK_BUTTON_ICON_COLOR: e.back_button_icon_color || "",
           PREVIEW_ROOM_WIDTH: 75,
@@ -378,7 +376,7 @@
           PRIVACY_POLICY_LINK: e.privacy_policy_link || "",
           IS_ENABLED_PRIVACY_POLICY_LINK: y,
           COOKIE_POLICY_LINK: e.cookie_policy_link || "",
-          IS_WIZART_DEMO: "true" === (t.env.IS_WIZART_DEMO || "").toLowerCase() || "1" === e.is_wizart_demo,
+          IS_ORNATO_DEMO: "true" === (t.env.IS_ORNATO_DEMO || "").toLowerCase() || "1" === e.is_ornato_demo,
           GALLERY_VIEW_TITLE: e.gallery_view_title || "",
           MAIN_COLOR: !!e.main_color || !1,
           FONT_FAMILY_LINK: E || "",
@@ -869,7 +867,7 @@
     },
     f = function(t) {
       var e, n = d(t),
-        r = Object(c.a)("wizart_device_id_cus")[n],
+        r = Object(c.a)("ornato_device_id_cus")[n],
         i = !1;
       return r || ((null === (e = window.document) || void 0 === e ? void 0 : e.hasStorageAccess) ? ((r = Object(a.a)("w_guid_" + Object(a.b)(t))) && void 0 !== r && "undefined" !== r ? _(function(t) {
         var e = u({}, p);
@@ -898,29 +896,29 @@
     },
     _ = function(t, e) {
       var n = d(e || r.b.TOKEN),
-        i = Object(c.a)("wizart_device_settings"),
+        i = Object(c.a)("ornato_device_settings"),
         o = u({}, i);
-      o[n] = t, Object(c.c)("wizart_device_settings", o)
+      o[n] = t, Object(c.c)("ornato_device_settings", o)
     },
     v = function() {
       var t = d(r.b.TOKEN),
-        e = Object(c.a)("wizart_device_settings")[t];
+        e = Object(c.a)("ornato_device_settings")[t];
       return e || _(e = p), e.shoppingCartWithCollections || (e.shoppingCartWithCollections = [], _(e)), e.favoritesWithCollections || (e.favoritesWithCollections = {
         wall: [],
         floor: []
       }, _(e)), e
     },
     b = function(t, e) {
-      var n = Object(c.a)("wizart_device_id_cus"),
+      var n = Object(c.a)("ornato_device_id_cus"),
         r = u({}, n);
-      r[t] = e, Object(c.c)("wizart_device_id_cus", r)
+      r[t] = e, Object(c.c)("ornato_device_id_cus", r)
     },
     O = function(t, e) {
       void 0 === e && (e = "");
       var n = !1;
       e ? n = function() {
         try {
-          if (window && window.localStorage) return window.localStorage.getItem("wizart_cust_device_id")
+          if (window && window.localStorage) return window.localStorage.getItem("ornato_cust_device_id")
         } catch (t) {
           return null
         }
@@ -1032,7 +1030,7 @@
             b: 255 & e
           },
           r = document.documentElement;
-        r.style.setProperty("--wizart-brand-color", "rgba(" + n.r + "," + n.g + "," + n.b + ", 1)"), r.style.setProperty("--wizart-brand-color_006", "rgba(" + n.r + "," + n.g + "," + n.b + ", 0.06)"), r.style.setProperty("--wizart-brand-color_15", "rgba(" + n.r + "," + n.g + "," + n.b + ", 0.15)"), r.style.setProperty("--wizart-brand-color_30", "rgba(" + n.r + "," + n.g + "," + n.b + ", 0.3)"), r.style.setProperty("--wizart-brand-color_50", "rgba(" + n.r + "," + n.g + "," + n.b + ", 0.5)"), r.style.setProperty("--wizart-brand-color_60", "rgba(" + n.r + "," + n.g + "," + n.b + ", 0.6)")
+        r.style.setProperty("--ornato-brand-color", "rgba(" + n.r + "," + n.g + "," + n.b + ", 1)"), r.style.setProperty("--ornato-brand-color_006", "rgba(" + n.r + "," + n.g + "," + n.b + ", 0.06)"), r.style.setProperty("--ornato-brand-color_15", "rgba(" + n.r + "," + n.g + "," + n.b + ", 0.15)"), r.style.setProperty("--ornato-brand-color_30", "rgba(" + n.r + "," + n.g + "," + n.b + ", 0.3)"), r.style.setProperty("--ornato-brand-color_50", "rgba(" + n.r + "," + n.g + "," + n.b + ", 0.5)"), r.style.setProperty("--ornato-brand-color_60", "rgba(" + n.r + "," + n.g + "," + n.b + ", 0.6)")
       }
     },
     C = function(t) {
@@ -1064,7 +1062,7 @@
         }].find((function(e) {
           return e.name === t
         }));
-        if (e) return document.documentElement.style.setProperty("--wizart-font-family", e.font_family), e.link
+        if (e) return document.documentElement.style.setProperty("--ornato-font-family", e.font_family), e.link
       }
     },
     R = function(t, e, n) {
@@ -1122,19 +1120,19 @@
       }).apply(this, arguments)
     },
     s = {
-      apiKey: "AIzaSyDjLo50uC8OpdgIvwcDjvacLudvkeNs7cU",
-      authDomain: "wizart-web.firebaseapp.com",
-      databaseURL: "https://wizart-web.firebaseio.com",
-      projectId: "wizart-web",
-      storageBucket: "wizart-web.appspot.com",
-      messagingSenderId: "474302746497",
-      appId: "1:474302746497:web:99a7f8063d5fe63d92a280",
-      measurementId: "G-HSF38XVDEV"
+      apiKey: "xxx",
+      authDomain: "xxx",
+      databaseURL: "xxx",
+      projectId: "ornato-web",
+      storageBucket: "xxx",
+      messagingSenderId: "xxx",
+      appId: "xxx",
+      measurementId: "xxx"
     },
     d = function(t, e) {
       try {
         window && window.parent && window.parent.postMessage && window.parent.postMessage({
-          eventName: "wizart_analytics",
+          eventName: "ornato_analytics",
           analyticsEventName: t,
           payload: e
         }, "*")
@@ -1449,7 +1447,7 @@
           cohort_time: c.getHours() + ":" + c.getMinutes(),
           session_time: (t = c, e = a.b.START_SESSION_TIME, n = (t.getTime() - e.getTime()) / 1e3, n /= 60, Math.abs(Math.round(n)))
         };
-      r.d.sendLogEvent(i.b.wizartSessionFinish, {
+      r.d.sendLogEvent(i.b.ornatoSessionFinish, {
         additional_data: {
           eventValue: u
         }
@@ -1992,7 +1990,7 @@
     l = "https://visual.ornato.mk/img/about-app.svg",
     s = "https://visual.ornato.mk/img/bad-photo.fl.svg",
     d = "https://visual.ornato.mk/img/close.fl.svg",
-    f = "https://visual.ornato.mk/img/small-wizart-logo.fl.svg",
+    f = "https://visual.ornato.mk/img/small-ornato-logo.fl.svg",
     p = "https://visual.ornato.mk/img/proccessing.png",
     _ = function(t) {
       var e = t.attributes;
@@ -2039,7 +2037,7 @@
     y = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "https://visual.ornato.mk/img/wizart.more.svg",
+        src: "https://visual.ornato.mk/img/ornato.more.svg",
         attributes: e
       })
     },
@@ -2202,7 +2200,7 @@
     Y = function(t) {
       var e = t.attributes;
       return i.a.createElement(o.h, {
-        src: "https://visual.ornato.mk/img/wizart-logo.svg",
+        src: "https://visual.ornato.mk/img/ornato-logo.svg",
         attributes: e
       })
     },
@@ -2901,7 +2899,7 @@
       return o
     })),
     function(t) {
-      t.sendFoto = "send_foto", t.openGallery = "gallery_open", t.selectRoom = "predefined_interior_selected", t.selectMyRoom = "custom_interior_selected", t.startRoomUpload = "custom_interior_start_upload", t.onClickUploudInterior = "custom_interior_selection_started", t.endRoomUpload = "photo_uploaded", t.errorRoomUpload = "error_photo_uploaded", t.customInteriorUploadError = "custom_interior_upload_error", t.openPrivacyPolicy = "privacy_policy_open", t.startCatalog = "catalog_start", t.selectSurface = "surface_select", t.unselectSurface = "surface_unselect", t.selectBrand = "brand_selected", t.selectCollection = "collection_selected", t.selectArticle = "article_selection", t.selectHome = "home", t.selectBackStep = "back", t.startSearch = "start_search", t.openMyRoom = "my_room_open", t.closeMyRoom = "my_room_close", t.changeBeforeAfterMode = "before-after", t.openDownloadView = "download_menu", t.closeDownloadView = "close_download_menu", t.downloadOriginal = "download_original", t.downloadResult = "download_result", t.downloadResultWithInfo = "download_result_with_info", t.clearSurfaces = "clear", t.launchFirstTime = "launch_first_time", t.sessionStart = "wizart_session_start", t.clickInfo = "info", t.clickClear = "clear", t.apply = "apply", t.shareImage = "share_image", t.rateTheImageStart = "rate_the_image_start", t.imageRated = "image_rated", t.createPhoto = "create", t.addToFavorite = "add_to_favorite", t.removeFromFavorite = "remove_from_favorite", t.openShoppingCart = "shopping_cart_open", t.closeShoppingCart = "shopping_cart_close", t.openInStore = "open_in_store", t.removeFromShoppingCart = "remove_from_shopping_cart", t.addToShoppingCart = "add_to_shopping_cart", t.increaseGoodsQuantity = "+1_item", t.reductionGoodsQuantity = "-1_item", t.wizartSessionFinish = "wizart_session_finish", t.manaImageSearch = "mana_start_search", t.manaImageUploaded = "mana_image_uploaded", t.manaImageUploadedError = "mana_image_uploaded_error", t["galleryСlosed"] = "gallery_closed_by_user", t.customTnteriorDeleted = "custom_interior_deleted", t.customInteriorRecognitionError = "custom_interior_recognition_error", t.backButtonClicked = "back_button_clicked", t.rotateFlooring = "rotate_flooring", t.layingPatternsMenu = "laying_patterns_menu", t.layingPatternsSelected = "laying_patterns_selected", t.favoriteOpen = "favorite_open", t.customProductsOpen = "custom_products_opened", t.favoriteClose = "favorite_close", t.filtersOpen = "filters_open", t.filtersClose = "filters_close", t.customInteriorRecognitionErrorUseanyway = "custom_interior_recognition_error_useanyway", t.customInteriorRecognitionErrorRetry = "custom_interior_recognition_error_retry", t.hideButtons = "hide_buttons", t.zoomImage = "zoom_image", t.disclaimerShown = "disclaimer_shown", t.disclaimerOk = "disclaimer_ok", t.disclaimerMenu = "disclaimer_menu", t.onboardingStarted = "onboarding_started", t.onboardingPassed = "onboarding_passed", t.errorMessageShown = "error_message_shown", t.logoClicked = "logo_clicked", t.filtersApplied = "filters_applied", t.filtersCleared = "filters_cleared", t.similarProductsClicked = "similar_products_clicked", t.similarProductsApplied = "similar_products_applied"
+      t.sendFoto = "send_foto", t.openGallery = "gallery_open", t.selectRoom = "predefined_interior_selected", t.selectMyRoom = "custom_interior_selected", t.startRoomUpload = "custom_interior_start_upload", t.onClickUploudInterior = "custom_interior_selection_started", t.endRoomUpload = "photo_uploaded", t.errorRoomUpload = "error_photo_uploaded", t.customInteriorUploadError = "custom_interior_upload_error", t.openPrivacyPolicy = "privacy_policy_open", t.startCatalog = "catalog_start", t.selectSurface = "surface_select", t.unselectSurface = "surface_unselect", t.selectBrand = "brand_selected", t.selectCollection = "collection_selected", t.selectArticle = "article_selection", t.selectHome = "home", t.selectBackStep = "back", t.startSearch = "start_search", t.openMyRoom = "my_room_open", t.closeMyRoom = "my_room_close", t.changeBeforeAfterMode = "before-after", t.openDownloadView = "download_menu", t.closeDownloadView = "close_download_menu", t.downloadOriginal = "download_original", t.downloadResult = "download_result", t.downloadResultWithInfo = "download_result_with_info", t.clearSurfaces = "clear", t.launchFirstTime = "launch_first_time", t.sessionStart = "ornato_session_start", t.clickInfo = "info", t.clickClear = "clear", t.apply = "apply", t.shareImage = "share_image", t.rateTheImageStart = "rate_the_image_start", t.imageRated = "image_rated", t.createPhoto = "create", t.addToFavorite = "add_to_favorite", t.removeFromFavorite = "remove_from_favorite", t.openShoppingCart = "shopping_cart_open", t.closeShoppingCart = "shopping_cart_close", t.openInStore = "open_in_store", t.removeFromShoppingCart = "remove_from_shopping_cart", t.addToShoppingCart = "add_to_shopping_cart", t.increaseGoodsQuantity = "+1_item", t.reductionGoodsQuantity = "-1_item", t.ornatoSessionFinish = "ornato_session_finish", t.manaImageSearch = "mana_start_search", t.manaImageUploaded = "mana_image_uploaded", t.manaImageUploadedError = "mana_image_uploaded_error", t["galleryСlosed"] = "gallery_closed_by_user", t.customTnteriorDeleted = "custom_interior_deleted", t.customInteriorRecognitionError = "custom_interior_recognition_error", t.backButtonClicked = "back_button_clicked", t.rotateFlooring = "rotate_flooring", t.layingPatternsMenu = "laying_patterns_menu", t.layingPatternsSelected = "laying_patterns_selected", t.favoriteOpen = "favorite_open", t.customProductsOpen = "custom_products_opened", t.favoriteClose = "favorite_close", t.filtersOpen = "filters_open", t.filtersClose = "filters_close", t.customInteriorRecognitionErrorUseanyway = "custom_interior_recognition_error_useanyway", t.customInteriorRecognitionErrorRetry = "custom_interior_recognition_error_retry", t.hideButtons = "hide_buttons", t.zoomImage = "zoom_image", t.disclaimerShown = "disclaimer_shown", t.disclaimerOk = "disclaimer_ok", t.disclaimerMenu = "disclaimer_menu", t.onboardingStarted = "onboarding_started", t.onboardingPassed = "onboarding_passed", t.errorMessageShown = "error_message_shown", t.logoClicked = "logo_clicked", t.filtersApplied = "filters_applied", t.filtersCleared = "filters_cleared", t.similarProductsClicked = "similar_products_clicked", t.similarProductsApplied = "similar_products_applied"
     }(r || (r = {})),
     function(t) {
       t.full = "full", t.minimized = "minimized"
@@ -4644,11 +4642,11 @@
       return (e + " " + (e && n ? "| " + n : "")).trim()
     },
     a = function() {
-      return +(Object(r.b)("WIZART_COUNT_PHOTO_CREATED") || 0)
+      return +(Object(r.b)("ORNATO_COUNT_PHOTO_CREATED") || 0)
     },
     c = function() {
       var t = a() + 1;
-      Object(r.d)("WIZART_COUNT_PHOTO_CREATED", t.toString())
+      Object(r.d)("ORNATO_COUNT_PHOTO_CREATED", t.toString())
     },
     u = function(t) {
       var e = new Date(t.getFullYear(), 0, 0);
@@ -4932,7 +4930,7 @@
               quantity: t.quantity
             }
           })), window && window.parent && window.parent.postMessage && window.parent.postMessage({
-            eventName: "wizart_shopping_cart",
+            eventName: "ornato_shopping_cart",
             payload: {
               list: a
             }
@@ -6998,7 +6996,7 @@
     return i.a
   })), n.d(e, "useBackButton", (function() {
     return u
-  })), n.d(e, "useWizartInit", (function() {
+  })), n.d(e, "useOrnatoInit", (function() {
     return j
   }));
   var r = n(142),
@@ -7060,7 +7058,7 @@
         n = t[1],
         r = Object(o.c)();
       return s.a.useLayoutEffect((function() {
-        window.wizart = {
+        window.ornato = {
           init: function(t) {
             if (t.token && t.client_identifier && t.client_identifier.length) {
               r(Object(C.d)()), t.backButtonAction && r(Object(C.b)(t.backButtonAction));
@@ -7907,7 +7905,7 @@
   e.a = Object(c.a)((function() {
     return Object(a.a)({
       root: {
-        backgroundColor: "var(--wizart-secondary-color_10)",
+        backgroundColor: "var(--ornato-secondary-color_10)",
         borderRadius: "9%"
       }
     })
@@ -8787,7 +8785,7 @@
         var t = function() {
           window.addEventListener("click", (function() {
             var t;
-            if (c.b.IS_WIZART_DEMO && (null === (t = window.document) || void 0 === t ? void 0 : t.requestStorageAccess) && c.b.USER_INDENTIFIER && !window.cookiesDeclined) {
+            if (c.b.IS_ORNATO_DEMO && (null === (t = window.document) || void 0 === t ? void 0 : t.requestStorageAccess) && c.b.USER_INDENTIFIER && !window.cookiesDeclined) {
               var e = Object(m.e)();
               window.document.requestStorageAccess().then((function() {
                 Object(y.c)("w_guid_" + Object(y.b)(c.b.TOKEN), c.b.USER_INDENTIFIER), Object.keys(e).forEach((function(t) {
@@ -9204,14 +9202,14 @@
         l = t.onboarding,
         s = t.onHandleCloseErrorModal,
         d = t.getLocalizationProperty,
-        f = Q.d.useWizartInit().isAppInitialized;
+        f = Q.d.useOrnatoInit().isAppInitialized;
       h(), C(), P(), ut(f);
       var p = d("ERROR_MESSAGES.SERVER_ERROR.TITLE"),
         v = d("ERROR_MESSAGES.SERVER_ERROR.MESSAGE"),
         b = Object(a.d)(rt.a),
         m = Object(a.d)(_.c);
       return i.a.createElement("div", {
-        className: "wizart-app-container"
+        className: "ornato-app-container"
       }, f && i.a.createElement(i.a.Fragment, null, i.a.createElement(o.a, null, c.b.FONT_FAMILY_LINK && i.a.createElement("link", {
         href: c.b.FONT_FAMILY_LINK,
         rel: "stylesheet"
@@ -10239,5 +10237,5 @@
     return i.a.createElement(a.a, {
       store: ye
     }, i.a.createElement(lt, null))
-  }), null), document.getElementById("wizart-root"))
+  }), null), document.getElementById("ornato-root"))
 }]);

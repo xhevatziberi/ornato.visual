@@ -194,12 +194,10 @@
   },
   "CONTACT_FORM":
   {
-    "TITLE": "Ready to take your e-com to the next level with Wizart?",
     "FORM_TITLE": "Leave your contact details in the form below and we will contact you shortly.",
     "PLACEHOLDER_NAME": "Your Name",
     "PLACEHOLDER_EMAIL": "Your Email",
     "SUCCESS_RESPONSE_TEXT": "Your contact details were successfully sent!",
-    "MENU_ITEM": "Contact Wizart!",
     "EMAIL_VALIDATION_ERROR": "Invalid email address"
   },
   "ONBOARDING":
