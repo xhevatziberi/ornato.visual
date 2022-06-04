@@ -1,7 +1,8 @@
 <?php
-$json = file_get_contents('data.json');
-$json = json_decode($json);
 header('Content-Type: application/json; charset=utf-8');
+$json = file_get_contents('data.json');
+echo $json; return;
+$json = json_decode($json);
 
 $brand = $_GET['brand'];
 $collection = $_GET['collection'];

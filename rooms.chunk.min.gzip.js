@@ -535,10 +535,10 @@
           return r.a.createElement(r.a.Fragment, null, r.a.createElement("div", {
             className: "room-gallery__image-wrapper card card_small"
             + (function(){
-              console.log('pooooooooooooooooooooooo');
+              //xhevat
               if ( window.MOD_ORNATO.brand ) {
                 if ( window.MOD_ORNATO.brand != t.for_brand ) {
-                  return ' unselectable';
+                  return ' unselectable_room';
                 } else {
                   return '';
                 }

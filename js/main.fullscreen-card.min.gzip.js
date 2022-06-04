@@ -1,4 +1,14 @@
 window.MOD_ORNATO = {};
+window.MOD_ORNATO.prestart = true;
+window.MOD_ORNATO.brand_s = function() {
+  if ( window.MOD_ORNATO.prestart ) {
+    setTimeout(function (){
+      document.querySelectorAll(`.w-list__item[data-article]:not([data-article='{"uuid":"${window.MOD_ORNATO.brand}"}'])`)
+              .forEach(div => div.classList.add('unselectable'));                
+    }, 100);
+  }
+  window.MOD_ORNATO.prestart = false;
+}
 ! function(t) {
   function e(e) {
     for (var r, i, c = e[0], u = e[1], l = e[2], s = 0, f = []; s < c.length; s++) i = c[s], Object.prototype.hasOwnProperty.call(o, i) && o[i] && f.push(o[i][0]), o[i] = 0;
@@ -337,8 +347,6 @@ window.MOD_ORNATO = {};
               return null
             }
           }(e.custom_apply);
-          console.log(e);
-          console.log(p);
         return l(a(a({}, u), {
           // INTERIORS_HOST: "https://rni.xxx.ai",
           // APPLY_HOST: g ? "https://rni.xxx.ai/apply/3d" : "https://rni.xxx.ai/apply",
@@ -1144,32 +1152,49 @@ window.MOD_ORNATO = {};
         console.log(t)
       }
 
-      console.log('xhevat');
+      // xhevat
       if ( t == 'predefined_interior_selected' ) {
         //ne fillim kur e klikon dhomen
         window.MOD_ORNATO.room = e.interior_id;
         window.MOD_ORNATO.brand = window.MOD_ORNATO.rooms.find(r => r.uuid == window.MOD_ORNATO.room).for_brand;
         window.MOD_ORNATO.collection = window.MOD_ORNATO.rooms.find(r => r.uuid == window.MOD_ORNATO.room).for_collection;
-      }
-      if ( t == 'gallery_open' ) {
-        // document.querySelectorAll(`[data-brand="decorative_panels"]`);
-        // document.querySelectorAll(`[data-brand="${a}"]`);
-        if ( window.MOD_ORNATO.brand ) {
 
-          console.log('ketu...');
-          document.querySelectorAll(`div[data-brand]:not([data-brand="${window.MOD_ORNATO.brand}"])`)
+        if ( window.MOD_ORNATO.brand ) {
+          document.querySelectorAll(`.w-list__item[data-article]`).forEach(div => div.classList.remove('unselectable'));
+            
+          document.querySelectorAll(`.w-list__item[data-article]:not([data-article='{"uuid":"${window.MOD_ORNATO.brand}"}'])`)
             .forEach(div => div.classList.add('unselectable'));
         }
       }
-      if ( t == 'brand_selected') {
-        console.log('brand...');
+
+      if ( t == 'gallery_open' ) {
+        if ( window.MOD_ORNATO.brand ) {
+
+          if ( document.querySelectorAll('.pastroje div').length ) {
+            document.querySelectorAll('.pastroje div')[0].click();
+          }
+          if ( document.querySelectorAll('.catalog-back-button').length ) {
+            document.querySelectorAll('.catalog-back-button')[0].click(); 
+          }
+          // document.querySelectorAll(`div[data-brand]:not([data-brand="${window.MOD_ORNATO.brand}"])`)
+          //   .forEach(div => div.classList.add('unselectable'));
+
+          document.querySelectorAll(`.w-list__item[data-article]:not([data-article='{"uuid":"${window.MOD_ORNATO.brand}"}'])`)
+            .forEach(div => div.classList.add('unselectable'));
+        }
       }
-      if ( t == 'back') {
-        console.log('back...');
+
+      if ( t == 'gallery_closed_by_user') {
+        if ( window.MOD_ORNATO.brand ) {
+          document.querySelectorAll(`.w-list__item[data-article]`).forEach(div => div.classList.remove('unselectable'));
+            
+          document.querySelectorAll(`.w-list__item[data-article]:not([data-article='{"uuid":"${window.MOD_ORNATO.brand}"}'])`)
+            .forEach(div => div.classList.add('unselectable'));
+        }
       }
-      console.log(t);
-      console.log(e);
-      console.log('MOD_ORNATO', window.MOD_ORNATO);
+      // console.log(t);
+      // console.log(e);
+      // console.log('MOD_ORNATO', window.MOD_ORNATO);
     };
   e.d = {
     init: function() {
@@ -1232,7 +1257,7 @@ window.MOD_ORNATO = {};
         },
         body: JSON.stringify(O),
         keepalive: !0
-      }, console.log(m), fetch(E, m), d(t, y)
+      }, /*console.log(m),*/ fetch(E, m), d(t, y)
     }
   }
 }, , , function(t, e, n) {
@@ -2556,7 +2581,6 @@ window.MOD_ORNATO = {};
         }), n))
       },
       RESET_TO_FIRST_STEP: function(t, e) {
-        console.log('reseting.... reseting....');
         var n, r = u.b.CATALOG_STRUCTURE[0],
           i = Object(c.b)(r, t[e.payload.type].steps);
         return l(l({}, t), ((n = {})[e.payload.type] = l(l({}, t[e.payload.type]), {
@@ -2582,23 +2606,7 @@ window.MOD_ORNATO = {};
         }));
       return -1 === i ? r.push(t) : r[i] = t, r
     },
-    v = n(111);
-    window.aaa = t;
-    window.bbb = e;
-    window.lesh = function(t, e) {
-      var n, r = u.b.CATALOG_STRUCTURE[0],
-          i = Object(c.b)(r, t[e.payload.type].steps);
-      return l(l({}, t), ((n = {})[e.payload.type] = l(l({}, t[e.payload.type]), {
-          initProductPage: 1,
-          currentStep: r,
-          steps: i
-              ? [i]
-              : [],
-          selectedProducts: []
-      }), n))
-    }
-    console.log('bbb', t);
-    console.log('bbb', e);
+    v = n(111)
 }, function(t, e, n) {
   "use strict";
   n.r(e), n.d(e, "getSurfaceTypeOfSelectedInteriorForFavorites", (function() {

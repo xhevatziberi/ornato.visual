@@ -1,1 +1,423 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{294:function(e,t,a){"use strict";var l=a(0),i=a.n(l),c=a(17),n=a.n(c),r=a(3),o=a(5),s=a(128),u=a(9),m=a(1),d=a(81),_=a(83),v=a(127),g=function(e){var t=e.isActive,a=e.isFavorite,l=e.src,c=e.article,s=e.isLoading,u=e.imageRef,m=e.disable,d=e.catalogView,_=e.handleSelectArticle,g=e.onFavoriteClick,p=Object(v.a)().isMobile,E=i.a.useMemo((function(){return Object(o.s)(d,c)}),[d,c]);return i.a.createElement("div",{ref:u,className:"w-image"},i.a.createElement(r.j,{variant:"rect",className:n()("w-catalog-image-stub",{"w-catalog-image-stub--mobile":p},{"scroll-to-selected-article":t}),animation:!!s&&"wave"}),!s&&i.a.createElement("div",{className:n()("w-catalog-image",{"w-catalog-image--is-active":t},{"scroll-to-selected-article":t},{"w-catalog-image--is-mobile":p})},i.a.createElement("div",{className:"w-catalog-image__wrapper"},i.a.createElement("img",{className:n()("w-catalog-image__preview",{"w-catalog-image__preview--disable":m,"w-catalog-image__preview--contained":E}),onClick:_,src:l,alt:(null==c?void 0:c.name)||(null==c?void 0:c.code)||"preview"}),c.application_type&&i.a.createElement(r.e,{onClick:g,isActive:a}))))},p=a(139),E=a(2),b=a(107),w=a(38),O=a(19),N=a(20),S=Object(d.a)((function(e){var t,a,l,c,o=e.article,s=e.articleType,d=e.isActive,v=e.catalogView,S=e.articleView,f=e.isDuplicateItem,T=e.isApplyLoading,A=e.getLocalizationProperty,I=Object(p.a)(o,s),y=I.isFavorite,C=I.isAddedInShoppingCart,P=I.src,L=I.articleItemsByContext,j=I.onShoppingCartClick,k=I.onFavoriteClick,R=I.onHandleClickInfo,h=I.onHandleSelectArticle,V=w.d.useImage(P),H=V.isLoading,M=V.imageRef,F=w.d.useDevice().deviceType,G=!(null===(t=o.application_type)||void 0===t?void 0:t.includes(s))&&v===O.a.products||v===O.a.products&&S===u.a.products&&T||S===u.a.favorites&&T||S===u.a.search&&T,W=function(e){h(e)};if(v===O.a.product_type&&S===u.a.products)return i.a.createElement("div",{className:n()("product-types--"+F,"product-types__item"),onClick:W},i.a.createElement(r.k,{fontName:"new_body_text",as:"div",className:"title-color"},A("PRODUCT_TYPE."+(null===(a=null==o?void 0:o.code)||void 0===a?void 0:a.toUpperCase()))),i.a.createElement("div",null,i.a.createElement(N.f,null)));var D=Object(b.b)(o),B=i.a.useMemo((function(){return m.b.IS_SHOWN_SHOPPING_CART_PRICES?(D+" "+(L.prices.regular_price?L.prices.regular_price:"")).trim():""}),[L,D]);return i.a.createElement("div",{className:n()("w-list__item",{"w-list__item--active":d}),"data-article":JSON.stringify({uuid:o.uuid,collection_uuid:null==o?void 0:o.collection_uuid}),onClick:W},i.a.createElement(g,{isActive:d,isFavorite:y,src:P,article:o,isLoading:H,handleSelectArticle:W,onFavoriteClick:k,imageRef:M,disable:G,catalogView:v}),i.a.createElement("div",{className:n()("w-list__item-data",{"w-list__item-data--one-line":!m.b.IS_SHOWN_SHOPPING_CART&&!!L.link})},i.a.createElement("div",{className:"w-list__item-text"},f&&(null===(l=null==o?void 0:o.collection)||void 0===l?void 0:l.name)&&i.a.createElement("div",{onClick:W,className:"w-list__item-collection-name"},i.a.createElement(r.k,{fontName:"new_label",as:"span",className:"weight_700 title-color short-title"},null===(c=null==o?void 0:o.collection)||void 0===c?void 0:c.name)),i.a.createElement("div",{onClick:h,className:n()("w-list__item-title",{"w-list__item-title--centred":!o.application_type})},i.a.createElement(_.a,{title:(null==o?void 0:o.name)||"",placement:"top"},i.a.createElement(r.k,{fontName:"new_body_small",as:"span",className:n()("short-title",{weight_600:v!==O.a.product_type&&v!==O.a.products&&S===u.a.products})},(null==o?void 0:o.name)||"")))),o.application_type&&i.a.createElement("div",{className:n()("w-list__item-actions",{"w-list__item-actions--one-element":!L.link||!m.b.IS_SHOWN_SHOPPING_CART})},(m.b.IS_SHOWN_SHOPPING_CART&&m.b.ENABLE_TWO_WAY_SHOPPING_CART&&o.availability===E.a.inStock||m.b.IS_SHOWN_SHOPPING_CART&&!m.b.ENABLE_TWO_WAY_SHOPPING_CART)&&i.a.createElement(_.a,{title:C?"TOOLTIPS.REMOVE_FROM_SHOPPING_CART":"TOOLTIPS.ADD_TO_SHOPPING_CART",placement:"top",className:"w-list__item-tooltip"},i.a.createElement(r.i,{onclick:j,active:C,text:B||A("ARTICLE_LIST.BUY")})),m.b.IS_SHOWN_SHOPPING_CART&&m.b.ENABLE_TWO_WAY_SHOPPING_CART&&o.availability!==E.a.inStock&&i.a.createElement(r.k,{fontName:"new_label",as:"div",className:"bold title-color w-list__item-out-of-stock"},A("SHOPPING_CART.ITEM.AVAILABILITY")),L.link&&i.a.createElement(_.a,{title:"TOOLTIPS.ARTICLE_INFO",placement:"top"},i.a.createElement(r.g,{onclick:R})))))})),f=a(8),T=a(13),A=a(82),I=a(21),y=a(40),C=Object(f.b)((function(e){return{deviceType:Object(T.g)(e),articleView:A.getCurrentView(e),catalogView:Object(I.g)(e),isApplyLoading:Object(y.getApplyLoading)(e)}}))(S),P=a(262),L=a(77),j=Object(r.q)((function(e){var t,a=e.loading,l=e.catalogList,c=e.deviceType,m=e.orientation,d=e.articleView,_=e.isObservableElement,v=e.isSkipPagination,g=void 0!==v&&v,p=e.articleType,b=e.currentSearchValue,w=e.initArticlePage,N=e.catalogView,S=e.surfaces,f=e.loadMore,T=e.getLocalizationProperty;if(!l)return null;var A=l.data.map((function(e){return e.uuid})),I=Object(L.a)(A);if(!l.data.length&&!a)return i.a.createElement("div",{className:"w-articles--stub"},i.a.createElement(r.k,{fontName:"new_button_small",className:"bold",as:"div"},d===u.a.search?T("ARTICLE_LIST.NO_RESULTS_MESSAGE"):T("ARTICLE_LIST.NO_ARTICLES_MESSAGE")));var y=function(e,t){var a,i;e&&t.isIntersecting&&((null===(a=null==l?void 0:l.meta)||void 0===a?void 0:a.last_page)>(null===(i=null==l?void 0:l.meta)||void 0===i?void 0:i.current_page)||g)&&f()},j=l.data.map((function(e,t){var a=t===l.data.length-1,c=I.includes(e.uuid),n=Object(P.b)(S,p,e),r=e.uuid+(null==e?void 0:e.collection_uuid);if(a&&_){var o=i.a.createElement(C,{article:e,isActive:!!n,articleType:p,isDuplicateItem:c});return i.a.createElement(s.a,{as:"span",onChange:y,key:r,"data-article":JSON.stringify({uuid:e.uuid,collection_uuid:null==e?void 0:e.collection_uuid})},o)}return i.a.createElement(C,{key:r,article:e,isActive:!!n,articleType:p,isDuplicateItem:I.includes(e.uuid)})}));return i.a.createElement("div",{className:"w-article-list w-article-list--"+c+" w-article-list--"+m},!!l.data.length&&d===u.a.search&&i.a.createElement(r.k,{fontName:"new_button_small",className:"bold w-article-list-total",as:"div"},T("ARTICLE_LIST.RESULT")+" "+(null===(t=null==l?void 0:l.meta)||void 0===t?void 0:t.total)),i.a.createElement(r.f,{className:n()({"w-search__list":d===u.a.search&&c!==E.c.DESKTOP&&Object(L.d)(b)},{"w-list__product-types":N===O.a.product_type&&d===u.a.products})},d===u.a.products&&N===O.a.products&&w>1&&Array(20).fill(null).map((function(e,t){return 19===t||0===t?i.a.createElement(s.a,{as:"span",onChange:function(e,t){e&&t.isIntersecting&&w>1&&!a&&f(w-1)},key:Object(o.m)()},i.a.createElement(r.j,{variant:"rect",className:"w-catalog-image-stub"})):i.a.createElement(r.j,{key:Object(o.m)(),variant:"rect",className:"w-catalog-image-stub"})})),j,a&&i.a.createElement(r.j,{variant:"rect",className:"w-catalog-image-stub"})))})),k=a(47);t.a=Object(f.b)((function(e){return{deviceType:Object(T.g)(e),orientation:Object(T.h)(e),articleView:A.getCurrentView(e),mainArticleView:A.getMainView(e),filterName:y.getFilterNameByArticleType(e),initArticlePage:Object(I.i)(e),catalogView:Object(I.g)(e),surfaces:Object(k.g)(e)}}))(j)},297:function(e,t,a){"use strict";var l=a(5),i=a(3),c=a(129),n=a(0),r=a.n(n),o=a(2),s=function(e){var t=e.columns,a=e.deviceType===o.c.DESKTOP?2:t,n=Array(a).fill(null);return r.a.createElement(i.f,null,n.map((function(){return r.a.createElement(c.a,{key:Object(l.m)(),variant:"rect",className:"w-catalog-image-stub"})})))},u=a(40),m=a(8),d=a(13);t.a=Object(m.b)((function(e){return{deviceType:Object(d.g)(e),columns:Object(u.getCountColumns)(e)}}))(s)},392:function(e,t,a){"use strict";a.r(t);var l=a(8),i=a(0),c=a.n(i),n=a(100),r=a(297),o=a(9),s=a(139),u=a(144),m=a(22),d=a(277),_=a(294),v=function(e){var t,a,l=e.isLoading,i=e.loading,v=e.catalogList,g=e.searchResults,p=e.currentNavigation,E=e.articleType,b=e.catalogView,w=e.loadMoreArticles,O=e.loadMoreFilteredArticles,N=Object(u.a)().inputSearchValue,S=Object(s.b)(),f=S.onScroll,T=S.listRef;return c.a.createElement("div",{className:"w-articles"},c.a.createElement(m.Header,null),c.a.createElement("div",{ref:T,className:"w-articles__container "+p,onScroll:f},p===o.a.favorites&&c.a.createElement(d.a,null,c.a.createElement(n.e,null)),p===o.a.customProducts&&c.a.createElement(d.a,null,c.a.createElement(n.c,null)),p===o.a.products&&c.a.createElement(c.a.Fragment,null,i&&!(null===(t=null==v?void 0:v.data)||void 0===t?void 0:t.length)?c.a.createElement(r.a,null):c.a.createElement(_.a,{loading:i,catalogList:v,isObservableElement:!0,loadMore:function(e){w(b,E,e)},articleType:E,currentSearchValue:N})),p===o.a.search&&c.a.createElement(c.a.Fragment,null,l&&!(null===(a=null==g?void 0:g.data)||void 0===a?void 0:a.length)?c.a.createElement(r.a,null):c.a.createElement(_.a,{loading:l,catalogList:g,isObservableElement:!0,loadMore:O,articleType:E,currentSearchValue:N})),p===o.a.filters&&c.a.createElement(d.a,null,c.a.createElement(n.f,null))))},g=a(44),p=a(58),E=a(40),b=a(21),w=a(82),O=a(71),N={loadMoreArticles:b.v,loadMoreFavorites:p.loadMoreFavorites,loadMoreFilteredArticles:g.loadMoreFilteredArticles};t.default=Object(l.b)((function(e){return{isLoading:E.getIsLoading(e),catalogList:Object(b.m)(e),currentNavigation:w.getCurrentView(e),favorites:O.getFavorites(e),articleType:E.getArticleType(e),loading:Object(b.e)(e),catalogView:Object(b.g)(e),searchResults:E.getSearchResults(e)}}),N)(v)}}]);
+(window.webpackJsonp = window.webpackJsonp || [])
+.push([
+	[5], {
+		294: function(e, t, a) {
+			"use strict";
+			var l = a(0),
+				i = a.n(l),
+				c = a(17),
+				n = a.n(c),
+				r = a(3),
+				o = a(5),
+				s = a(128),
+				u = a(9),
+				m = a(1),
+				d = a(81),
+				_ = a(83),
+				v = a(127),
+				g = function(e) {
+					var t = e.isActive,
+						a = e.isFavorite,
+						l = e.src,
+						c = e.article,
+						s = e.isLoading,
+						u = e.imageRef,
+						m = e.disable,
+						d = e.catalogView,
+						_ = e.handleSelectArticle,
+						g = e.onFavoriteClick,
+						p = Object(v.a)()
+						.isMobile,
+						E = i.a.useMemo((function() {
+							return Object(o.s)(d, c)
+						}), [d, c]);
+					return i.a.createElement("div", {
+						ref: u,
+						className: "w-image"
+					}, i.a.createElement(r.j, {
+						variant: "rect",
+						className: n()("w-catalog-image-stub", {
+							"w-catalog-image-stub--mobile": p
+						}, {
+							"scroll-to-selected-article": t
+						}),
+						animation: !!s && "wave"
+					}), !s && i.a.createElement("div", {
+						className: n()("w-catalog-image", {
+							"w-catalog-image--is-active": t
+						}, {
+							"scroll-to-selected-article": t
+						}, {
+							"w-catalog-image--is-mobile": p
+						})
+					}, i.a.createElement("div", {
+						className: "w-catalog-image__wrapper"
+					}, i.a.createElement("img", {
+						className: n()("w-catalog-image__preview", {
+							"w-catalog-image__preview--disable": m,
+							"w-catalog-image__preview--contained": E
+						}),
+						onClick: _,
+						src: l,
+						alt: (null == c ? void 0 : c.name) || (null == c ? void 0 : c.code) || "preview"
+					}), c.application_type && i.a.createElement(r.e, {
+						onClick: g,
+						isActive: a
+					}))))
+				},
+				p = a(139),
+				E = a(2),
+				b = a(107),
+				w = a(38),
+				O = a(19),
+				N = a(20),
+				S = Object(d.a)((function(e) {
+					var t, a, l, c, o = e.article,
+						s = e.articleType,
+						d = e.isActive,
+						v = e.catalogView,
+						S = e.articleView,
+						f = e.isDuplicateItem,
+						T = e.isApplyLoading,
+						A = e.getLocalizationProperty,
+						I = Object(p.a)(o, s),
+						y = I.isFavorite,
+						C = I.isAddedInShoppingCart,
+						P = I.src,
+						L = I.articleItemsByContext,
+						j = I.onShoppingCartClick,
+						k = I.onFavoriteClick,
+						R = I.onHandleClickInfo,
+						h = I.onHandleSelectArticle,
+						V = w.d.useImage(P),
+						H = V.isLoading,
+						M = V.imageRef,
+						F = w.d.useDevice()
+						.deviceType,
+						G = !(null === (t = o.application_type) || void 0 === t ? void 0 : t.includes(s)) && v === O.a.products || v === O.a.products && S === u.a.products && T || S === u.a.favorites && T || S === u.a.search && T,
+						W = function(e) {
+							h(e)
+						};
+					if (v === O.a.product_type && S === u.a.products) return i.a.createElement("div", {
+						className: n()("product-types--" + F, "product-types__item"),
+						onClick: W
+					}, i.a.createElement(r.k, {
+						fontName: "new_body_text",
+						as: "div",
+						className: "title-color"
+					}, A("PRODUCT_TYPE." + (null === (a = null == o ? void 0 : o.code) || void 0 === a ? void 0 : a.toUpperCase()))), i.a.createElement("div", null, i.a.createElement(N.f, null)));
+					var D = Object(b.b)(o),
+						B = i.a.useMemo((function() {
+							return m.b.IS_SHOWN_SHOPPING_CART_PRICES ? (D + " " + (L.prices.regular_price ? L.prices.regular_price : ""))
+								.trim() : ""
+						}), [L, D]);
+					return i.a.createElement("div", {
+						className: n()("w-list__item", {
+							"w-list__item--active": d
+						})
+                        //xhevat
+                        + (function(){
+                            window.MOD_ORNATO.brand_s();
+                            return '';
+                          }()),
+						"data-article": JSON.stringify({
+							uuid: o.uuid,
+							collection_uuid: null == o ? void 0 : o.collection_uuid
+						}),
+						onClick: W
+					}, i.a.createElement(g, {
+						isActive: d,
+						isFavorite: y,
+						src: P,
+						article: o,
+						isLoading: H,
+						handleSelectArticle: W,
+						onFavoriteClick: k,
+						imageRef: M,
+						disable: G,
+						catalogView: v
+					}), i.a.createElement("div", {
+						className: n()("w-list__item-data", {
+							"w-list__item-data--one-line": !m.b.IS_SHOWN_SHOPPING_CART && !!L.link
+						})
+					}, i.a.createElement("div", {
+						className: "w-list__item-text"
+					}, f && (null === (l = null == o ? void 0 : o.collection) || void 0 === l ? void 0 : l.name) && i.a.createElement("div", {
+						onClick: W,
+						className: "w-list__item-collection-name"
+					}, i.a.createElement(r.k, {
+						fontName: "new_label",
+						as: "span",
+						className: "weight_700 title-color short-title"
+					}, null === (c = null == o ? void 0 : o.collection) || void 0 === c ? void 0 : c.name)), i.a.createElement("div", {
+						onClick: h,
+						className: n()("w-list__item-title", {
+							"w-list__item-title--centred": !o.application_type
+						})
+					}, i.a.createElement(_.a, {
+						title: (null == o ? void 0 : o.name) || "",
+						placement: "top"
+					}, i.a.createElement(r.k, {
+						fontName: "new_body_small",
+						as: "span",
+						className: n()("short-title", {
+							weight_600: v !== O.a.product_type && v !== O.a.products && S === u.a.products
+						})
+					}, (null == o ? void 0 : o.name) || "")))), o.application_type && i.a.createElement("div", {
+						className: n()("w-list__item-actions", {
+							"w-list__item-actions--one-element": !L.link || !m.b.IS_SHOWN_SHOPPING_CART
+						})
+					}, (m.b.IS_SHOWN_SHOPPING_CART && m.b.ENABLE_TWO_WAY_SHOPPING_CART && o.availability === E.a.inStock || m.b.IS_SHOWN_SHOPPING_CART && !m.b.ENABLE_TWO_WAY_SHOPPING_CART) && i.a.createElement(_.a, {
+						title: C ? "TOOLTIPS.REMOVE_FROM_SHOPPING_CART" : "TOOLTIPS.ADD_TO_SHOPPING_CART",
+						placement: "top",
+						className: "w-list__item-tooltip"
+					}, i.a.createElement(r.i, {
+						onclick: j,
+						active: C,
+						text: B || A("ARTICLE_LIST.BUY")
+					})), m.b.IS_SHOWN_SHOPPING_CART && m.b.ENABLE_TWO_WAY_SHOPPING_CART && o.availability !== E.a.inStock && i.a.createElement(r.k, {
+						fontName: "new_label",
+						as: "div",
+						className: "bold title-color w-list__item-out-of-stock"
+					}, A("SHOPPING_CART.ITEM.AVAILABILITY")), L.link && i.a.createElement(_.a, {
+						title: "TOOLTIPS.ARTICLE_INFO",
+						placement: "top"
+					}, i.a.createElement(r.g, {
+						onclick: R
+					})))))
+				})),
+				f = a(8),
+				T = a(13),
+				A = a(82),
+				I = a(21),
+				y = a(40),
+				C = Object(f.b)((function(e) {
+					return {
+						deviceType: Object(T.g)(e),
+						articleView: A.getCurrentView(e),
+						catalogView: Object(I.g)(e),
+						isApplyLoading: Object(y.getApplyLoading)(e)
+					}
+				}))(S),
+				P = a(262),
+				L = a(77),
+				j = Object(r.q)((function(e) {
+					var t, a = e.loading,
+						l = e.catalogList,
+						c = e.deviceType,
+						m = e.orientation,
+						d = e.articleView,
+						_ = e.isObservableElement,
+						v = e.isSkipPagination,
+						g = void 0 !== v && v,
+						p = e.articleType,
+						b = e.currentSearchValue,
+						w = e.initArticlePage,
+						N = e.catalogView,
+						S = e.surfaces,
+						f = e.loadMore,
+						T = e.getLocalizationProperty;
+					if (!l) return null;
+					var A = l.data.map((function(e) {
+							return e.uuid
+						})),
+						I = Object(L.a)(A);
+					if (!l.data.length && !a) return i.a.createElement("div", {
+						className: "w-articles--stub"
+					}, i.a.createElement(r.k, {
+						fontName: "new_button_small",
+						className: "bold",
+						as: "div"
+					}, d === u.a.search ? T("ARTICLE_LIST.NO_RESULTS_MESSAGE") : T("ARTICLE_LIST.NO_ARTICLES_MESSAGE")));
+					var y = function(e, t) {
+							var a, i;
+							e && t.isIntersecting && ((null === (a = null == l ? void 0 : l.meta) || void 0 === a ? void 0 : a.last_page) > (null === (i = null == l ? void 0 : l.meta) || void 0 === i ? void 0 : i.current_page) || g) && f()
+						},
+						j = l.data.map((function(e, t) {
+							var a = t === l.data.length - 1,
+								c = I.includes(e.uuid),
+								n = Object(P.b)(S, p, e),
+								r = e.uuid + (null == e ? void 0 : e.collection_uuid);
+							if (a && _) {
+								var o = i.a.createElement(C, {
+									article: e,
+									isActive: !!n,
+									articleType: p,
+									isDuplicateItem: c
+								});
+								return i.a.createElement(s.a, {
+									as: "span",
+									onChange: y,
+									key: r,
+									"data-article": JSON.stringify({
+										uuid: e.uuid,
+										collection_uuid: null == e ? void 0 : e.collection_uuid
+									})
+								}, o)
+							}
+							return i.a.createElement(C, {
+								key: r,
+								article: e,
+								isActive: !!n,
+								articleType: p,
+								isDuplicateItem: I.includes(e.uuid)
+							})
+						}));
+					return i.a.createElement("div", {
+						className: "w-article-list w-article-list--" + c + " w-article-list--" + m
+					}, !!l.data.length && d === u.a.search && i.a.createElement(r.k, {
+						fontName: "new_button_small",
+						className: "bold w-article-list-total",
+						as: "div"
+					}, T("ARTICLE_LIST.RESULT") + " " + (null === (t = null == l ? void 0 : l.meta) || void 0 === t ? void 0 : t.total)), i.a.createElement(r.f, {
+							className: n()({
+								"w-search__list": d === u.a.search && c !== E.c.DESKTOP && Object(L.d)(b)
+							}, {
+								"w-list__product-types": N === O.a.product_type && d === u.a.products
+							})
+						}, d === u.a.products && N === O.a.products && w > 1 && Array(20)
+						.fill(null)
+						.map((function(e, t) {
+							return 19 === t || 0 === t ? i.a.createElement(s.a, {
+								as: "span",
+								onChange: function(e, t) {
+									e && t.isIntersecting && w > 1 && !a && f(w - 1)
+								},
+								key: Object(o.m)()
+							}, i.a.createElement(r.j, {
+								variant: "rect",
+								className: "w-catalog-image-stub"
+							})) : i.a.createElement(r.j, {
+								key: Object(o.m)(),
+								variant: "rect",
+								className: "w-catalog-image-stub"
+							})
+						})), j, a && i.a.createElement(r.j, {
+							variant: "rect",
+							className: "w-catalog-image-stub"
+						})))
+				})),
+				k = a(47);
+			t.a = Object(f.b)((function(e) {
+				return {
+					deviceType: Object(T.g)(e),
+					orientation: Object(T.h)(e),
+					articleView: A.getCurrentView(e),
+					mainArticleView: A.getMainView(e),
+					filterName: y.getFilterNameByArticleType(e),
+					initArticlePage: Object(I.i)(e),
+					catalogView: Object(I.g)(e),
+					surfaces: Object(k.g)(e)
+				}
+			}))(j)
+		},
+		297: function(e, t, a) {
+			"use strict";
+			var l = a(5),
+				i = a(3),
+				c = a(129),
+				n = a(0),
+				r = a.n(n),
+				o = a(2),
+				s = function(e) {
+					var t = e.columns,
+						a = e.deviceType === o.c.DESKTOP ? 2 : t,
+						n = Array(a)
+						.fill(null);
+					return r.a.createElement(i.f, null, n.map((function() {
+						return r.a.createElement(c.a, {
+							key: Object(l.m)(),
+							variant: "rect",
+							className: "w-catalog-image-stub"
+						})
+					})))
+				},
+				u = a(40),
+				m = a(8),
+				d = a(13);
+			t.a = Object(m.b)((function(e) {
+				return {
+					deviceType: Object(d.g)(e),
+					columns: Object(u.getCountColumns)(e)
+				}
+			}))(s)
+		},
+		392: function(e, t, a) {
+			"use strict";
+			a.r(t);
+			var l = a(8),
+				i = a(0),
+				c = a.n(i),
+				n = a(100),
+				r = a(297),
+				o = a(9),
+				s = a(139),
+				u = a(144),
+				m = a(22),
+				d = a(277),
+				_ = a(294),
+				v = function(e) {
+					var t, a, l = e.isLoading,
+						i = e.loading,
+						v = e.catalogList,
+						g = e.searchResults,
+						p = e.currentNavigation,
+						E = e.articleType,
+						b = e.catalogView,
+						w = e.loadMoreArticles,
+						O = e.loadMoreFilteredArticles,
+						N = Object(u.a)()
+						.inputSearchValue,
+						S = Object(s.b)(),
+						f = S.onScroll,
+						T = S.listRef;
+					return c.a.createElement("div", {
+						className: "w-articles"
+					}, c.a.createElement(m.Header, null), c.a.createElement("div", {
+						ref: T,
+						className: "w-articles__container " + p,
+						onScroll: f
+					}, p === o.a.favorites && c.a.createElement(d.a, null, c.a.createElement(n.e, null)), p === o.a.customProducts && c.a.createElement(d.a, null, c.a.createElement(n.c, null)), p === o.a.products && c.a.createElement(c.a.Fragment, null, i && !(null === (t = null == v ? void 0 : v.data) || void 0 === t ? void 0 : t.length) ? c.a.createElement(r.a, null) : c.a.createElement(_.a, {
+						loading: i,
+						catalogList: v,
+						isObservableElement: !0,
+						loadMore: function(e) {
+							w(b, E, e)
+						},
+						articleType: E,
+						currentSearchValue: N
+					})), p === o.a.search && c.a.createElement(c.a.Fragment, null, l && !(null === (a = null == g ? void 0 : g.data) || void 0 === a ? void 0 : a.length) ? c.a.createElement(r.a, null) : c.a.createElement(_.a, {
+						loading: l,
+						catalogList: g,
+						isObservableElement: !0,
+						loadMore: O,
+						articleType: E,
+						currentSearchValue: N
+					})), p === o.a.filters && c.a.createElement(d.a, null, c.a.createElement(n.f, null))))
+				},
+				g = a(44),
+				p = a(58),
+				E = a(40),
+				b = a(21),
+				w = a(82),
+				O = a(71),
+				N = {
+					loadMoreArticles: b.v,
+					loadMoreFavorites: p.loadMoreFavorites,
+					loadMoreFilteredArticles: g.loadMoreFilteredArticles
+				};
+			t.default = Object(l.b)((function(e) {
+				return {
+					isLoading: E.getIsLoading(e),
+					catalogList: Object(b.m)(e),
+					currentNavigation: w.getCurrentView(e),
+					favorites: O.getFavorites(e),
+					articleType: E.getArticleType(e),
+					loading: Object(b.e)(e),
+					catalogView: Object(b.g)(e),
+					searchResults: E.getSearchResults(e)
+				}
+			}), N)(v)
+		}
+	}
+]);

@@ -690,6 +690,7 @@
                     "controls-element--hide": !t
                 })
             }, r.length > 0 && p.a.createElement(p.a.Fragment, null, p.a.createElement(O.c, null, (i.length > 0 || 0 === u.length || S) && p.a.createElement(g.a, {
+                className: "pastroje",
                 title: "TOOLTIPS.CLEAR_WALL",
                 placement: "bottom"
             }, p.a.createElement(O.d, {
