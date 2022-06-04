@@ -533,7 +533,21 @@
               return !1
             }), [L, t]);
           return r.a.createElement(r.a.Fragment, null, r.a.createElement("div", {
-            className: "room-gallery__image-wrapper card card_small",
+            className: "room-gallery__image-wrapper card card_small"
+            + (function(){
+              console.log('pooooooooooooooooooooooo');
+              if ( window.MOD_ORNATO.brand ) {
+                if ( window.MOD_ORNATO.brand != t.for_brand ) {
+                  return ' unselectable';
+                } else {
+                  return '';
+                }
+              } else {
+                return '';
+              }
+              // if (true) return 'somevalue';
+            }()) ,
+            "data-brand": t.for_brand, //xhevat
             "data-collection": t.for_collection, //xhevat
             key: t.uuid,
             ref: h

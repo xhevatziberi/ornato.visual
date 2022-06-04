@@ -1,3 +1,4 @@
+window.MOD_ORNATO = {};
 ! function(t) {
   function e(e) {
     for (var r, i, c = e[0], u = e[1], l = e[2], s = 0, f = []; s < c.length; s++) i = c[s], Object.prototype.hasOwnProperty.call(o, i) && o[i] && f.push(o[i][0]), o[i] = 0;
@@ -170,6 +171,7 @@
         }(t);
         var l = new Error;
         a = function(e) {
+          // debugger;
           u.onerror = u.onload = null, clearTimeout(s);
           var n = o[t];
           if (0 !== n) {
@@ -1143,14 +1145,31 @@
       }
 
       console.log('xhevat');
+      if ( t == 'predefined_interior_selected' ) {
+        //ne fillim kur e klikon dhomen
+        window.MOD_ORNATO.room = e.interior_id;
+        window.MOD_ORNATO.brand = window.MOD_ORNATO.rooms.find(r => r.uuid == window.MOD_ORNATO.room).for_brand;
+        window.MOD_ORNATO.collection = window.MOD_ORNATO.rooms.find(r => r.uuid == window.MOD_ORNATO.room).for_collection;
+      }
       if ( t == 'gallery_open' ) {
-        console.log('ketu...');
+        // document.querySelectorAll(`[data-brand="decorative_panels"]`);
+        // document.querySelectorAll(`[data-brand="${a}"]`);
+        if ( window.MOD_ORNATO.brand ) {
+
+          console.log('ketu...');
+          document.querySelectorAll(`div[data-brand]:not([data-brand="${window.MOD_ORNATO.brand}"])`)
+            .forEach(div => div.classList.add('unselectable'));
+        }
       }
       if ( t == 'brand_selected') {
         console.log('brand...');
       }
+      if ( t == 'back') {
+        console.log('back...');
+      }
       console.log(t);
       console.log(e);
+      console.log('MOD_ORNATO', window.MOD_ORNATO);
     };
   e.d = {
     init: function() {
@@ -2537,6 +2556,7 @@
         }), n))
       },
       RESET_TO_FIRST_STEP: function(t, e) {
+        console.log('reseting.... reseting....');
         var n, r = u.b.CATALOG_STRUCTURE[0],
           i = Object(c.b)(r, t[e.payload.type].steps);
         return l(l({}, t), ((n = {})[e.payload.type] = l(l({}, t[e.payload.type]), {
@@ -2562,7 +2582,23 @@
         }));
       return -1 === i ? r.push(t) : r[i] = t, r
     },
-    v = n(111)
+    v = n(111);
+    window.aaa = t;
+    window.bbb = e;
+    window.lesh = function(t, e) {
+      var n, r = u.b.CATALOG_STRUCTURE[0],
+          i = Object(c.b)(r, t[e.payload.type].steps);
+      return l(l({}, t), ((n = {})[e.payload.type] = l(l({}, t[e.payload.type]), {
+          initProductPage: 1,
+          currentStep: r,
+          steps: i
+              ? [i]
+              : [],
+          selectedProducts: []
+      }), n))
+    }
+    console.log('bbb', t);
+    console.log('bbb', e);
 }, function(t, e, n) {
   "use strict";
   n.r(e), n.d(e, "getSurfaceTypeOfSelectedInteriorForFavorites", (function() {
@@ -2675,7 +2711,9 @@
         type: t.type
       }) + "&page=" + (t.page || 1) + Object(l.i)("&")
     }, r[c.a.brands] = function(t) {
-      return u.b.PIM_HOST + "/api/brands?q=" + Object(o.generateQuery)(s(t)) + "&page=" + (t.page || 1) + Object(l.i)("&")
+      // debugger;
+      //xhevat
+      return u.b.PIM_HOST + "/api/brands?q=" + Object(o.generateQuery)(s(t)) + "&page=" + (t.page || 1) + Object(l.i)("&") + "&brand=" + window.MOD_ORNATO.brand + "&collection=" + window.MOD_ORNATO.collection
     }, r[c.a.collections] = function(t) {
       var e = 1 == +u.b.COLLECTIONS_AB_VERSION ? "&order=asc" : "";
       return t.brands ? u.b.PIM_HOST + "/api/brands/" + t.brands + "/collections?q=" + Object(o.generateQuery)(s(t)) + "&page=" + (t.page || 1) + e + Object(l.i)("&") : u.b.PIM_HOST + "/api/collections?q=" + Object(o.generateQuery)(s(t)) + "&page=" + (t.page || 1) + e + Object(l.i)("&")
@@ -7369,6 +7407,8 @@
         "device-token": ""
       };
       return o.b.DEACTIVATE_CUSTOM_PHOTO || (e["device-token"] = o.b.USER_INDENTIFIER), Object(i.a)(o.b.INTERIORS_HOST + "/api/rooms?page=" + t, e).then((function(t) {
+        //xhevat
+        window.MOD_ORNATO.rooms = t.data;
         return a(a({}, t), {
           data: t.data.map((function(t) {
             return a(a({}, t), {

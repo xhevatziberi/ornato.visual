@@ -3,6 +3,7 @@
     {
       "uuid": "scene_9",
       "title": "Scene_009",
+      "for_brand": "decorative_panels",
       "for_collection": "or-xx",
       "walls": [
       {
@@ -25,6 +26,7 @@
     {
       "uuid": "scene_8",
       "title": "Scene_008",
+      "for_brand": "decorative_panels",
       "for_collection": "or-xx",
       "walls": [
       {
@@ -47,6 +49,7 @@
     {
       "uuid": "scene_7",
       "title": "Scene_007",
+      "for_brand": "decorative_panels",
       "for_collection": "or-xx",
       "walls": [
       {
@@ -69,6 +72,7 @@
     {
       "uuid": "scene_6",
       "title": "Scene_006",
+      "for_brand": "decorative_panels",
       "for_collection": "or-xx",
       "walls": [
       {
@@ -91,6 +95,7 @@
     {
       "uuid": "scene_5",
       "title": "Scene_005",
+      "for_brand": "pvc_marbles",
       "for_collection": "or-yy",
       "walls": [
       {
@@ -113,6 +118,7 @@
     {
       "uuid": "scene_4",
       "title": "Scene_004",
+      "for_brand": "pvc_marbles",
       "for_collection": "or-yy",
       "walls": [
       {

@@ -1,1 +1,115 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[39],{394:function(e,a,l){"use strict";l.r(a);var n=l(0),t=l.n(n),o=l(17),i=l.n(o),d=l(3),r=l(41),c=l(2),s=l(20),m=t.a.lazy((function(){return l.e(20).then(l.bind(null,396))}));a.default=function(e){var a,l=e.open,n=e.title,o=void 0===n?"":n,u=e.logo,p=e.disablePortal,_=e.disableBackdropClick,f=void 0!==_&&_,g=e.paddingsSize,E=e.isFixedHeight,b=e.backgroundColorBlur,v=e.zIndex,h=void 0===v?1300:v,k=e.transitionDuration,z=e.deviceType,C=e.orientation,w=void 0===C?c.f.Landscape:C,L=e.children,x=e.fullSize,y=void 0!==x&&x,N=e.onClose,F=z===c.c.MOBILE&&w===c.f.Landscape,S=function(e,a){!N||f&&"closeClick"!==a||N()},B=t.a.useState(!1),I=B[0],D=B[1];return t.a.useEffect((function(){D(l)}),[l]),t.a.createElement(t.a.Fragment,null,I&&t.a.createElement(t.a.Suspense,{fallback:t.a.createElement(t.a.Fragment,null)},t.a.createElement(m,{style:{zIndex:h},open:l,onClose:S,disablePortal:p,transitionDuration:k,classes:{root:i()("modal","modal--"+z,{"modal--background-color-blur":b},{"modal--big-paddings":!N&&!g},{"modal__paddings-l":!!g},{"modal__fixed-height":!!E},{"modal--fullsize":y}),paper:"modal__paper"}},t.a.createElement(t.a.Fragment,null,(F||!!N||u)&&t.a.createElement("div",{className:"modal__header"},t.a.createElement("div",{className:"modal__header-inner"},t.a.createElement("div",{className:"modal__header-logo"},u&&t.a.createElement("img",{src:s.M})),F&&!!o&&t.a.createElement(d.p,{size:r.a.XL},o),t.a.createElement("div",{className:"modal__header-close"},!!N&&t.a.createElement("img",{src:s.L,onClick:function(e){return S(0,"closeClick")}})))),!F&&!!o&&t.a.createElement(d.p,{size:r.a.XL},o)),t.a.createElement("div",{className:i()("modal__body",(a={},a["modal__body__fixed-height--"+z]=E,a))},!!L&&L))))}}}]);
+(window.webpackJsonp = window.webpackJsonp || []).push([
+    [39], {
+        394: function (e, a, l) {
+            "use strict";
+            l.r(a);
+            var n = l(0),
+                t = l.n(n),
+                o = l(17),
+                i = l.n(o),
+                d = l(3),
+                r = l(41),
+                c = l(2),
+                s = l(20),
+                m = t
+                    .a
+                    .lazy((function () {
+                        return l
+                            .e(20)
+                            .then(l.bind(null, 396))
+                    }));
+            a.default = function (e) {
+                var a,
+                    l = e.open,
+                    n = e.title,
+                    o = void 0 === n
+                        ? ""
+                        : n,
+                    u = e.logo,
+                    p = e.disablePortal,
+                    _ = e.disableBackdropClick,
+                    f = void 0 !== _ && _,
+                    g = e.paddingsSize,
+                    E = e.isFixedHeight,
+                    b = e.backgroundColorBlur,
+                    v = e.zIndex,
+                    h = void 0 === v
+                        ? 1300
+                        : v,
+                    k = e.transitionDuration,
+                    z = e.deviceType,
+                    C = e.orientation,
+                    w = void 0 === C
+                        ? c.f.Landscape
+                        : C,
+                    L = e.children,
+                    x = e.fullSize,
+                    y = void 0 !== x && x,
+                    N = e.onClose,
+                    F = z === c.c.MOBILE && w === c.f.Landscape,
+                    S = function (e, a) {
+                        !N || f && "closeClick" !== a || N()
+                    },
+                    B = t
+                        .a
+                        .useState(!1),
+                    I = B[0],
+                    D = B[1];
+                return t
+                    .a
+                    .useEffect((function () {
+                        D(l)
+                    }), [l]),
+                t
+                    .a
+                    .createElement(t.a.Fragment, null, I && t.a.createElement(t.a.Suspense, {
+                        fallback: t
+                            .a
+                            .createElement(t.a.Fragment, null)
+                    }, t.a.createElement(m, {
+                        style: {
+                            zIndex: h
+                        },
+                        open: l,
+                        onClose: S,
+                        disablePortal: p,
+                        transitionDuration: k,
+                        classes: {
+                            root: i()("modal", "modal--" + z, {
+                                "modal--background-color-blur": b
+                            }, {
+                                "modal--big-paddings": !N && !g
+                            }, {
+                                "modal__paddings-l": !!g
+                            }, {
+                                "modal__fixed-height": !!E
+                            }, {"modal--fullsize": y}),
+                            paper: "modal__paper"
+                        }
+                    }, t.a.createElement(t.a.Fragment, null, (F || !!N || u) && t.a.createElement("div", {
+                        className: "modal__header"
+                    }, t.a.createElement("div", {
+                        className: "modal__header-inner"
+                    }, t.a.createElement("div", {
+                        className: "modal__header-logo"
+                    }, u && t.a.createElement("img", {src: s.M})), F && !!o && t.a.createElement(d.p, {
+                        size: r.a.XL
+                    }, o), t.a.createElement("div", {
+                        className: "modal__header-close"
+                    }, !!N && t.a.createElement("img", {
+                        src: s.L,
+                        onClick: function (e) {
+                            return S(0, "closeClick")
+                        }
+                    })))), !F && !!o && t.a.createElement(d.p, {
+                        size: r.a.XL
+                    }, o)), t.a.createElement("div", {
+                        className: i()(
+                            "modal__body",
+                            (a = {}, a["modal__body__fixed-height--" + z] = E, a)
+                        )
+                    }, !!L && L))))
+            }
+        }
+    }
+]);
