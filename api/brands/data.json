@@ -1,12 +1,20 @@
 {
   "data": [
-  {
-    "uuid": "decorative_panels",
-    "name": "Decorative Panel",
-    "country_uuid": "macedonia",
-    "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
-    "is_default_cover": false
-  }],
+    {
+      "uuid": "decorative_panels",
+      "name": "Decorative Panel",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
+      "is_default_cover": false
+    },
+    {
+      "uuid": "pvc_marbles",
+      "name": "PVC Marble",
+      "country_uuid": "macedonia",
+      "image_path": "pim-data\/ornato\/covers\/brands\/pvc_marbles.jpg",
+      "is_default_cover": false
+    }
+  ],
   "links":
   {
     "first": "https:\/\/visual.ornato.mk\/api\/brands?page=1",
@@ -38,6 +46,6 @@
     "path": "https:\/\/visual.ornato.mk\/api\/brands",
     "per_page": 20,
     "to": 1,
-    "total": 1
+    "total": 2
   }
 }

@@ -1,0 +1,44 @@
+{
+  "data": [
+  {
+    "uuid": "or-yy",
+    "name": "16.5x2.5cm",
+    "brand_uuid": "pvc_marbles",
+    "image_path": "pim-data\/ornato\/covers\/collections\/1-1Klassisk-Eg-sort-Filt_cover_1643971899.jpg",
+    "is_default_cover": false,
+    "order": 13727
+  }],
+  "links":
+  {
+    "first": "https:\/\/visual.ornato.mk\/api\/brands\/pvc_marbles\/collections?page=1",
+    "last": "https:\/\/visual.ornato.mk\/api\/brands\/pvc_marbles\/collections?page=1",
+    "prev": null,
+    "next": null
+  },
+  "meta":
+  {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 1,
+    "links": [
+    {
+      "url": null,
+      "label": "pagination.previous",
+      "active": false
+    },
+    {
+      "url": "https:\/\/visual.ornato.mk\/api\/brands\/pvc_marbles\/collections?page=1",
+      "label": "1",
+      "active": true
+    },
+    {
+      "url": null,
+      "label": "pagination.next",
+      "active": false
+    }],
+    "path": "https:\/\/visual.ornato.mk\/api\/brands\/pvc_marbles\/collections",
+    "per_page": 20,
+    "to": 1,
+    "total": 1
+  }
+}

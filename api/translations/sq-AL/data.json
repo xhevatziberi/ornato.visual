@@ -1,0 +1,266 @@
+{
+  "ROOM_LIST":
+  {
+    "TITLE": "Zgjidhni një dhomë për të ridekoruar",
+    "TITLE_ROW1": "Zgjidhni një dhomë",
+    "TITLE_ROW2": "për të ridekoruar",
+    "BACK_BUTTON": "Kthehu tek uebsajti",
+    "DELETE_ROOM_TITLE": "Jeni i sigurt se doni ta fshini foton?",
+    "ROOM_NOT_AVAILABLE": "I padisponueshëm për produktin e zgjedhur"
+  },
+  "FOOTER_PANEL":
+  {
+    "ROOMS": "Dhomat",
+    "CATALOG": "Katalogu",
+    "APPLIED": "Aplikuar",
+    "SHOPPING_CART": "Shporta",
+    "MENU": "Menuja"
+  },
+  "ARTICLE_LIST":
+  {
+    "FILTER_TITLE": "Filter",
+    "FAVORITES_TITLE": "Të preferuarat",
+    "NO_RESULTS_MESSAGE": "Nuk ka rezultate",
+    "NO_ARTICLES_MESSAGE": "Nuk ka artikuj",
+    "PRODUCT_TYPE": "Produktet",
+    "BRANDS": "Brendet",
+    "BRANDS_TITLE": "Brendet",
+    "COLLECTIONS": "Koleksionet",
+    "PRODUCTS": "Produktet",
+    "TITLE": "Katalogu",
+    "NAVIGATION_SEARCH": "Kërko",
+    "RESULT": "Rezultatet:",
+    "BUY": "BLEJ",
+    "SEARCH_RESULTS": "Rezultatet e kërkimit",
+    "MY_PRODUCT": "Produkti im",
+    "SIMILAR_PRODUCTS": "Produkte<br>të ngjashme"
+  },
+  "PRODUCT_TYPE":
+  {
+    "WALLPAPER": "Tapetë",
+    "WALL_MURAL": "Murale muri",
+    "MURAL": "Murale muri",
+    "WALL_BORDER": "Kufijtë e murit",
+    "WALL_DECALS": "Dekale të murit",
+    "PAINT": "Bojra",
+    "PLASTER": "Gips",
+    "WALL_PANELS": "Panele muri",
+    "TILE": "Pllakë",
+    "CARPET_ROLL": "Dyshemeja",
+    "CARPET_TILE": "Dyshemeja",
+    "ENGINEERED_WOOD_FLOORING": "Dysheme druri i projektuar",
+    "HARDWOOD_FLOORING": "Dyshemeja me drurë",
+    "LAMINATE": "Laminatë",
+    "LINOLEUM": "Linoleum",
+    "VINYL_FLOORING": "Dysheme me vinyl",
+    "RUG": "Qilima"
+  },
+  "FILTER_PANEL":
+  {
+    "NAME":
+    {
+      "PLACEHOLDER": "Kërkoni një artikull"
+    },
+    "FILTERS": "Filtrat",
+    "SEARCH_BAR_VALIDATION_MESSAGE": "Shkruani të paktën 3 karaktere",
+    "SEARCH_MANA": "Kërko sipas fotos",
+    "PRODUCT_TYPE": "Produktet",
+    "COLOR": "Ngjyra",
+    "PATTERN": "Struktura",
+    "STYLE": "Stili",
+    "INTERIOR": "Interiori",
+    "APPLY": "Shfaq rezultatet:",
+    "CLEAR": "Pastro filtrat"
+  },
+  "ARTICLE_INFO_PANEL":
+  {
+    "ATTRIBUTES":
+    {
+      "TYPE": "Lloji",
+      "WIDTH": "Gjerësia",
+      "LENGTH": "Gjatësia",
+      "COUNTRY": "Vendi",
+      "MAIN_COLOR": "Ngjyra kryesore",
+      "TEXTURE": "Tekstura",
+      "BASIC": "Baza",
+      "COATING": "Shtresë",
+      "PRODUCT_ID": "ID Produkti"
+    },
+    "MORE_BUTTON_TITLE": "Shiko faqen e produktit",
+    "DESCRIPTION": "Përshkrim"
+  },
+  "ERROR_MESSAGES":
+  {
+    "SERVER_ERROR":
+    {
+      "TITLE": "Oops! Dicka shkoi keq.",
+      "MESSAGE": "Ju lutemi, provoni përsëri."
+    },
+    "NOT_AVAILABLE_TITLE": "Aplikacioni është aktualisht i padisponueshëm",
+    "NOT_AVAILABLE_MESSAGE": "Ju lutemi kontaktoni pronarin e uebfaqes për më shumë detaje."
+  },
+  "COMMON":
+  {
+    "YES": "Po",
+    "NO": "Jo",
+    "OK": "Ok",
+    "DISMISS": "Largoje",
+    "SEND": "Dërgo",
+    "DELETE": "Fshije",
+    "CANCEL": "Anulo",
+    "RETRY": "PROVO PËRSËRI",
+    "USE_ANYWAY": "PËRDORNI GJITHSESI"
+  },
+  "DOWNLOAD":
+  {
+    "TITLE": "Shkarko",
+    "ORIGINAL_TITLE": "Origjinale",
+    "RESULT_TITLE": "Rezultati",
+    "RESULT_WITH_INFORMATION": "Rezultati me informacion",
+    "DOWNLOAD_HINT": "Prekni dhe mbani shtypur për të shkarkuar"
+  },
+  "PRIVACY_POLICY_TITLE": "Politika e privatësisë dhe kushtet e përdorimit",
+  "TOOLTIPS":
+  {
+    "CATALOG_BUTTON": "Katalogu",
+    "ARTICLE_CATALOG_TAB": "Katalogu",
+    "VIEW_ORIGINAL": "Shiko origjinalin",
+    "MY_ROOM": "Dhoma ime",
+    "INTERIORS_BACK_BUTTON": "Ndryshoni interiorin",
+    "CATALOG_HOME_BUTTON": "Katalogu",
+    "CATALOG_BACK_BUTTON": "Mbrapa",
+    "CLOSE": "Mbylle",
+    "DELETE_ROOM": "Fshije",
+    "CLEAR_WALL": "Pastro sipërfaqen",
+    "ARTICLE_INFO": "Shkoni në faqen e produktit",
+    "DOWNLOAD": "Shkarko",
+    "FEEDBACK": "Vlerësoni rezultatin",
+    "RATE_BAD": "E keqe",
+    "RATE_NORMAL": "Normale",
+    "RATE_GREAT": "E madhe!",
+    "FAVORITES": "Shto te të preferuarat",
+    "REMOVE_FROM_FAVORITES": "Hiq nga të preferuarat",
+    "ROTATE_FLOORING": "Rrotulloni dyshemenë",
+    "CHANGE_LAYOUT": "Ndrysho paraqitjen",
+    "OPEN_SHOPPING_CART": "Hap shportën e blerjeve",
+    "ADD_TO_SHOPPING_CART": "Shto në shportën e blerjeve",
+    "REMOVE_FROM_SHOPPING_CART": "Hiqeni nga karroca e blerjeve",
+    "GO_TO_SHOP": "Hapni në Uebfaqe",
+    "BACK_TO_WEBSITE": "Kthehu në uebfaqe",
+    "IMPORTANT_INFO": "Informacion i rëndësishëm",
+    "FILTER": "Filtro",
+    "MY_PRODUCT": "Produkti im"
+  },
+  "MORE":
+  {
+    "TITLE": "Menuja",
+    "ABOUT_APP": "Rreth aplikacionit"
+  },
+  "FEEDBACK":
+  {
+    "TITLE": "Vlerësoni rezultatin",
+    "TEXT_AREA_PLACEHOLDER": "Ju lutemi, lini komentin tuaj për rezultatin. Do të na ndihmojë të përmirësojmë cilësinë e algoritmeve tona",
+    "RESPONSE":
+    {
+      "TITLE": "Faleminderit!",
+      "MESSAGE": "Rezultati u dërgua me sukses"
+    },
+    "BUTTON_SEND": "Dërgo"
+  },
+  "FAVORITES":
+  {
+    "ADD": "Shto te të preferuarat",
+    "TITLE": "Të preferuarat",
+    "WALL": "Mbulesa e murit",
+    "FLOOR": "Dyshemeja"
+  },
+  "CONTACT_FORM":
+  {
+    "FORM_TITLE": "Lini të dhënat tuaja të kontaktit në formularin e mëposhtëm dhe ne do t'ju kontaktojmë së shpejti.",
+    "PLACEHOLDER_NAME": "Emri juaj",
+    "PLACEHOLDER_EMAIL": "Emaili juaj",
+    "SUCCESS_RESPONSE_TEXT": "Të dhënat tuaja të kontaktit u dërguan me sukses!",
+    "EMAIL_VALIDATION_ERROR": "Adresë e pavlefshme emaili"
+  },
+  "ONBOARDING":
+  {
+    "TAKE_PHOTO": "Zgjidhni një foto nga galeria",
+    "CHOOSE_PRODUCT": "Zgjidhni produktin nga katalogu",
+    "SELECT_SURFACES": "Ju mund të zgjidhni sipërfaqet një nga një",
+    "RATE_RESULT": "Vlerësoni rezultatin",
+    "START_TUTORIAL": "Filloni tutorialin",
+    "TITLE": "Rinovim i shpejtë dhe i lehtë i dhomës",
+    "SUBTITLE": "Zgjidhni nga qindra produkte dhe shikoni ato në dhomën tuaj!",
+    "GET_STARTED": "FILLO"
+  },
+  "SHOPPING_CART":
+  {
+    "TITLE": "Shporta e blerjeve",
+    "EMPTY": "Zbrazët",
+    "ITEM":
+    {
+      "PR": "për njësi",
+      "QUANTITY": "sasi",
+      "AVAILABILITY": "Nuk ka në magazinë"
+    },
+    "IN_TOTAL": "Nëntotali",
+    "CART_TOTALS": "Totali",
+    "GO_TO_SHOP": "Vazhdoni te arka",
+    "WALLPAPER": "Rulë",
+    "WALL_MURAL": "Njësi",
+    "WALL_BORDER": "Rulë",
+    "WALL_DECALS": "Set",
+    "PAINT": "Njësi",
+    "PLASTER": "Njësi",
+    "WALL_PANELS": "Kuti",
+    "TILE": "Kuti",
+    "CARPET_ROLL": "m2",
+    "CARPET_TILE": "Kuti",
+    "ENGINEERED_WOOD_FLOORING": "Kuti",
+    "HARDWOOD_FLOORING": "Kuti",
+    "LAMINATE": "Kuti",
+    "LINOLEUM": "m2",
+    "VINYL_FLOORING": "Kuti",
+    "RUG": "Njësi"
+  },
+  "COOKIE_POLICY":
+  {
+    "LEARN_MORE": "Mëso më shumë\u2026",
+    "BUTTON_TEXT": "E KUPTOVA",
+    "CONTENT": "We use cookies to offer you a better browsing experience, analyze site traffic and personalize content. By using this site you consent to our use of <a href=\"cookies\">Cookies<\/a> and our <a href=\"privacy_policy\">Privacy Policy and Terms of Use<\/a>.",
+    "AGREE": "Jam dakord",
+    "DISAGREE": "Nuk jam dakord"
+  },
+  "UNIT":
+  {
+    "UNIT": "m",
+    "METERS": "m",
+    "INCHES": "in",
+    "FEET": "ft",
+    "CM": "cm"
+  },
+  "PRODUCTS":
+  {
+    "PRODUCTS": "Produktet"
+  },
+  "SURFACES":
+  {
+    "WALLS": "Muret",
+    "FLOOR": "Dyshemeja"
+  },
+  "LAYING_PATTERNS":
+  {
+    "LAYING_PATTERNS_TITLE": "Shtrimi i modeleve",
+    "PRODUCT_SETTINGS": "Cilësimet e produktit"
+  },
+  "MENU":
+  {
+    "LANGUAGE": "Gjuha",
+    "START_TUTORIAL": "Filloni tutorialin"
+  },
+  "MESSAGE":
+  {
+    "UNHIDE_BUTTONS": "Klikoni në ekran për të shfaqur butonat",
+    "MOB_UNHIDE_BUTTONS": "Prekni ekranin për të shfaqur butonat"
+  }
+}

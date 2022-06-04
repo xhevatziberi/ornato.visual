@@ -4,8 +4,6 @@
     "TITLE": "Select a room to redecorate",
     "TITLE_ROW1": "Select a room",
     "TITLE_ROW2": "to redecorate",
-    "UPLOAD_PHOTO": "<span class='room-gallery__load-title--active'>Upload<\/span> photo of your interior",
-    "UPLOAD_PHOTO_MAIN": "Upload your room",
     "BACK_BUTTON": "Back to website",
     "DELETE_ROOM_TITLE": "Are you sure that you want to delete the photo?",
     "ROOM_NOT_AVAILABLE": "Not available for the selected product"
@@ -99,23 +97,7 @@
       "MESSAGE": "Please, try again."
     },
     "NOT_AVAILABLE_TITLE": "App is currently unavailable",
-    "NOT_AVAILABLE_MESSAGE": "Please contact website owner for more details.",
-    "BAD_UPLOAD_PARAMETERS":
-    {
-      "TITLE": "Oops!",
-      "MESSAGE": "It seems that the image contains a very small area for visualization. Please try to use another photo.",
-      "DARK_IMAGE_TITLE": "The image is too dark. Please retry.",
-      "BLURRY_IMAGE_TITLE": "The image is too blurry. Please retry.",
-      "NOT_INTERIOR_IMAGE_TITLE": "The interior wasn't recognized. Please retry.",
-      "NOISY_IMAGE_TITLE": "The image is too noisy. Please retry.",
-      "NO_SURFACE_IMAGE_TITLE": "Surfaces not recognized. Please use another photo."
-    },
-    "LARGE_FILE_TITLE": "File is too large to open (Max 10 Mb)",
-    "EXTENSION_ERROR":
-    {
-      "TITLE": "Upload error",
-      "MESSAGE": "Uploaded file has invalid extension. Only the following extensions are allowed: jpg, jpeg, png, webp."
-    }
+    "NOT_AVAILABLE_MESSAGE": "Please contact website owner for more details."
   },
   "COMMON":
   {

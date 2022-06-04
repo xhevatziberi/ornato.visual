@@ -534,6 +534,7 @@
             }), [L, t]);
           return r.a.createElement(r.a.Fragment, null, r.a.createElement("div", {
             className: "room-gallery__image-wrapper card card_small",
+            "data-collection": t.for_collection, //xhevat
             key: t.uuid,
             ref: h
           }, r.a.createElement(B, {

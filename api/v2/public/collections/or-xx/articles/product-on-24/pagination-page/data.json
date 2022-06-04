@@ -1,0 +1,11 @@
+{
+  "data":
+  {
+    "type": "pagination-page",
+    "uuid": "product-on-24",
+    "attributes":
+    {
+      "pagination_page": 1
+    }
+  }
+}

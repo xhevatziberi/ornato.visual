@@ -335,6 +335,8 @@
               return null
             }
           }(e.custom_apply);
+          console.log(e);
+          console.log(p);
         return l(a(a({}, u), {
           // INTERIORS_HOST: "https://rni.xxx.ai",
           // APPLY_HOST: g ? "https://rni.xxx.ai/apply/3d" : "https://rni.xxx.ai/apply",
@@ -1139,6 +1141,16 @@
       } catch (t) {
         console.log(t)
       }
+
+      console.log('xhevat');
+      if ( t == 'gallery_open' ) {
+        console.log('ketu...');
+      }
+      if ( t == 'brand_selected') {
+        console.log('brand...');
+      }
+      console.log(t);
+      console.log(e);
     };
   e.d = {
     init: function() {
@@ -1201,7 +1213,7 @@
         },
         body: JSON.stringify(O),
         keepalive: !0
-      }, fetch(E, m), d(t, y)
+      }, console.log(m), fetch(E, m), d(t, y)
     }
   }
 }, , , function(t, e, n) {

@@ -1,0 +1,255 @@
+{
+  "data": [
+  {
+    "uuid": "scene_9",
+    "title": "Scene_009",
+    "walls": [
+    {
+      "x": 49.923062324523926,
+      "y": 31.23320638784071,
+      "wall_id": 0
+    }],
+    "floor":
+    {
+      "x": 50.54465293884277,
+      "y": 94.34548274014509
+    },
+    "image_path": "interiors\/reserved\/images\/scene_9.jpg",
+    "room_type_title": "Living room",
+    "room_type_id": 5,
+    "width": 2560,
+    "height": 1706,
+    "created_at": "01.01.2019"
+  },
+  {
+    "uuid": "scene_8",
+    "title": "Scene_008",
+    "walls": [
+    {
+      "x": 3.227309286594391,
+      "y": 17.485853152705523,
+      "wall_id": 0
+    },
+    {
+      "x": 10.291963815689089,
+      "y": 26.8,
+      "wall_id": 1
+    },
+    {
+      "x": 56.21320724487305,
+      "y": 26.83436761567629,
+      "wall_id": 2
+    }],
+    "floor":
+    {
+      "x": 47.6,
+      "y": 78.31635559010478
+    },
+    "image_path": "interiors\/reserved\/images\/scene_8.jpg",
+    "room_type_title": "Living room",
+    "room_type_id": 5,
+    "width": 2560,
+    "height": 1706,
+    "created_at": "01.01.2019"
+  },
+  {
+    "uuid": "scene_5",
+    "title": "Scene_005",
+    "walls": [
+    {
+      "x": 54.1,
+      "y": 20.1,
+      "wall_id": 1
+    },
+    {
+      "x": 91.2,
+      "y": 23.4,
+      "wall_id": 2
+    }],
+    "floor":
+    {
+      "x": 50,
+      "y": 94.5
+    },
+    "image_path": "interiors\/reserved\/images\/scene_5.jpg",
+    "room_type_title": "Bedroom",
+    "room_type_id": 6,
+    "width": 2560,
+    "height": 1706,
+    "created_at": "30.03.2021"
+  },
+  {
+    "uuid": "scene_1",
+    "title": "Scene_001",
+    "walls": [
+    {
+      "x": 50,
+      "y": 18.4,
+      "wall_id": 0
+    }],
+    "floor":
+    {
+      "x": 51.16467475891113,
+      "y": 91.47895553606756
+    },
+    "image_path": "interiors\/reserved\/images\/scene_1.jpg",
+    "room_type_title": "Bedroom",
+    "room_type_id": 6,
+    "width": 2560,
+    "height": 1706,
+    "created_at": "01.01.2019"
+  },
+  {
+    "uuid": "scene_6",
+    "title": "Scene_006",
+    "walls": [
+    {
+      "x": 50,
+      "y": 34,
+      "wall_id": 0
+    }],
+    "floor":
+    {
+      "x": 58,
+      "y": 92
+    },
+    "image_path": "interiors\/reserved\/images\/scene_6.jpg",
+    "room_type_title": "Children's room",
+    "room_type_id": 4,
+    "width": 2560,
+    "height": 1706,
+    "created_at": "30.03.2021"
+  },
+  {
+    "uuid": "scene_4",
+    "title": "Scene_004",
+    "walls": [
+    {
+      "x": 43,
+      "y": 36,
+      "wall_id": 0
+    },
+    {
+      "x": 83.5,
+      "y": 39,
+      "wall_id": 1
+    },
+    {
+      "x": 94.7,
+      "y": 36,
+      "wall_id": 2
+    }],
+    "floor":
+    {
+      "x": 43,
+      "y": 88.5
+    },
+    "image_path": "interiors\/reserved\/images\/scene_4.jpg",
+    "room_type_title": "Children's room",
+    "room_type_id": 4,
+    "width": 2560,
+    "height": 1440,
+    "created_at": "30.03.2021"
+  },
+  {
+    "uuid": "scene_3",
+    "title": "Scene_003",
+    "walls": [
+    {
+      "x": 50,
+      "y": 38,
+      "wall_id": 0
+    }],
+    "floor":
+    {
+      "x": 50,
+      "y": 94.8
+    },
+    "image_path": "interiors\/reserved\/images\/scene_3.jpg",
+    "room_type_title": "Kitchen",
+    "room_type_id": 3,
+    "width": 2560,
+    "height": 1706,
+    "created_at": "30.03.2021"
+  },
+  {
+    "uuid": "scene_7",
+    "title": "Scene_007",
+    "walls": [
+    {
+      "x": 59,
+      "y": 23.7,
+      "wall_id": 1
+    }],
+    "floor":
+    {
+      "x": 59,
+      "y": 89
+    },
+    "image_path": "interiors\/reserved\/images\/scene_7.jpg",
+    "room_type_title": "Kitchen",
+    "room_type_id": 3,
+    "width": 2560,
+    "height": 1699,
+    "created_at": "30.03.2021"
+  },
+  {
+    "uuid": "scene_2",
+    "title": "Scene_002",
+    "walls": [
+    {
+      "x": 13.8,
+      "y": 47.9,
+      "wall_id": 0
+    },
+    {
+      "x": 50,
+      "y": 50,
+      "wall_id": 1
+    }],
+    "floor":
+    {
+      "x": 50,
+      "y": 90
+    },
+    "image_path": "interiors\/reserved\/images\/scene_2.jpg",
+    "room_type_title": "Kitchen",
+    "room_type_id": 3,
+    "width": 2560,
+    "height": 1706,
+    "created_at": "01.01.2019"
+  }],
+  "links":
+  {
+    "first": "https:\/\/visual.ornato.mk\/api\/rooms?page=1",
+    "last": "https:\/\/visual.ornato.mk\/api\/rooms?page=1",
+    "prev": null,
+    "next": null
+  },
+  "meta":
+  {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 1,
+    "links": [
+    {
+      "url": null,
+      "label": "pagination.previous",
+      "active": false
+    },
+    {
+      "url": "https:\/\/visual.ornato.mk\/api\/rooms?page=1",
+      "label": "1",
+      "active": true
+    },
+    {
+      "url": null,
+      "label": "pagination.next",
+      "active": false
+    }],
+    "path": "https:\/\/visual.ornato.mk\/api\/rooms",
+    "per_page": 15,
+    "to": 9,
+    "total": 9
+  }
+}
