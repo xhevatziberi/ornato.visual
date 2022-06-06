@@ -2,3 +2,7 @@
     pointer-events: none;
     opacity: .2;
 }
+.w-catalog-image__favorite,
+.w-mini-controls--mobile__left {
+  display: none !important;
+}
