@@ -1,12 +1,12 @@
 {
   "data": [
   {
-    "uuid": "product-on-09",
+    "uuid": "product-on-009",
     "application_type": ["wall"],
     "type": "wall",
-    "vendor_code": "decorative-panel-on-09",
-    "sku": "decorative-panel-on-09",
-    "name": "Decorative Panel | ON-09",
+    "vendor_code": "decorative-panel-on-009",
+    "sku": "decorative-panel-on-009",
+    "name": "Decorative Panel | ON-009",
     "description": "",
     "is_visible": true,
     "collection_uuid": "or-xx",
@@ -14,7 +14,7 @@
     "collection":
     {
       "uuid": "or-xx",
-      "name": "16.5x2.5cm",
+      "name": "16x2.5cm",
       "brand_uuid": "decorative_panels",
       "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
       "is_default_cover": false,
@@ -28,21 +28,21 @@
       "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
       "is_default_cover": false
     },
-    "image_path": "pim-data\/ornato\/panels\/on-09.jpg",
+    "image_path": "pim-data\/ornato\/panels\/on-009.jpg",
     "product_type":
     {
       "uuid": "wallpaper",
       "code": "wallpaper"
     },
-    "preview_image_path": "pim-data\/ornato\/panels\/on-09.jpg",
+    "preview_image_path": "pim-data\/ornato\/panels\/on-009.jpg",
     "width": 2.4,
     "product_width": 2.4,
     "length": 0.6,
     "reverse_180": false,
     "mural": false,
     "rapport_shift": null,
-    "links_by_context": ["https:\/\/ornato.mk\/product\/on-09\/?rel=visual"],
-    "link": "https:\/\/ornato.mk\/product\/on-09\/?rel=visual",
+    "links_by_context": ["https:\/\/ornato.mk\/product\/on-009\/?rel=visual"],
+    "link": "https:\/\/ornato.mk\/product\/on-009\/?rel=visual",
     "regular_price": null,
     "promotional_price": null,
     "currency": null,
@@ -57,7 +57,7 @@
         "is_default": true,
         "material_maps":
         {
-          "color": "pim-data\/ornato\/panels\/on-09.jpg"
+          "color": "pim-data\/ornato\/panels\/on-009.jpg"
         },
         "image":
         {
@@ -78,7 +78,7 @@
     {
       "uuid": "7087b0b2-5b75-449e-9f53-1fc9f1bc4897",
       "laying_pattern_type": "no_pattern",
-      "image_path": "pim-data\/ornato\/panels\/on-09.jpg",
+      "image_path": "pim-data\/ornato\/panels\/on-009.jpg",
       "model_path": "",
       "metadata": "{\"image\":{\"size\":1590436,\"mimeType\":\"image\\\/png\",\"type\":\"file\",\"width\":2457,\"height\":622}}",
       "is_default": true
@@ -88,12 +88,12 @@
     "pattern": null
   },
   {
-    "uuid": "product-on-24",
+    "uuid": "product-on-024",
     "application_type": ["wall"],
     "type": "wall",
-    "vendor_code": "decorative-panel-on-24",
-    "sku": "decorative-panel-on-24",
-    "name": "Decorative Panel | ON-24",
+    "vendor_code": "decorative-panel-on-024",
+    "sku": "decorative-panel-on-024",
+    "name": "Decorative Panel | ON-024",
     "description": null,
     "is_visible": true,
     "collection_uuid": "or-xx",
@@ -101,7 +101,7 @@
     "collection":
     {
       "uuid": "or-xx",
-      "name": "16.5x2.5cm",
+      "name": "16x2.5cm",
       "brand_uuid": "decorative_panels",
       "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
       "is_default_cover": false,
@@ -115,21 +115,21 @@
       "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
       "is_default_cover": false
     },
-    "image_path": "pim-data\/ornato\/panels\/on-24.jpg",
+    "image_path": "pim-data\/ornato\/panels\/on-024.jpg",
     "product_type":
     {
       "uuid": "wallpaper",
       "code": "wallpaper"
     },
-    "preview_image_path": "pim-data\/ornato\/panels\/on-24.jpg",
+    "preview_image_path": "pim-data\/ornato\/panels\/on-024.jpg",
     "width": 0.6,
     "product_width": 0.6,
     "length": 2.4,
     "reverse_180": false,
     "mural": false,
     "rapport_shift": null,
-    "links_by_context": ["https:\/\/ornato.mk\/product\/on-24\/?rel=visual"],
-    "link": "https:\/\/ornato.mk\/product\/on-24\/?rel=visual",
+    "links_by_context": ["https:\/\/ornato.mk\/product\/on-024\/?rel=visual"],
+    "link": "https:\/\/ornato.mk\/product\/on-024\/?rel=visual",
     "regular_price": null,
     "promotional_price": null,
     "currency": null,
@@ -144,7 +144,7 @@
         "is_default": true,
         "material_maps":
         {
-          "color": "pim-data\/ornato\/panels\/on-24.jpg"
+          "color": "pim-data\/ornato\/panels\/on-024.jpg"
         },
         "image":
         {
@@ -165,7 +165,7 @@
     {
       "uuid": "9bbb019c-7032-4a9e-88ad-1ec057ce4aab",
       "laying_pattern_type": "no_pattern",
-      "image_path": "pim-data\/ornato\/panels\/on-24.jpg",
+      "image_path": "pim-data\/ornato\/panels\/on-024.jpg",
       "model_path": "",
       "metadata": "{\"image\":{\"size\":4552979,\"mimeType\":\"image\\\/png\",\"type\":\"file\",\"width\":1024,\"height\":4043}}",
       "is_default": true
@@ -175,12 +175,12 @@
     "pattern": null
   },
   {
-    "uuid": "product-on-40",
+    "uuid": "product-on-040",
     "application_type": ["wall"],
     "type": "wall",
-    "vendor_code": "decorative-panel-on-24",
-    "sku": "decorative-panel-on-24",
-    "name": "Decorative Panel | ON-24",
+    "vendor_code": "decorative-panel-on-040",
+    "sku": "decorative-panel-on-040",
+    "name": "Decorative Panel | ON-040",
     "description": null,
     "is_visible": true,
     "collection_uuid": "or-xx",
@@ -188,7 +188,7 @@
     "collection":
     {
       "uuid": "or-xx",
-      "name": "16.5x2.5cm",
+      "name": "16x2.5cm",
       "brand_uuid": "decorative_panels",
       "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
       "is_default_cover": false,
@@ -202,21 +202,21 @@
       "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
       "is_default_cover": false
     },
-    "image_path": "pim-data\/ornato\/panels\/on-40.jpg",
+    "image_path": "pim-data\/ornato\/panels\/on-040.jpg",
     "product_type":
     {
       "uuid": "wallpaper",
       "code": "wallpaper"
     },
-    "preview_image_path": "pim-data\/ornato\/panels\/on-40.jpg",
+    "preview_image_path": "pim-data\/ornato\/panels\/on-040.jpg",
     "width": 2.4,
     "product_width": 2.4,
     "length": 0.6,
     "reverse_180": false,
     "mural": false,
     "rapport_shift": null,
-    "links_by_context": ["https:\/\/ornato.mk\/product\/on-40\/?rel=visual"],
-    "link": "https:\/\/ornato.mk\/product\/on-40\/?rel=visual",
+    "links_by_context": ["https:\/\/ornato.mk\/product\/on-040\/?rel=visual"],
+    "link": "https:\/\/ornato.mk\/product\/on-040\/?rel=visual",
     "regular_price": null,
     "promotional_price": null,
     "currency": null,
@@ -231,7 +231,7 @@
         "is_default": true,
         "material_maps":
         {
-          "color": "pim-data\/ornato\/panels\/on-40.jpg"
+          "color": "pim-data\/ornato\/panels\/on-040.jpg"
         },
         "image":
         {
@@ -252,7 +252,7 @@
     {
       "uuid": "287d0bd4-f1d5-46fd-97d4-ef879ef2103d",
       "laying_pattern_type": "no_pattern",
-      "image_path": "pim-data\/ornato\/panels\/on-40.jpg",
+      "image_path": "pim-data\/ornato\/panels\/on-040.jpg",
       "model_path": "",
       "metadata": "{\"image\":{\"size\":2846041,\"mimeType\":\"image\\\/png\",\"type\":\"file\",\"width\":2457,\"height\":624}}",
       "is_default": true
@@ -262,12 +262,12 @@
     "pattern": null
   },
   {
-    "uuid": "product-on-65",
+    "uuid": "product-on-065",
     "application_type": ["wall"],
     "type": "wall",
-    "vendor_code": "decorative-panel-on-65",
+    "vendor_code": "decorative-panel-on-065",
     "sku": "akupanel-blue",
-    "name": "Decorative Panel | ON-65",
+    "name": "Decorative Panel | ON-065",
     "description": null,
     "is_visible": true,
     "collection_uuid": "or-xx",
@@ -289,21 +289,21 @@
       "image_path": "pim-data\/ornato\/covers\/brands\/decorative_panels.jpg",
       "is_default_cover": false
     },
-    "image_path": "pim-data\/ornato\/panels\/on-65.jpg",
+    "image_path": "pim-data\/ornato\/panels\/on-065.jpg",
     "product_type":
     {
       "uuid": "wallpaper",
       "code": "wallpaper"
     },
-    "preview_image_path": "pim-data\/ornato\/panels\/on-65.jpg",
+    "preview_image_path": "pim-data\/ornato\/panels\/on-065.jpg",
     "width": 0.6,
     "product_width": 0.6,
     "length": 2.4,
     "reverse_180": false,
     "mural": false,
     "rapport_shift": null,
-    "links_by_context": ["https:\/\/ornato.mk\/product\/on-65\/?rel=visual"],
-    "link": "https:\/\/ornato.mk\/product\/on-65\/?rel=visual",
+    "links_by_context": ["https:\/\/ornato.mk\/product\/on-065\/?rel=visual"],
+    "link": "https:\/\/ornato.mk\/product\/on-065\/?rel=visual",
     "regular_price": null,
     "promotional_price": null,
     "currency": null,
@@ -318,7 +318,7 @@
         "is_default": true,
         "material_maps":
         {
-          "color": "pim-data\/ornato\/panels\/on-65.jpg"
+          "color": "pim-data\/ornato\/panels\/on-065.jpg"
         },
         "image":
         {
@@ -339,7 +339,7 @@
     {
       "uuid": "b0c4b011-6b1b-4b3b-9c26-ee6c57158b15",
       "laying_pattern_type": "no_pattern",
-      "image_path": "pim-data\/ornato\/panels\/on-65.jpg",
+      "image_path": "pim-data\/ornato\/panels\/on-065.jpg",
       "model_path": "",
       "metadata": "{\"image\":{\"size\":7846952,\"mimeType\":\"image\\\/png\",\"type\":\"file\",\"width\":1024,\"height\":4030}}",
       "is_default": true

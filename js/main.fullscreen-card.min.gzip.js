@@ -1,4 +1,9 @@
 window.MOD_ORNATO = {};
+window.MOD_ORNATO.counter = 0;
+window.MOD_ORNATO.get_counter = function() {
+  window.MOD_ORNATO.counter ++;
+  return window.MOD_ORNATO.counter;
+}
 window.MOD_ORNATO.prestart = true;
 window.MOD_ORNATO.brand_s = function() {
   if ( window.MOD_ORNATO.prestart ) {
@@ -1153,6 +1158,11 @@ window.MOD_ORNATO.brand_s = function() {
       }
 
       // xhevat
+      if ( t == 'user_init' ) {
+        //ne fillim kur starton
+        window.MOD_ORNATO.device = document.querySelector('html').dataset.device;
+      }
+
       if ( t == 'predefined_interior_selected' ) {
         //ne fillim kur e klikon dhomen
         window.MOD_ORNATO.room = e.interior_id;
@@ -1167,15 +1177,46 @@ window.MOD_ORNATO.brand_s = function() {
         }
       }
 
+      if ( t == 'back' ) { //MOB
+        if ( window.MOD_ORNATO.brand ) {
+          setTimeout(function (){
+            document.querySelectorAll(`.w-list__item[data-article]:not([data-article='{"uuid":"${window.MOD_ORNATO.brand}"}'])`)
+              .forEach(div => div.classList.add('unselectable'));
+          }, 100);
+        }
+      }
+
+      if ( t == 'catalog_start' ) { //MOB
+        if ( window.MOD_ORNATO.brand ) {
+          setTimeout(function (){
+            if ( document.querySelectorAll('.catalog-back-button').length ) {
+              document.querySelectorAll('.catalog-back-button')[0].click();
+            }
+          }, 100);
+        }
+      }
+
       if ( t == 'gallery_open' ) {
         if ( window.MOD_ORNATO.brand ) {
 
-          if ( document.querySelectorAll('.pastroje div').length ) {
-            document.querySelectorAll('.pastroje div')[0].click();
+          if ( window.MOD_ORNATO.device == 'desktop' ) {
+            if ( document.querySelectorAll('.pastroje div').length ) {
+              document.querySelectorAll('.pastroje div')[0].click();
+            }
+          } else if ( window.MOD_ORNATO.device == 'mobile' ) {
+            if ( document.querySelectorAll('.oritem-2').length ) {
+              document.querySelectorAll('.oritem-2')[0].click();
+            }
+          } else if ( window.MOD_ORNATO.device == 'tablet' ) {
+            if ( document.querySelectorAll('.oritem-3').length ) {
+              document.querySelectorAll('.oritem-3')[0].click();
+            }
           }
+
           if ( document.querySelectorAll('.catalog-back-button').length ) {
             document.querySelectorAll('.catalog-back-button')[0].click();
           }
+
           // document.querySelectorAll(`div[data-brand]:not([data-brand="${window.MOD_ORNATO.brand}"])`)
           //   .forEach(div => div.classList.add('unselectable'));
 
@@ -1192,9 +1233,9 @@ window.MOD_ORNATO.brand_s = function() {
             .forEach(div => div.classList.add('unselectable'));
         }
       }
-      console.log(t);
-      console.log(e);
-      console.log('MOD_ORNATO', window.MOD_ORNATO);
+      // console.log(t);
+      // console.log(e);
+      // console.log('MOD_ORNATO', window.MOD_ORNATO);
     };
   e.d = {
     init: function() {

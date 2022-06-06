@@ -99,6 +99,7 @@
         }
         )),
         n.d(t, "d", (function() {
+            window.MOD_ORNATO.counter = 1;
             return de
         }
         ));
@@ -573,7 +574,7 @@
               , u = e.onTouchStart
               , m = e.onTouchEnd;
             return c.a.createElement("div", {
-                className: i()("w-control-item", {
+                className: i()("w-control-item oritem-" + window.MOD_ORNATO.get_counter(), {
                     "w-control-item--single": a
                 }),
                 onClick: function() {

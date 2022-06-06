@@ -1,12 +1,12 @@
 {
   "data": [
     {
-      "uuid": "product-on-01",
+      "uuid": "product-on-301a",
       "application_type": ["wall"],
       "type": "wall",
-      "vendor_code": "pvc-marble-01",
+      "vendor_code": "pvc-marble-301A",
       "sku": "pvc-marble-01",
-      "name": "PVC Marble | ON-01",
+      "name": "PVC Marble | ON-301A",
       "description": "",
       "is_visible": true,
       "collection_uuid": "or-yy",
@@ -14,7 +14,7 @@
       "collection":
       {
         "uuid": "or-yy",
-        "name": "16.5x2.5cm",
+        "name": "3mm",
         "brand_uuid": "pvc_marbles",
         "image_path": "pim-data\/ornato\/covers\/brands\/pvc_marbles.jpg",
         "is_default_cover": false,
@@ -28,21 +28,21 @@
         "image_path": "pim-data\/ornato\/covers\/brands\/pvc_marbles.jpg",
         "is_default_cover": false
       },
-      "image_path": "pim-data\/ornato\/panels\/on-01.jpg",
+      "image_path": "pim-data\/ornato\/panels\/on-301a.jpg",
       "product_type":
       {
         "uuid": "wallpaper",
         "code": "wallpaper"
       },
-      "preview_image_path": "pim-data\/ornato\/panels\/on-01.jpg",
+      "preview_image_path": "pim-data\/ornato\/panels\/on-301a.jpg",
       "width": 2.4,
       "product_width": 2.4,
       "length": 0.6,
       "reverse_180": false,
       "mural": false,
       "rapport_shift": null,
-      "links_by_context": ["https:\/\/ornato.mk\/product\/on-01\/?rel=visual"],
-      "link": "https:\/\/ornato.mk\/product\/on-01\/?rel=visual",
+      "links_by_context": ["https:\/\/ornato.mk\/product\/on-301a\/?rel=visual"],
+      "link": "https:\/\/ornato.mk\/product\/on-301a\/?rel=visual",
       "regular_price": null,
       "promotional_price": null,
       "currency": null,
@@ -57,7 +57,7 @@
           "is_default": true,
           "material_maps":
           {
-            "color": "pim-data\/ornato\/panels\/on-01.jpg"
+            "color": "pim-data\/ornato\/panels\/on-301a.jpg"
           },
           "image":
           {
@@ -78,7 +78,7 @@
       {
         "uuid": "7087b0b2-5b75-449e-9f53-1fc9f1bc4897",
         "laying_pattern_type": "no_pattern",
-        "image_path": "pim-data\/ornato\/panels\/on-01.jpg",
+        "image_path": "pim-data\/ornato\/panels\/on-301a.jpg",
         "model_path": "",
         "metadata": "{\"image\":{\"size\":1590436,\"mimeType\":\"image\\\/png\",\"type\":\"file\",\"width\":2457,\"height\":622}}",
         "is_default": true
@@ -88,12 +88,12 @@
       "pattern": null
     },
     {
-      "uuid": "product-on-02",
+      "uuid": "product-on-307",
       "application_type": ["wall"],
       "type": "wall",
       "vendor_code": "pvc-marble-02",
-      "sku": "pvc-marble-02",
-      "name": "PVC Marble | ON-02",
+      "sku": "pvc-marble-307",
+      "name": "PVC Marble | ON-307",
       "description": null,
       "is_visible": true,
       "collection_uuid": "or-yy",
@@ -115,21 +115,21 @@
         "image_path": "pim-data\/ornato\/covers\/brands\/pvc_marbles.jpg",
         "is_default_cover": false
       },
-      "image_path": "pim-data\/ornato\/panels\/on-02.jpg",
+      "image_path": "pim-data\/ornato\/panels\/on-307.jpg",
       "product_type":
       {
         "uuid": "wallpaper",
         "code": "wallpaper"
       },
-      "preview_image_path": "pim-data\/ornato\/panels\/on-02.jpg",
+      "preview_image_path": "pim-data\/ornato\/panels\/on-307.jpg",
       "width": 0.6,
       "product_width": 0.6,
       "length": 2.4,
       "reverse_180": false,
       "mural": false,
       "rapport_shift": null,
-      "links_by_context": ["https:\/\/ornato.mk\/product\/on-02\/?rel=visual"],
-      "link": "https:\/\/ornato.mk\/product\/on-02\/?rel=visual",
+      "links_by_context": ["https:\/\/ornato.mk\/product\/on-307\/?rel=visual"],
+      "link": "https:\/\/ornato.mk\/product\/on-307\/?rel=visual",
       "regular_price": null,
       "promotional_price": null,
       "currency": null,
@@ -144,7 +144,7 @@
           "is_default": true,
           "material_maps":
           {
-            "color": "pim-data\/ornato\/panels\/on-02.jpg"
+            "color": "pim-data\/ornato\/panels\/on-307.jpg"
           },
           "image":
           {
@@ -165,7 +165,7 @@
       {
         "uuid": "9bbb019c-7032-4a9e-88ad-1ec057ce4aab",
         "laying_pattern_type": "no_pattern",
-        "image_path": "pim-data\/ornato\/panels\/on-02.jpg",
+        "image_path": "pim-data\/ornato\/panels\/on-307.jpg",
         "model_path": "",
         "metadata": "{\"image\":{\"size\":4552979,\"mimeType\":\"image\\\/png\",\"type\":\"file\",\"width\":1024,\"height\":4043}}",
         "is_default": true
