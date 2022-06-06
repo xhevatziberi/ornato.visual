@@ -4,7 +4,7 @@ window.MOD_ORNATO.brand_s = function() {
   if ( window.MOD_ORNATO.prestart ) {
     setTimeout(function (){
       document.querySelectorAll(`.w-list__item[data-article]:not([data-article='{"uuid":"${window.MOD_ORNATO.brand}"}'])`)
-              .forEach(div => div.classList.add('unselectable'));                
+              .forEach(div => div.classList.add('unselectable'));
     }, 100);
   }
   window.MOD_ORNATO.prestart = false;
@@ -1161,7 +1161,7 @@ window.MOD_ORNATO.brand_s = function() {
 
         if ( window.MOD_ORNATO.brand ) {
           document.querySelectorAll(`.w-list__item[data-article]`).forEach(div => div.classList.remove('unselectable'));
-            
+
           document.querySelectorAll(`.w-list__item[data-article]:not([data-article='{"uuid":"${window.MOD_ORNATO.brand}"}'])`)
             .forEach(div => div.classList.add('unselectable'));
         }
@@ -1174,7 +1174,7 @@ window.MOD_ORNATO.brand_s = function() {
             document.querySelectorAll('.pastroje div')[0].click();
           }
           if ( document.querySelectorAll('.catalog-back-button').length ) {
-            document.querySelectorAll('.catalog-back-button')[0].click(); 
+            document.querySelectorAll('.catalog-back-button')[0].click();
           }
           // document.querySelectorAll(`div[data-brand]:not([data-brand="${window.MOD_ORNATO.brand}"])`)
           //   .forEach(div => div.classList.add('unselectable'));
@@ -1187,14 +1187,14 @@ window.MOD_ORNATO.brand_s = function() {
       if ( t == 'gallery_closed_by_user') {
         if ( window.MOD_ORNATO.brand ) {
           document.querySelectorAll(`.w-list__item[data-article]`).forEach(div => div.classList.remove('unselectable'));
-            
+
           document.querySelectorAll(`.w-list__item[data-article]:not([data-article='{"uuid":"${window.MOD_ORNATO.brand}"}'])`)
             .forEach(div => div.classList.add('unselectable'));
         }
       }
-      // console.log(t);
-      // console.log(e);
-      // console.log('MOD_ORNATO', window.MOD_ORNATO);
+      console.log(t);
+      console.log(e);
+      console.log('MOD_ORNATO', window.MOD_ORNATO);
     };
   e.d = {
     init: function() {
