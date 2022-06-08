@@ -1233,9 +1233,9 @@ window.MOD_ORNATO.brand_s = function() {
             .forEach(div => div.classList.add('unselectable'));
         }
       }
-      console.log(t);
-      console.log(e);
-      console.log('MOD_ORNATO', window.MOD_ORNATO);
+      // console.log(t);
+      // console.log(e);
+      // console.log('MOD_ORNATO', window.MOD_ORNATO);
     };
   e.d = {
     init: function() {
