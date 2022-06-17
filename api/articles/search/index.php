@@ -10,15 +10,16 @@ if ( isset( $q->{'$or'} ) ) {
   if ( isset( $q->{'$or'}[0] ) ) {
     if ( isset( $q->{'$or'}[0]->{'$like'} ) ) {
       if ( isset( $q->{'$or'}[0]->{'$like'}[1] ) ) {
-        $query = isset( $q->{'$or'}[0]->{'$like'}[1];
+        $query = $q->{'$or'}[0]->{'$like'}[1];
       }
     }
   }
 }
 
+
 $arr = [];
 foreach ($json->data as $key => $data) {
-  if ( $data->uuid == $brand ) {
+  if ( stripos($data->name, $query) !== false ) {
     array_push($arr, $json->data[$key]);
   }
 }
