@@ -1,8 +1,8 @@
 {
   "data": [
     {
-      "uuid": "scene_9",
-      "title": "Scene_009",
+      "uuid": "scene_1",
+      "title": "Scene_001",
       "for_brand": "decorative_panels",
       "for_collection": "or-xx",
       "walls": [
@@ -16,16 +16,16 @@
         "x": 50.54465293884277,
         "y": 94.34548274014509
       },
-      "image_path": "interiors\/reserved\/images\/scene_9.jpg",
+      "image_path": "interiors\/reserved\/images\/scene_1.jpg",
       "room_type_title": "Living room",
       "room_type_id": 5,
-      "width": 2560,
-      "height": 1706,
-      "created_at": "01.01.2019"
+      "width": 2048,
+      "height": 1365,
+      "created_at": "01.01.2022"
     },
     {
-      "uuid": "scene_8",
-      "title": "Scene_008",
+      "uuid": "scene_2",
+      "title": "Scene_002",
       "for_brand": "decorative_panels",
       "for_collection": "or-xx",
       "walls": [
@@ -39,16 +39,16 @@
         "x": 50.54465293884277,
         "y": 94.34548274014509
       },
-      "image_path": "interiors\/reserved\/images\/scene_8.jpg",
+      "image_path": "interiors\/reserved\/images\/scene_2.jpg",
       "room_type_title": "Living room",
       "room_type_id": 5,
-      "width": 2560,
-      "height": 1706,
-      "created_at": "01.01.2019"
+      "width": 2048,
+      "height": 1365,
+      "created_at": "01.01.2022"
     },
     {
-      "uuid": "scene_7",
-      "title": "Scene_007",
+      "uuid": "scene_3",
+      "title": "Scene_003",
       "for_brand": "decorative_panels",
       "for_collection": "or-xx",
       "walls": [
@@ -62,12 +62,58 @@
         "x": 50.54465293884277,
         "y": 94.34548274014509
       },
-      "image_path": "interiors\/reserved\/images\/scene_7.jpg",
-      "room_type_title": "Kitchen",
-      "room_type_id": 3,
-      "width": 2560,
-      "height": 1699,
-      "created_at": "30.03.2021"
+      "image_path": "interiors\/reserved\/images\/scene_3.jpg",
+      "room_type_title": "Living room",
+      "room_type_id": 5,
+      "width": 2048,
+      "height": 1365,
+      "created_at": "01.01.2022"
+    },
+    {
+      "uuid": "scene_4",
+      "title": "Scene_004",
+      "for_brand": "decorative_panels",
+      "for_collection": "or-xx",
+      "walls": [
+      {
+        "x": 49.923062324523926,
+        "y": 31.23320638784071,
+        "wall_id": 0
+      }],
+      "floor":
+      {
+        "x": 50.54465293884277,
+        "y": 94.34548274014509
+      },
+      "image_path": "interiors\/reserved\/images\/scene_4.jpg",
+      "room_type_title": "Living room",
+      "room_type_id": 5,
+      "width": 2048,
+      "height": 1365,
+      "created_at": "01.01.2022"
+    },
+    {
+      "uuid": "scene_5",
+      "title": "Scene_005",
+      "for_brand": "decorative_panels",
+      "for_collection": "or-xx",
+      "walls": [
+      {
+        "x": 49.923062324523926,
+        "y": 31.23320638784071,
+        "wall_id": 0
+      }],
+      "floor":
+      {
+        "x": 50.54465293884277,
+        "y": 94.34548274014509
+      },
+      "image_path": "interiors\/reserved\/images\/scene_5.jpg",
+      "room_type_title": "Living room",
+      "room_type_id": 5,
+      "width": 2048,
+      "height": 1365,
+      "created_at": "01.01.2022"
     },
     {
       "uuid": "scene_6",
@@ -86,15 +132,15 @@
         "y": 94.34548274014509
       },
       "image_path": "interiors\/reserved\/images\/scene_6.jpg",
-      "room_type_title": "Children's room",
-      "room_type_id": 4,
-      "width": 2560,
-      "height": 1706,
-      "created_at": "30.03.2021"
+      "room_type_title": "Living room",
+      "room_type_id": 5,
+      "width": 2048,
+      "height": 1365,
+      "created_at": "01.01.2022"
     },
     {
-      "uuid": "scene_5",
-      "title": "Scene_005",
+      "uuid": "scene_7",
+      "title": "Scene_007",
       "for_brand": "pvc_marbles",
       "for_collection": "or-yy",
       "walls": [
@@ -108,16 +154,16 @@
         "x": 50.54465293884277,
         "y": 94.34548274014509
       },
-      "image_path": "interiors\/reserved\/images\/scene_5.jpg",
+      "image_path": "interiors\/reserved\/images\/scene_7.jpg",
       "room_type_title": "Children's room",
       "room_type_id": 4,
-      "width": 2560,
-      "height": 1706,
-      "created_at": "30.03.2021"
+      "width": 2048,
+      "height": 1365,
+      "created_at": "01.01.2022"
     },
     {
-      "uuid": "scene_4",
-      "title": "Scene_004",
+      "uuid": "scene_8",
+      "title": "Scene_008",
       "for_brand": "pvc_marbles",
       "for_collection": "or-yy",
       "walls": [
@@ -131,12 +177,58 @@
         "x": 50.54465293884277,
         "y": 94.34548274014509
       },
-      "image_path": "interiors\/reserved\/images\/scene_4.jpg",
+      "image_path": "interiors\/reserved\/images\/scene_8.jpg",
       "room_type_title": "Children's room",
       "room_type_id": 4,
-      "width": 2560,
-      "height": 1706,
-      "created_at": "30.03.2021"
+      "width": 2048,
+      "height": 1365,
+      "created_at": "01.01.2022"
+    },
+    {
+      "uuid": "scene_9",
+      "title": "Scene_009",
+      "for_brand": "pvc_marbles",
+      "for_collection": "or-yy",
+      "walls": [
+      {
+        "x": 49.923062324523926,
+        "y": 31.23320638784071,
+        "wall_id": 0
+      }],
+      "floor":
+      {
+        "x": 50.54465293884277,
+        "y": 94.34548274014509
+      },
+      "image_path": "interiors\/reserved\/images\/scene_9.jpg",
+      "room_type_title": "Children's room",
+      "room_type_id": 4,
+      "width": 2048,
+      "height": 1365,
+      "created_at": "01.01.2022"
+    },
+    {
+      "uuid": "scene_10",
+      "title": "Scene_010",
+      "for_brand": "pvc_marbles",
+      "for_collection": "or-yy",
+      "walls": [
+      {
+        "x": 49.923062324523926,
+        "y": 31.23320638784071,
+        "wall_id": 0
+      }],
+      "floor":
+      {
+        "x": 50.54465293884277,
+        "y": 94.34548274014509
+      },
+      "image_path": "interiors\/reserved\/images\/scene_10.jpg",
+      "room_type_title": "Children's room",
+      "room_type_id": 4,
+      "width": 2048,
+      "height": 1365,
+      "created_at": "01.01.2022"
     }
   ],
   "links":
@@ -170,6 +262,6 @@
     "path": "https:\/\/visual.ornato.mk\/api\/rooms",
     "per_page": 15,
     "to": 1,
-    "total": 6
+    "total": 10
   }
 }
