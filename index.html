@@ -87,11 +87,14 @@
   <script defer type="application/javascript" src="js/vendors.fullscreen-card.min.gzip.js?1.0.0"></script>
 
   <script !src="">
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const language = urlParams.has('lang') ? urlParams.get('lang') : 'sq';
     window.onload = function() {
       let initialObject = {
         token: 'xxx',
         client_identifier: 'ornato',
-        locale: 'sq-AL',
+        locale: language,
         backButtonAction: function() {
           window.parent.postMessage('close_overlay', '*');
         },

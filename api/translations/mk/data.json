@@ -1,0 +1,266 @@
+{
+  "ROOM_LIST":
+  {
+    "TITLE": "Изберете соба за преуредување",
+    "TITLE_ROW1": "Изберете соба",
+    "TITLE_ROW2": "да се преуреди",
+    "BACK_BUTTON": "Врати се на сајтот",
+    "DELETE_ROOM_TITLE": "Сигурно сакате да ја избришете фотографијата?",
+    "ROOM_NOT_AVAILABLE": "Не е достапен за избраниот производ"
+  },
+  "FOOTER_PANEL":
+  {
+    "ROOMS": "Соби",
+    "CATALOG": "Каталог",
+    "APPLIED": "Применето",
+    "SHOPPING_CART": "Кошничка",
+    "MENU": "Мени"
+  },
+  "ARTICLE_LIST":
+  {
+    "FILTER_TITLE": "Филтер",
+    "FAVORITES_TITLE": "Омилени",
+    "NO_RESULTS_MESSAGE": "Нема резултати",
+    "NO_ARTICLES_MESSAGE": "Нема производи",
+    "PRODUCT_TYPE": "Производи",
+    "BRANDS": "Брендови",
+    "BRANDS_TITLE": "Брендови",
+    "COLLECTIONS": "Колекции",
+    "PRODUCTS": "Производи",
+    "TITLE": "Каталог",
+    "NAVIGATION_SEARCH": "Барај",
+    "RESULT": "Резултати:",
+    "BUY": "КУПИ",
+    "SEARCH_RESULTS": "Резултати од пребарувањето",
+    "MY_PRODUCT": "Мој производ",
+    "SIMILAR_PRODUCTS": "Поврзани<br>производи"
+  },
+  "PRODUCT_TYPE":
+  {
+    "WALLPAPER": "Тапета",
+    "WALL_MURAL": "Ѕидни мурали",
+    "MURAL": "Ѕидни мурали",
+    "WALL_BORDER": "Ѕидни граници",
+    "WALL_DECALS": "Ѕидни налепници",
+    "PAINT": "Бои",
+    "PLASTER": "Гипс",
+    "WALL_PANELS": "Ѕидни панели",
+    "TILE": "Плочка",
+    "CARPET_ROLL": "Под",
+    "CARPET_TILE": "Под",
+    "ENGINEERED_WOOD_FLOORING": "Dysheme druri i projektuar",
+    "HARDWOOD_FLOORING": "Дрвени подови",
+    "LAMINATE": "Ламинати",
+    "LINOLEUM": "Линолеум",
+    "VINYL_FLOORING": "Винилен под",
+    "RUG": "Тепихи"
+  },
+  "FILTER_PANEL":
+  {
+    "NAME":
+    {
+      "PLACEHOLDER": "Побарајте производи"
+    },
+    "FILTERS": "Филтри",
+    "SEARCH_BAR_VALIDATION_MESSAGE": "Внесете најмалку 3 карактери",
+    "SEARCH_MANA": "Пребарување по фотографија",
+    "PRODUCT_TYPE": "Производи",
+    "COLOR": "Бои",
+    "PATTERN": "Структура",
+    "STYLE": "Стил",
+    "INTERIOR": "Внатрешноста",
+    "APPLY": "Прикажи резултати:",
+    "CLEAR": "Исчистете ги филтрите"
+  },
+  "ARTICLE_INFO_PANEL":
+  {
+    "ATTRIBUTES":
+    {
+      "TYPE": "Вид",
+      "WIDTH": "Ширина",
+      "LENGTH": "Должина",
+      "COUNTRY": "Земја",
+      "MAIN_COLOR": "Главната боја",
+      "TEXTURE": "Текстура",
+      "BASIC": "База",
+      "COATING": "Облога",
+      "PRODUCT_ID": "Производ ID"
+    },
+    "MORE_BUTTON_TITLE": "Прикажи го сајтот на производот",
+    "DESCRIPTION": "Запис"
+  },
+  "ERROR_MESSAGES":
+  {
+    "SERVER_ERROR":
+    {
+      "TITLE": "Упс! Нешто тргна наопаку.",
+      "MESSAGE": "Ве молиме, пробајте повторно."
+    },
+    "NOT_AVAILABLE_TITLE": "Апликацијата во моментов е недостапна",
+    "NOT_AVAILABLE_MESSAGE": "Контактирајте го сопственикот на сајтот за повеќе детали."
+  },
+  "COMMON":
+  {
+    "YES": "Да",
+    "NO": "Не",
+    "OK": "Ок",
+    "DISMISS": "Отфрли",
+    "SEND": "Испрати",
+    "DELETE": "Избриши",
+    "CANCEL": "Откажи",
+    "RETRY": "ОБИДЕТЕ СЕ ПОВТОРНО",
+    "USE_ANYWAY": "КОРИСТЕТЕ ГО СЕКАКО"
+  },
+  "DOWNLOAD":
+  {
+    "TITLE": "Преземи",
+    "ORIGINAL_TITLE": "Оригинал",
+    "RESULT_TITLE": "Резултат",
+    "RESULT_WITH_INFORMATION": "Резултат со информации",
+    "DOWNLOAD_HINT": "Допрете и задржете за да преземете"
+  },
+  "PRIVACY_POLICY_TITLE": "Политика за приватност и Услови за користење",
+  "TOOLTIPS":
+  {
+    "CATALOG_BUTTON": "Каталог",
+    "ARTICLE_CATALOG_TAB": "Каталог",
+    "VIEW_ORIGINAL": "Погледнете го оригиналот",
+    "MY_ROOM": "Моја соба",
+    "INTERIORS_BACK_BUTTON": "Променете ја внатрешноста",
+    "CATALOG_HOME_BUTTON": "Каталог",
+    "CATALOG_BACK_BUTTON": "Назад",
+    "CLOSE": "Затвори",
+    "DELETE_ROOM": "Избриши",
+    "CLEAR_WALL": "Исчистете ја површината",
+    "ARTICLE_INFO": "Одете на сајтот на производот",
+    "DOWNLOAD": "Преземи",
+    "FEEDBACK": "Оценете го резултатот",
+    "RATE_BAD": "Лошо",
+    "RATE_NORMAL": "Нормално",
+    "RATE_GREAT": "Добро!",
+    "FAVORITES": "Додадете во омилени",
+    "REMOVE_FROM_FAVORITES": "Отстрани од омилените",
+    "ROTATE_FLOORING": "Превртете го подот",
+    "CHANGE_LAYOUT": "Променете го распоредот",
+    "OPEN_SHOPPING_CART": "Отворете ја кошничката",
+    "ADD_TO_SHOPPING_CART": "Додај во кошничка",
+    "REMOVE_FROM_SHOPPING_CART": "Отстрани од кошничка",
+    "GO_TO_SHOP": "Отвори во сајтот",
+    "BACK_TO_WEBSITE": "Врати се на сајтот",
+    "IMPORTANT_INFO": "Важна информација",
+    "FILTER": "Филтер",
+    "MY_PRODUCT": "Мој производ"
+  },
+  "MORE":
+  {
+    "TITLE": "Мену",
+    "ABOUT_APP": "За апликацијата"
+  },
+  "FEEDBACK":
+  {
+    "TITLE": "Оценете го резултатот",
+    "TEXT_AREA_PLACEHOLDER": "Ве молиме оставете го вашиот коментар за резултатот. Тоа ќе ни помогне да го подобриме квалитетот на нашите алгоритми",
+    "RESPONSE":
+    {
+      "TITLE": "Благодарам!",
+      "MESSAGE": "Резултатот беше успешно испратен"
+    },
+    "BUTTON_SEND": "Испрати"
+  },
+  "FAVORITES":
+  {
+    "ADD": "Додај во омилени",
+    "TITLE": "Омилени",
+    "WALL": "Ѕидна покривка",
+    "FLOOR": "Под"
+  },
+  "CONTACT_FORM":
+  {
+    "FORM_TITLE": "Оставете ги вашите податоци за контакт во формуларот подолу и ние ќе ве контактираме наскоро.",
+    "PLACEHOLDER_NAME": "Вашето име",
+    "PLACEHOLDER_EMAIL": "Вашиот мејл",
+    "SUCCESS_RESPONSE_TEXT": "Вашите контакт информации беа успешно испратени!",
+    "EMAIL_VALIDATION_ERROR": "Неважечка имејл адреса"
+  },
+  "ONBOARDING":
+  {
+    "TAKE_PHOTO": "Изберете фотографија од галеријата",
+    "CHOOSE_PRODUCT": "Изберете производ од каталогот",
+    "SELECT_SURFACES": "Можете да изберете површини една по една",
+    "RATE_RESULT": "Оценете го резултатот",
+    "START_TUTORIAL": "Започнете го туторијалот",
+    "TITLE": "Брзо и лесно реновирање на просторијата",
+    "SUBTITLE": "Изберете од дестици производи и погледнете ги во вашата соба!",
+    "GET_STARTED": "ЗАПОЧНЕТЕ"
+  },
+  "SHOPPING_CART":
+  {
+    "TITLE": "Купувачка кошничка",
+    "EMPTY": "Празно",
+    "ITEM":
+    {
+      "PR": "по единица",
+      "QUANTITY": "количина",
+      "AVAILABILITY": "Нема на залиха"
+    },
+    "IN_TOTAL": "Субтотал",
+    "CART_TOTALS": "Вкупно",
+    "GO_TO_SHOP": "Продолжете на наплатата",
+    "WALLPAPER": "Ролна",
+    "WALL_MURAL": "Единица",
+    "WALL_BORDER": "Ролна",
+    "WALL_DECALS": "Комплет",
+    "PAINT": "Единица",
+    "PLASTER": "Единица",
+    "WALL_PANELS": "Кутија",
+    "TILE": "Кутија",
+    "CARPET_ROLL": "м2",
+    "CARPET_TILE": "Кутија",
+    "ENGINEERED_WOOD_FLOORING": "Кутија",
+    "HARDWOOD_FLOORING": "Кутија",
+    "LAMINATE": "Кутија",
+    "LINOLEUM": "м2",
+    "VINYL_FLOORING": "Кутија",
+    "RUG": "Единица"
+  },
+  "COOKIE_POLICY":
+  {
+    "LEARN_MORE": "Дознајте повеќе\u2026",
+    "BUTTON_TEXT": "СФАТИВ",
+    "CONTENT": "We use cookies to offer you a better browsing experience, analyze site traffic and personalize content. By using this site you consent to our use of <a href=\"cookies\">Cookies<\/a> and our <a href=\"privacy_policy\">Privacy Policy and Terms of Use<\/a>.",
+    "AGREE": "Се согласувам",
+    "DISAGREE": "Не се согласувам"
+  },
+  "UNIT":
+  {
+    "UNIT": "м",
+    "METERS": "м",
+    "INCHES": "in",
+    "FEET": "ft",
+    "CM": "цм"
+  },
+  "PRODUCTS":
+  {
+    "PRODUCTS": "Производи"
+  },
+  "SURFACES":
+  {
+    "WALLS": "Ѕидови",
+    "FLOOR": "Под"
+  },
+  "LAYING_PATTERNS":
+  {
+    "LAYING_PATTERNS_TITLE": "Шаблони за поставување",
+    "PRODUCT_SETTINGS": "Поставки на производот"
+  },
+  "MENU":
+  {
+    "LANGUAGE": "Јазик",
+    "START_TUTORIAL": "Започнете со туторијал"
+  },
+  "MESSAGE":
+  {
+    "UNHIDE_BUTTONS": "Кликнете на екранот за да ги откриете копчињата",
+    "MOB_UNHIDE_BUTTONS": "Допрете го екранот за да ги откриете копчињата"
+  }
+}
